@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>문명 6 번역 개선 모드</Name>
+    <Guid>8c466dfa-b063-4bd4-af0b-84e3b77059b9</Guid>
+    <ProjectGuid>67ba1bd4-a705-4e8e-8a4f-beb9ee514739</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>문명 6 게임의 한국어 번역을 개선합니다.</Teaser>
+    <Description>문명 6 게임의 한국어 번역을 개선합니다.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Better Korean Localization</AssemblyName>
+    <RootNamespace>Better Korean Localization</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="BetterKoreanLocalization_FrontEnd"><Properties><LoadOrder>999</LoadOrder></Properties><File>Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="BetterKoreanLocalization_InGame"><Properties><LoadOrder>999</LoadOrder></Properties><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

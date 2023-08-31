@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- DTCP_UI -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-06-28 오후 8:31:24 -->
+<Context Name="DTCP_Context">
+	<Button ID="DTCP_Button" Size="29,29" Anchor="C,C" Texture="DTCP_Icon.dds" ToolTip="LOC_DTCP_BUTTON_TOOLTIP" ConsumeMouse="1"/>
+	<Container ID="DTCP_Container" Size="500,500" Anchor="C,C">
+		<Container ID="DTCP_Panel" Size="500,140" Anchor="C,T" ConsumeMouse="1" Hidden="1">
+			<Grid ID="DTCP_PanelGrid" Anchor="C,T" Texture="Controls_PanelBlue" Size="parent,parent" Style="CityPanelSlotGrid" ConsumeMouse="1" Hidden="0" SliceCorner="25,28" SliceSize="33,18" SliceTextureSize="83,75">
+				<Stack ID="DTCP_PanelStack" Anchor="C,T" Size="parent-40,auto" StackGrowth="Bottom" StackPadding="5">
+					<Grid Anchor="C,C" Offset="0,10" Size="parent,24" Style="CityPanelSlotGrid">
+						<Label ID="DTCP_Title" Anchor="C,C" String="LOC_DTCP_TITLE" Style="PanelHeaderText" FontStyle="stroke" ColorSet="BodyTextBright"/>
+					</Grid>
+					<CheckBox ID="DTCP_TechCheckBox" IsChecked="0" Offset="0,0" TextOffset="-22,0" String="LOC_DTCP_TECH_CHECKBOX" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+					<CheckBox ID="DTCP_CivicCheckBox" IsChecked="0" Offset="0,0" TextOffset="-22,0" String="LOC_DTCP_CIVIC_CHECKBOX" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="C,T"/>
+					<Grid ID="DTCP_OK_ButtonGrid" Anchor="C,B" Size="parent-6, 40">
+						<GridButton ID="DTCP_OK_Button" Anchor="C,B" Size="150,40" Style="MainButton" FontStyle="Shadow" String="LOC_OK_BUTTON" />
+					</Grid>
+				</Stack>
+			</Grid>
+		</Container>
+	</Container>
+</Context>

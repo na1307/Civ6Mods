@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Better Korean Localization", "Better Korean Localization.civ6proj", "{67BA1BD4-A705-4E8E-8A4F-BEB9EE514739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67BA1BD4-A705-4E8E-8A4F-BEB9EE514739}.Default|Civ6.ActiveCfg = Default|Civ6
+		{67BA1BD4-A705-4E8E-8A4F-BEB9EE514739}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

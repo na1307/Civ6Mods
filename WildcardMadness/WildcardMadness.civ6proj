@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Wildcard Madness</Name>
+    <Guid>79be5aa6-80eb-4a91-a0df-70c6f6af05d9</Guid>
+    <ProjectGuid>608ae67f-2dd2-4236-804b-7a48fdaa7e82</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>All policy slots in all government are converted to wildcard policy slots.</Teaser>
+    <Description>All policy slots in all government are converted to wildcard policy slots.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>WildcardMadness</AssemblyName>
+    <RootNamespace>WildcardMadness</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Wildcards.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Wildcards.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

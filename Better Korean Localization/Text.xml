@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-07-12 오후 6:26:27 -->
+<GameData>
+	<LocalizedText>
+		<!-- Vanilla -->
+		<Replace Tag="LOC_ABILITY_HOPLITE_DESCRIPTION" Language="ko_KR">
+			<Text>인접한 호플리테스가 하나 이상 있으면 [ICON_Strength] 전투력 +10.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION" Language="ko_KR">
+			<Text>다른 호플리테스 옆에 있으면 [ICON_Strength] 전투력 +{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="ko_KR">
+			<Text>다른 종교를 믿는 유닛에 대항 시 [ICON_Strength] 전투력 +5. (펠리페 2세)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROYAL_NAVY_DOCKYARD_MOVEMENT_BONUS_DESCRIPTION" Language="ko_KR">
+			<Text>왕립 해군 공창에서 [ICON_Movement] 이동력 +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING" Language="ko_KR">
+			<Text>도시를 둘러싸는 성벽을 지으면서 송수로와 투석기를 만드는 데 필요한 공학 원리들이 입증되었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RIFLING" Language="ko_KR">
+			<Text>초석 확보로 총기 산업 발전이 가속화되고 있습니다. 다음 단계는 정확도를 개선하는 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="ko_KR">
+			<Text>초석 광산 1곳을 건설하십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_NAME" Language="ko_KR">
+			<Text>알함브라 궁전</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_NAME" Language="ko_KR">
+			<Text>아야 소피아</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_NAME" Language="ko_KR">
+			<Text>아르세날레 디 베네치아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_NAVAL_TRADITION_QUOTE_1" Language="ko_KR">
+			<Text>"좋은 해군을 보유하는 것은 전쟁을 위한 도발 행위가 아닙니다. 그것은 평화를 위한 확실한 보증입니다."[NEWLINE]– 시어도어 루스벨트</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CARDIFF_BONUS" Language="ko_KR">
+			<Text>모든 항만 건물로부터 도시가 [ICON_Power] 전력 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_BONUS" Language="ko_KR">
+			<Text>건설자가 카호키아 마운드 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]카호키아 마운드가 [ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_BONUS" Language="ko_KR">
+			<Text>시설이 있는 각 자원 유형마다 도시가 [ICON_Production] 생산력 +1을 얻습니다. 산업화를 연구한 후에는 [ICON_PRODUCTION] 생산력 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_BONUS" Language="ko_KR">
+			<Text>도시가 강 옆에 있는 것처럼 물에 의한 [ICON_Housing] 주거공간을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VILNIUS_BONUS_XP1" Language="ko_KR">
+			<Text>가장 활성화된 동맹 레벨에 대해 극장가 특수지구가 인접 보너스 +50%를 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_GOLD" Language="ko_KR">
+			<Text>인접한 왕립 해군 공창 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_NAME" Language="ko_KR">
+			<Text>왕립 해군 공창</Text>
+		</Replace>
+		<Replace Tag="LOC_GAME_MENU_EXIT_TO_DESKTOP" Language="ko_KR">
+			<Text>바탕 화면으로 나가기</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CATHERINE_DE_MEDICI_NAME" Language="ko_KR">
+			<Text>카트린 드 메디시스</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PHILIP_II_NAME" Language="ko_KR">
+			<Text>펠리페 2세</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_T_ROOSEVELT_NAME" Language="ko_KR">
+			<Text>시어도어 루스벨트</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION" Language="ko_KR">
+			<Text>도시가 강 옆에 있는 것처럼 물에 의한 [ICON_Housing] 주거공간을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI" Language="ko_KR">
+			<Text>카트린 드 메디시스 왕대비시여, 지식과 예술의 재능을 사용하여 백성을 결속시킬 과제가 당신에게 주어졌습니다. 프랑스의 왕대비시여, 이 환난의 시간을 조심스럽게 헤쳐나가십시오. 당신은 위대한 불가사의를 만들어 세계 각지에서 방문객을 모을 것입니다. 보이는 것과 그림자 속에 숨겨져 있는 모든 만물에 대한 당신의 예리한 자각을 통해 당신 제국은 시간의 시련을 견뎌낼 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GORGO" Language="ko_KR">
+			<Text>스파르타의 고르고 여왕이시여, 당신과 당신의 충성스러운 호플리테스에게 영광을! 그리스는 매 승리가 가져오는 아레스의 축복을 음미합니다. 당신 백성은 당신의 배려심 있는 통치와 문화적 경이에 갈채를 보냅니다. 그리스의 유산을 위해 자랑스럽게 일어나십시오. 당신의 업적은 여러 대를 이어 반복적으로 알려질 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PHILIP_II" Language="ko_KR">
+			<Text>독실한 펠리페 왕이시여, 스페인 전체가 당신의 기도에 응할 준비가 되어있습니다. 당신의 성스러운 제국에 대한 좋은 소식을 알리기 위해 엘에스코리알에 위치한 당신의 궁전에서 선교사, 사도와 이단심문관을 전 세계로 보낼 수 있습니다. 그들이 발견하는 보물을 통해 세계를 하나의 믿음과 하나의 제국으로 통일하려는 당신의 임무를 완수하게 되기를 바랍니다. 당신은 진정 가장 가톨릭다운 왕입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT" Language="ko_KR">
+			<Text>시어도어 루스벨트 대통령이시여, 힘차게 전진하여 백성을 위대한 모험 속으로 이끌 역할이 당신의 넓은 어깨에 지워졌습니다. 당신의 군사력을 활용하여 당신의 백성이 마땅히 누려야 할 공정한 대우를 받게 하십시오. 당신은 분명히 미국이 세상의 관심을 받게 할 것이고, 관광객이 당신의 나라를 보러 바다를 건너올 것입니다. 잘하셨습니다, 대통령 각하.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAIN_MENU_EXIT_TO_DESKTOP" Language="ko_KR">
+			<Text>바탕 화면으로 나가기</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CHIVALRY_DESCRIPTION" Language="ko_KR">
+			<Text>산업 시대 및 그 이전 시대 중기병과 경기병 유닛 생성에 대한 [ICON_Production] 생산력 +50%.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_NAME" Language="ko_KR">
+			<Text>경제 연합</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_NITER_NAME" Language="ko_KR">
+			<Text>초석</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_GOOD_RESOURCES" Language="ko_KR">
+			<Text>근처에 말, 철 또는 초석</Text>
+		</Replace>
+		<Replace Tag="LOC_SETTLEMENT_RECOMMENDATION_POOR_RESOURCES" Language="ko_KR">
+			<Text>이곳에 말, 철, 초석이 제한적으로 있음</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CASTLES_DESCRIPTION" Language="ko_KR">
+			<Text>만리장성 시설 인접 보너스 [ICON_Culture] 문화를 제공합니다. 카트린 드 메디시스(검은 여왕)로 플레이하는 경우 스파이를 무료로 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="ko_KR">
+			<Text>모든 특수지구는 다른 특수지구와 인접하면 추가로 일반적인 인접 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME" Language="ko_KR">
+			<Text>건국의 아버지들</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_NAME" Language="ko_KR">
+			<Text>은키시</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ROYAL_NAVY_DOCKYARD_NAME" Language="ko_KR">
+			<Text>영국 특유의 특수지구: 왕립 해군 공창</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER_NAME" Language="ko_KR">
+			<Text>중국 특유의 유닛: 호준포</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_GREEK_HOPLITE_NAME" Language="ko_KR">
+			<Text>그리스 특유의 유닛: 호플리테스</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="ko_KR">
+			<Text>만난 모든 문명에 대한 [ICON_VisLimited] 외교 시정 레벨이 평소보다 1레벨 높아집니다. 성 기술로 무료 스파이와 추가 스파이 최대치를 받습니다. 모든 스파이는 무료 진급을 가진 요원으로 시작합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME" Language="ko_KR">
+			<Text>팍스 브리타니카</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_DESCRIPTION" Language="ko_KR">
+			<Text>본 대륙에 있는 유닛은 [ICON_Strength] 전투력 +5를 획득합니다. 국립공원을 보유한 도시의 모든 타일에 매력도 +1을 제공합니다. 강선 기술을 연구하면 특유 유닛인 러프 라이더를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER_NAME" Language="ko_KR">
+			<Text>시어도어 루스벨트 특유의 유닛: 러프 라이더</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_NAME" Language="ko_KR">
+			<Text>러프 라이더</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPULT_NAME" Language="ko_KR">
+			<Text>투석기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME" Language="ko_KR">
+			<Text>호준포</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION" Language="ko_KR">
+			<Text>창병을 대체하는 그리스 특유의 고대 시대 대기병 유닛입니다. 인접한 호플리테스 유닛이 하나 이상 있으면 [ICON_Strength] 전투력 +10을 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREEK_HOPLITE_NAME" Language="ko_KR">
+			<Text>호플리테스</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TRAIT" Language="ko_KR">
+			<Text>카트린 드 메디시스로 플레이합니다.</Text>
+		</Replace>
+
+		<!-- Poland -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR_NAME" Language="ko_KR">
+			<Text>폴란드 특유의 유닛: 윙드 후사르</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_NAME" Language="ko_KR">
+			<Text>윙드 후사르</Text>
+		</Replace>
+
+		<!-- Macedonia_Persia -->
+		<Replace Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_NAME" Language="ko_KR">
+			<Text>마우솔로스 영묘</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="ko_KR">
+			<Text>정치 철학 사회 제도가 [ICON_TradeRoute] 교역로 최대치 +1을 제공합니다. 자국 도시 간의 교역로에서 [ICON_Gold] 금 +2 및 [ICON_Culture] 문화 +1을 제공합니다. 자국 영토 내의 도로는 평소보다 한 단계 더 발전합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_PAIRIDAEZA_NAME" Language="ko_KR">
+			<Text>페르시아 특유의 유닛: 불사부대</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_NAME" Language="ko_KR">
+			<Text>불사부대</Text>
+		</Replace>
+
+		<!-- Indonesia_Khmer -->
+		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="ko_KR">
+			<Text>인도네시아 특유의 캄풍을 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_PRODUCTION] 생산력 +1과 [ICON_Housing] 주거공간 +1을 제공합니다. 인접한 어선마다 [ICON_FOOD] 식량 +1을 제공합니다. 기술 발전표와 사회 제도표의 진전에 따라 추가 [ICON_PRODUCTION] 생산력, [ICON_Housing] 주거공간과 [ICON_TOURISM] 관광을 제공합니다. 해양 자원과 인접한 해안 또는 호수 타일에 배치되어야 합니다.</Text>
+		</Replace>
+
+		<!-- Expansion1 -->
+		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="ko_KR">
+			<Text>가장 활성화된 동맹 레벨에 대해 극장가 특수지구가 인접 보너스 +50%를 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_DESCRIPTION" Language="ko_KR">
+			<Text>플레이어 문명이 지도의 모든 수직선에 타일을 드러냈습니다. 비록 그 길이 시작된 곳에서 끝나지 않더라도, 전 세계를 도는 길을 형성합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_FIRST_IN_WORLD_DESCRIPTION" Language="ko_KR">
+			<Text>플레이어 문명이 최초로 지도의 모든 수직선에 타일을 드러냈습니다. 비록 그 길이 시작된 곳에서 끝나지 않더라도, 전 세계를 도는 길을 형성합니다.</Text>
+		</Replace>
+
+		<!-- Expansion2 -->
+		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Language="ko_KR">
+			<Text>여왕의 도서관</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BATH_PRODUCTION" Language="ko_KR">
+			<Text>인접한 목욕탕 특수지구에서 [ICON_PRODUCTION] 생산력 +{1_num}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>영국 특유의 해상활동용 특수지구입니다. 항만 특수지구를 대체합니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다.[NEWLINE][NEWLINE]공창에서 생성된 모든 해상 유닛에 [ICON_Movement] 이동력 +1을 제공합니다.[NEWLINE]타 대륙에 건설할 경우 턴당 [ICON_Gold] 금 +2 및 충성심 +4를 제공합니다. 산호초 위에 지을 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE" Language="ko_KR">
+			<Text>인접한 거리 카니발 특수지구에서 [ICON_Culture] 문화 +{1_num}.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="ko_KR">
+			<Text>건설자가 카호키아 마운드 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]카호키아 마운드가 [ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>인도 특유의 계단식 우물을 건설할 수 있도록 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Food] 식량 +1, [ICON_Housing] 주거공간 +1을 제공합니다. 성지 특수지구에 인접한 경우 [ICON_Faith] 신앙 +1, 농장에 인접한 경우 [ICON_Food] 식량 +1을 추가 제공합니다. 기술 발전표와 사회 제도표의 진전에 따라 [ICON_Housing] 주거공간, [ICON_Faith] 신앙 및 [ICON_Food] 식량을 추가로 부여합니다. 가뭄 기간 중 [ICON_Food] 식량 손실을 방지합니다. 언덕 위에 또는 다른 계단식 우물에 인접하게 지을 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>이집트 특유의 스핑크스를 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Faith] 신앙 +1 및 [ICON_Culture] 문화 +1을 제공합니다. 매력도 +2를 제공합니다. 불가사의 옆에 지으면 [ICON_Faith] 신앙 +2를 제공합니다. 범람원에 지으면 [ICON_CULTURE] 문화 +1을 제공합니다. 자연사를 발견하면 문화를 추가로 제공합니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 스핑크스 옆에 지을 수 없습니다. 설원 또는 설원 언덕에 지을 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_CARDIFF_DESCRIPTION" Language="ko_KR">
+			<Text>모든 항만 건물로부터 도시가 [ICON_Power] 전력 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION" Language="ko_KR">
+			<Text>건설자가 카호키아 마운드 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]카호키아 마운드가 [ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DRILL_MANUALS_DESCRIPTION" Language="ko_KR">
+			<Text>개발된 모든 [ICON_RESOURCE_NITER] 초석과 [ICON_RESOURCE_COAL] 석탄 자원에서 턴당 1의 추가 자원이 생산됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="ko_KR">
+			<Text>라그랑주 레이저 기지 발사</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Language="ko_KR">
+			<Text>라그랑주 레이저 기지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_NAME" Language="ko_KR">
+			<Text>지상 레이저 기지 건설</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME" Language="ko_KR">
+			<Text>지상 레이저 기지</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>고향 외 다른 대륙에서 도시를 정착할 때마다 무료 근접 유닛과 [ICON_TradeRoute] 교역로를 획득합니다. 왕립 해군 공창을 건설하면 생산할 수 있는 가장 강한 해상 유닛을 획득합니다. 군사 과학 기술을 연구하면 특유의 레드코트 유닛을 생산할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION" Language="ko_KR">
+			<Text>3개 이상의 걸작 슬롯이 있는 건물과 2개 이상의 걸작 슬롯이 있는 불가사의는 모든 슬롯을 채웠을 때 테마가 자동으로 지정됩니다. 정부 청사에 여왕의 도서관을 건설할 수 있습니다.</Text>
+		</Replace>
+
+		<!-- GranColombia_Maya -->
+		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_NAME" Language="ko_KR">
+			<Text>젊음의 샘</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="ko_KR">
+			<Text>그란 콜롬비아 특유의 아시엔다를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_GOLD] 금 +2, [ICON_PRODUCTION] 생산력 +1, [Icon_Housing] 주거공간 +0.5를 부여합니다. 2개의 인접한 재배지마다 [ICON_Food] 식량 +1을 얻습니다(교환부품 연구 이후 모든 재배지마다 획득). 재배지와 아시엔다가 인접한 2개의 아시엔다마다 [ICON_Production] 생산력 +1을 얻습니다(신속한 배치 연구 이후 모든 아시엔다마다 획득). 평원, 평원 언덕, 초원, 초원 언덕에만 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_NAME" Language="ko_KR">
+			<Text>아시엔다</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_NAME" Language="ko_KR">
+			<Text>경이로운 원정</Text>
+		</Replace>
+
+		<!-- Ethiopia -->
+		<Replace Tag="LOC_BUILDING_CHANCERY_NAME" Language="ko_KR">
+			<Text>외교 공관</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>에티오피아 특유의 암굴 교회를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Faith] 신앙 +1을 제공합니다. 인접한 산맥 및 언덕마다 [ICON_Faith] 신앙 +1을 제공합니다. 비행 연구 후 [ICON_FAITH] 신앙으로 [ICON_TOURISM] 관광을 제공합니다. 매력도 +1을 제공합니다. 자연재해로 인해서만 약탈당할 수 있으며 파괴되지 않습니다. 다른 암굴 교회에 인접하지 않은 언덕 또는 화산토에만 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 방송 센터 및 외교 공관 건물에 [ICON_Culture] 문화 +3.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>불가사의, 건물 및 특수지구 건설 시, 외교 공관 또는 발전소 건물이 있는 모든 도시에 [ICON_Production] 생산력 +3. 외교 공관 및 발전소 건물을 모두 보유한 도시의 경우 [ICON_Production] 생산력 +6.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>유닛 생산 시, 사관 학교 또는 외교 공관 건물이 있는 모든 도시에 [ICON_Production] 생산력 +3. 두 종류의 건물이 모두 있는 도시의 경우 [ICON_Production] 생산력 +6.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 예배 및 외교 공관 건물에 [ICON_Faith] 신앙 +3.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 사원 및 영사관 건물에 [ICON_Faith] 신앙 +2.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>[ICON_Capital] 수도 및 모든 성소 건물에 [ICON_Faith] 신앙 +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 연구소 및 외교 공관 건물에 [ICON_Science] 과학 +3.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 대학 및 영사관 건물에 [ICON_Science] 과학 +2.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>[ICON_Capital] 수도 및 모든 도서관 건물에 [ICON_Science] 과학 +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 증권 거래소, 항구 및 외교 공관 건물에 [ICON_Gold] 금 +6.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>모든 은행, 조선소 및 영사관 건물에 [ICON_Gold] 금 +4.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="ko_KR">
+			<Text>[ICON_Capital] 수도 및 모든 시장 또는 등대 건물에 [ICON_Gold] 금 +2.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION" Language="ko_KR">
+			<Text>에티오피아의 국제 교역로가 출발지의 자원당 [ICON_Faith] 신앙 +0.5를 부여합니다. 개발된 자원은 도시가 소유한 사본마다 [ICON_Faith] 신앙 +1을 제공합니다. [ICON_Faith] 신앙으로 고고학 박물관과 고고학자를 구매할 수 있습니다.</Text>
+		</Replace>
+
+		<!-- CatherineDeMedici -->
+		<Replace Tag="LOC_LEADER_CATHERINE_DE_MEDICI_ALT_NAME" Language="ko_KR">
+			<Text>카트린 드 메디시스(위엄)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CATHERINE_DE_MEDICI_EXPANDED_NAME" Language="ko_KR">
+			<Text>카트린 드 메디시스(검은 여왕)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_NAME" Language="ko_KR">
+			<Text>카트린의 위엄</Text>
+		</Replace>
+
+		<!-- TeddyRoosevelt -->
+		<Replace Tag="LOC_LEADER_T_ROOSEVELT_ORIGINAL_NAME" Language="ko_KR">
+			<Text>시어도어 루스벨트(불 무스)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_T_ROOSEVELT_ROUGHRIDER_NAME" Language="ko_KR">
+			<Text>시어도어 루스벨트(러프 라이더)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="ko_KR">
+			<Text>유닛이 고향 대륙에서 [ICON_Strength] 전투력 +5를 얻습니다. [ICON_TradeRoute] 교역로를 보유한 도시 국가에 보낸 사절 한 명이 [ICON_Envoy] 사절 두 명으로 계산됩니다. 강선 기술로 러프 라이더 특유 유닛을 얻습니다.</Text>
+		</Replace>
+
+		<!-- Byzantium_Gaul -->
+		<Replace Tag="LOC_BUILDING_BIOSPHERE_NAME" Language="ko_KR">
+			<Text>바이오스피어</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_AMBIORIX_ANY" Language="ko_KR">
+			<Text>그대의 영토는 조용하고 평화롭군. 그리고 약하네.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_NAME" Language="ko_KR">
+			<Text>드로몬</Text>
+		</Replace>
+
+		<!-- Babylon -->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="ko_KR">
+			<Text>선택된 캠퍼스가 [ICON_Housing] 주거공간 2와 [ICON_AMENITIES] 쾌적도 1을 얻습니다. 제국의 쾌적도로 인한 비 [ICON_Food] 식량 생산량 혜택이 40% 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_JOHANNESBURG_DESCRIPTION" Language="ko_KR">
+			<Text>시설이 있는 각 자원 유형마다 도시가 [ICON_Production] 생산력 +1을 얻습니다. 산업화를 연구한 후에는 [ICON_PRODUCTION] 생산력 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_HUNAHPU_RESURRECT_KILL" Language="ko_KR">
+			<Text>우나푸와 스발란케가 처치한 일반 지상 유닛은 체력과 이동력이 전부 회복된 채로 부활합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_DESCRIPTION" Language="ko_KR">
+			<Text>이 도시를 영웅 쌍둥이 우나푸와 스발란케에게 헌신하십시오. 완료하면 우나푸와 스발란케가 도심부에 나타납니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_NAME" Language="ko_KR">
+			<Text>우나푸와 스발란케에게 헌신</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_HERO_HUNAHPU_SHORT_NAME" Language="ko_KR">
+			<Text>우나푸와 스발란케에게 헌신</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_HUNAHPU_NAME" Language="ko_KR">
+			<Text>우나푸와 스발란케</Text>
+		</Replace>
+
+		<!-- KublaiKhan_Vietnam -->
+		<Replace Tag="LOC_DISTRICT_PRESERVE_NAME" Language="ko_KR">
+			<Text>보호 구역</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GROVE_NAME" Language="ko_KR">
+			<Text>산림 보호 구역</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SANCTUARY_NAME" Language="ko_KR">
+			<Text>조수 보호 구역</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_LADY_TRIEU_NAME" Language="ko_KR">
+			<Text>조구</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LADY_TRIEU" Language="ko_KR">
+			<Text>조구시여, 백성들은 당신을 여신이라 기억할 것입니다. 폭풍 속에서 고삐를 당기고 반항의 검을 치켜들려 하는 자들과 맞서 싸우셔야 합니다. 가족도 적도 당신을 막을 수 없습니다.</Text>
+		</Replace>
+
+		<!-- Portugal -->
+		<Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_NAME" Language="ko_KR">
+			<Text>항해 학교</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Language="ko_KR">
+			<Text>포르투갈 특유의 페이토리아를 건설할 수 있는 나우 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Gold] 금 +4와 [ICON_Production] 생산력 +1을 제공합니다. 포르투갈에서 이 도시로 보낸 교역로가 [ICON_GOLD] 금 +4와 [ICON_PRODUCTION] 생산력 +1을 얻습니다. 국경을 개방한 다른 문명이나 도시 국가에 속한 영토 내 사치 자원 또는 보너스 자원 인근에만 건설할 수 있습니다. 육지 옆에 있고 인근에 다른 페이토리아가 없는 해안 또는 호수 타일에 건설해야 합니다. 페이토리아는 제거할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FEITORIA_NAME" Language="ko_KR">
+			<Text>페이토리아</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="ko_KR">
+			<Text>캐러벨을 대체하는 포르투갈 특유의 해상 근접 유닛입니다. 무료 진급 1을 갖추고 시작하며 유지 비용이 낮습니다. 페이토리아를 2회 건설할 수 있습니다.</Text>
+		</Replace>
+
+		<!-- GreatNegotiators -->
+		<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_Capital] 수도와 같은 대륙에 있는 도시([ICON_Capital] 수도 포함)는 +10% 생산량을 받고, 다른 대륙에 있는 경우 -15%를 받습니다.</Text>
+		</Replace>
+
+		<!-- GreatBuilders -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_THEODORA_ANY" Language="ko_KR">
+			<Text>왕좌는 위대한 무덤입니다.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
