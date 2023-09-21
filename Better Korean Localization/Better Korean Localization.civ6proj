@@ -18,6 +18,21 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
+  <Reference type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Reference type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" />
+  <Reference type="Dlc" title="DLC: Ethiopia Pack" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
+  <Reference type="Dlc" title="DLC: Catherine de Medici Pack" id="CE5876CD-6900-46D1-9C9C-8DBA1F28872E" />
+  <Reference type="Dlc" title="DLC: Teddy Roosevelt Pack" id="113D9459-0A3B-4FCB-A49C-483F40303575" />
+  <Reference type="Dlc" title="DLC: Byzantium and Gaul Pack" id="A1100FC4-70F2-4129-AC27-2A65A685ED08" />
+  <Reference type="Dlc" title="DLC: Babylon Pack" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
+  <Reference type="Dlc" title="DLC: Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Reference type="Dlc" title="DLC: Portugal Pack" id="FFDF4E79-DEE2-47BB-919B-F5739106627A" />
+  <Reference type="Dlc" title="DLC: Great Negotiators Leader Pack" id="7A66DB58-B354-4061-8C80-95B638DD6F6C" />
+  <Reference type="Dlc" title="DLC: Great Builders Leader Pack" id="249D9276-0832-48E4-B370-14531FA4E33C" />
+  <Reference type="Dlc" title="DLC: Rulers of England Leader Pack" id="258EF3CA-890B-4863-8A52-982822EFF7BD" />
 </Associations>]]></AssociationData>
     <AssemblyName>Better Korean Localization</AssemblyName>
     <RootNamespace>Better Korean Localization</RootNamespace>

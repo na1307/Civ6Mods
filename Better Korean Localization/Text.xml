@@ -53,6 +53,9 @@
 		<Replace Tag="LOC_CIVILIZATION_VILNIUS_BONUS_XP1" Language="ko_KR">
 			<Text>가장 활성화된 동맹 레벨에 대해 극장가 특수지구가 인접 보너스 +50%를 획득합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HARDRADA_ANY" Language="ko_KR">
+			<Text>자네가 여기서 수고하는 동안 나는 발할라의 에인헤랴르와 만찬을 즐기겠소.</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_GOLD" Language="ko_KR">
 			<Text>인접한 왕립 해군 공창 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
 		</Replace>
@@ -109,6 +112,9 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="ko_KR">
 			<Text>모든 특수지구는 다른 특수지구와 인접하면 추가로 일반적인 인접 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_NAME" Language="ko_KR">
+			<Text>나르</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME" Language="ko_KR">
 			<Text>건국의 아버지들</Text>
@@ -182,6 +188,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="ko_KR">
 			<Text>인도네시아 특유의 캄풍을 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_PRODUCTION] 생산력 +1과 [ICON_Housing] 주거공간 +1을 제공합니다. 인접한 어선마다 [ICON_FOOD] 식량 +1을 제공합니다. 기술 발전표와 사회 제도표의 진전에 따라 추가 [ICON_PRODUCTION] 생산력, [ICON_Housing] 주거공간과 [ICON_TOURISM] 관광을 제공합니다. 해양 자원과 인접한 해안 또는 호수 타일에 배치되어야 합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>성지는 강과 인접한 경우 큰 인접 보너스를 받으며, 문화 폭탄, 인접 보너스 만큼의 [ICON_FOOD] 식량, 강가에 있는 경우 [ICON_Housing] 주거공간 +2를 받습니다.</Text>
+		</Replace>
 
 		<!-- Expansion1 -->
 		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="ko_KR">
@@ -193,8 +202,14 @@
 		<Replace Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_FIRST_IN_WORLD_DESCRIPTION" Language="ko_KR">
 			<Text>플레이어 문명이 최초로 지도의 모든 수직선에 타일을 드러냈습니다. 비록 그 길이 시작된 곳에서 끝나지 않더라도, 전 세계를 도는 길을 형성합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAUTARO_ABILITY_DESCRIPTION_ALT" Language="ko_KR">
+			<Text>자유 도시 또는 황금기나 영웅기에 있는 문명을 상대로 전투 시 [ICON_Strength] 전투력 +10을 얻습니다. 적 도시의 영토 내에서 적 유닛을 처치하면 해당 도시가 20의 충성심을 잃고 해당 문명이 황금기나 영웅기에 있는 경우 40의 충성심을 잃습니다.</Text>
+		</Replace>
 
 		<!-- Expansion2 -->
+		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>이 도시에서 훈련된 모든 해상 유닛이 얻는 전투 경험치가 +25% 증가합니다. 항만 특수지구의 인접 보너스만큼 [ICON_Production] 생산력 보너스가 부여됩니다. 이 도시의 개발되지 않은 모든 해안 및 호수 타일에 [ICON_PRODUCTION] 생산력 +1을 제공합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Language="ko_KR">
 			<Text>여왕의 도서관</Text>
 		</Replace>
@@ -237,6 +252,18 @@
 		<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME" Language="ko_KR">
 			<Text>지상 레이저 기지</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_MUSIC_FESTIVAL_DESCRIPTION" Language="ko_KR">
+			<Text>국립공원과 자연경관에서 [ICON_TOURISM] 관광 1000(추정치)을 얻고 1레벨이 더 높은 수준으로 공연합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SPACE_ROCK_DESCRIPTION" Language="ko_KR">
+			<Text>우주 공항과 캠퍼스에서 [ICON_TOURISM] 관광 +500(캠퍼스에 대학교가 있는 경우 [ICON_TOURISM] 관광 +1000)을 얻고 1레벨이 더 높은 수준으로 공연합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SURF_ROCK_DESCRIPTION" Language="ko_KR">
+			<Text>해변 리조트와 항만에서 [ICON_TOURISM] 관광 +500(항만에 조선소가 있는 경우 [ICON_TOURISM] 관광 +1000)을 얻고 1레벨이 더 높은 수준으로 공연합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION" Language="ko_KR">
+			<Text>항해 및 조선 기술이 잠금 해제된 상태에서 게임을 시작하며 해양 타일에 진입할 수 있습니다. 승선한 유닛이 [ICON_Movement] 이동력 +2를 얻습니다. 미개발 숲과 열대우림에서 [ICON_PRODUCTION] 생산력 +1을 얻습니다. 중상주의로부터 [ICON_PRODUCTION] 생산력 +1, 보존 사회 제도로부터 [ICON_PRODUCTION] 생산력 +2를 추가로 얻습니다. 어선이 [ICON_FOOD] 식량 +1과 인접 타일에 문화 폭탄을 제공합니다. 자원을 수확할 수 없습니다. [ICON_GreatWriter] 위대한 작가를 획득할 수 없습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION" Language="ko_KR">
 			<Text>고향 외 다른 대륙에서 도시를 정착할 때마다 무료 근접 유닛과 [ICON_TradeRoute] 교역로를 획득합니다. 왕립 해군 공창을 건설하면 생산할 수 있는 가장 강한 해상 유닛을 획득합니다. 군사 과학 기술을 연구하면 특유의 레드코트 유닛을 생산할 수 있습니다.</Text>
 		</Replace>
@@ -253,6 +280,9 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_NAME" Language="ko_KR">
 			<Text>아시엔다</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="ko_KR">
+			<Text>담수와 해안 근처에 정착해도 추가 [ICON_HOUSING] 주거공간을 제공하지 않습니다. 대신에 각 농장이 추가로 [ICON_HOUSING] 주거공간 +1과 [ICON_GOLD] 금 +1, 인접한 천문대마다 [ICON_PRODuction] 생산력 +1을 제공합니다. 도심부에 인접한 사치 자원마다 [ICON_AMENITIES] 쾌적도 +1을 얻습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_NAME" Language="ko_KR">
 			<Text>경이로운 원정</Text>
@@ -342,6 +372,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="ko_KR">
 			<Text>선택된 캠퍼스가 [ICON_Housing] 주거공간 2와 [ICON_AMENITIES] 쾌적도 1을 얻습니다. 제국의 쾌적도로 인한 비 [ICON_Food] 식량 생산량 혜택이 40% 증가합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION" Language="ko_KR">
+			<Text>마하비하라를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_SCIENCE] 과학 +2와 [Icon_Housing] 주거공간 +1을 얻습니다. 인접한 성지 특수지구마다 [ICON_Faith] 신앙 +1을, 인접한 캠퍼스 특수지구마다 [ICON_Science] 과학 +1을 얻습니다. 과학이론을 연구한 후 인접 캠퍼스마다 추가로 [Icon_Science] 과학 +1을 얻습니다. 첫 마하비하라를 건설한 플레이어는 무작위 기술을 얻습니다. 다른 마하비하라와 인접하지 않은 평지에 건설해야 합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_JOHANNESBURG_DESCRIPTION" Language="ko_KR">
 			<Text>시설이 있는 각 자원 유형마다 도시가 [ICON_Production] 생산력 +1을 얻습니다. 산업화를 연구한 후에는 [ICON_PRODUCTION] 생산력 +2를 얻습니다.</Text>
 		</Replace>
@@ -400,6 +433,11 @@
 		<!-- GreatBuilders -->
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_THEODORA_ANY" Language="ko_KR">
 			<Text>왕좌는 위대한 무덤입니다.</Text>
+		</Replace>
+
+		<!-- RulersOfEngland -->
+		<Replace Tag="LOC_LEADER_HARDRADA_ORIGINAL_NAME" Language="ko_KR">
+			<Text>하랄드 하르드라다(콩어)</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -4,30 +4,29 @@
 <!-- DateCreated: 2023-06-28 오후 8:52:51 -->
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_DTCP_BUTTON_TOOLTIP" Language="en_US">
+		<!-- 한국어 -->
+		<Replace Tag="LOC_DTCP_TITLE" Language="ko_KR">
+			<Text>Disable Tech Civic Popup</Text>
+		</Replace>
+		<Replace Tag="LOC_DTCP_TECH_CHECKBOX" Language="ko_KR">
+			<Text>기술 연구 완료 팝업 활성화</Text>
+		</Replace>
+		<Replace Tag="LOC_DTCP_CIVIC_CHECKBOX" Language="ko_KR">
+			<Text>사회 제도 완성 팝업 활성화</Text>
+		</Replace>
+	</LocalizedText>
+	<EnglishText>
+		<Row Tag="LOC_DTCP_BUTTON_TOOLTIP">
 			<Text>Disable Tech Civic Popup</Text>
 		</Row>
-		
-		<!-- English -->
-		<Row Tag="LOC_DTCP_TITLE" Language="en_US">
+		<Row Tag="LOC_DTCP_TITLE">
 			<Text>Disable Tech Civic Popup</Text>
 		</Row>
-		<Row Tag="LOC_DTCP_TECH_CHECKBOX" Language="en_US">
+		<Row Tag="LOC_DTCP_TECH_CHECKBOX">
 			<Text>Enable Tech completed popup</Text>
 		</Row>
-		<Row Tag="LOC_DTCP_CIVIC_CHECKBOX" Language="en_US">
+		<Row Tag="LOC_DTCP_CIVIC_CHECKBOX">
 			<Text>Enable Civic completed popup</Text>
 		</Row>
-
-		<!-- 한국어 -->
-		<Row Tag="LOC_DTCP_TITLE" Language="ko_KR">
-			<Text>Disable Tech Civic Popup</Text>
-		</Row>
-		<Row Tag="LOC_DTCP_TECH_CHECKBOX" Language="ko_KR">
-			<Text>기술 연구 완료 팝업 활성화</Text>
-		</Row>
-		<Row Tag="LOC_DTCP_CIVIC_CHECKBOX" Language="ko_KR">
-			<Text>사회 제도 완성 팝업 활성화</Text>
-		</Row>
-	</LocalizedText>
+	</EnglishText>
 </GameData>

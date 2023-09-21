@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Disable Tech Civic Popup</AssemblyName>
     <RootNamespace>Disable Tech Civic Popup</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><AddUserInterfaces id="BH_DTCP_UI"><Properties><Context>InGame</Context></Properties><File>DTCP_UI.xml</File></AddUserInterfaces><UpdateText id="BH_DTCP_Text"><File>DTCP_Text.xml</File></UpdateText><ImportFiles id="BH_DTCP_Import"><File>DTCP_Icon.dds</File><File>TechCivicCompletedPopup.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><AddUserInterfaces id="DTCP_UI"><Properties><Context>InGame</Context></Properties><File>DTCP_UI.xml</File></AddUserInterfaces><UpdateText id="DTCP_Text"><File>DTCP_Text.xml</File></UpdateText><ImportFiles id="DTCP_Import"><File>DTCP_Icon.dds</File></ImportFiles><ReplaceUIScript id="DTCP_Replace"><Properties><LuaContext>TechCivicCompletedPopup</LuaContext><LuaReplace>TechCivicCompletedPopup_DTCP.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -36,7 +36,7 @@
     <Content Include="DTCP_UI.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="TechCivicCompletedPopup.lua">
+    <Content Include="TechCivicCompletedPopup_DTCP.lua">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
