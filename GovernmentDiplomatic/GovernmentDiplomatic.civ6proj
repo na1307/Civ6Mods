@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>GovernmentDiplomatic</Name>
+    <Name>Government and Diplomatic district tweak</Name>
     <Guid>8a39bae9-cf4e-4a6d-8c5c-fc805f9c99a3</Guid>
     <ProjectGuid>a091bd4e-be19-4fa8-acca-d92fa895ce7c</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Teaser>Some tweaks to Government Plaza and Diplomatic Quater</Teaser>
+    <Description>This mod includes some tweaks to Government Plaza and Diplomatic Quarter.</Description>
     <Authors>Bluehill</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -22,13 +22,16 @@
 </Associations>]]></AssociationData>
     <AssemblyName>GovernmentDiplomatic</AssemblyName>
     <RootNamespace>GovernmentDiplomatic</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><Properties><LoadOrder>555</LoadOrder></Properties><File>DistrictsBuildings.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><Properties><LoadOrder>555</LoadOrder></Properties><File>DistrictsBuildings.sql</File></UpdateDatabase><UpdateText id="Text"><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="DistrictsBuildings.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
