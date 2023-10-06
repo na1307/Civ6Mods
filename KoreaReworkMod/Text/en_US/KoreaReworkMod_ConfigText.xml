@@ -13,9 +13,6 @@
 		<Row Tag="LOC_DISTRICT_SEOWON_DESCRIPTION">
 			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +4 [ICON_SCIENCE] Science. -1 [ICON_Science] Science for every adjacent district tile. Mines receive +1 [ICON_SCIENCE] Science for every adjacent Seowon district. Farms receive +1 [ICON_FOOD] Food for every adjacent Seowon district. Must be built on Hills.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION">
-			<Text>Korean unique Renaissance Era unit that replaces the Field Cannon. When attacking a districts, there is no [ICON_Ranged] Ranged Strength penalty. Cannot move and attack in the same turn.</Text>
-		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HWARANG_NAME">
 			<Text>Butterfly and Bee</Text>
 		</Row>

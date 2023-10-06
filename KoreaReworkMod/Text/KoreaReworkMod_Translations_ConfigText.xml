@@ -13,9 +13,6 @@
 		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="ko_KR">
 			<Text>한국 특유의 과학 발전을 위한 특수지구로 캠퍼스 특수지구를 대체합니다. [ICON_SCIENCE] 과학 +4를 제공합니다. 인접한 특수지구 타일마다 [ICON_Science] 과학 -1이 적용됩니다. 광산은 인접한 서원 특수지구마다 [ICON_SCIENCE] 과학 +1을 받습니다. 농장은 인접한 서원 특수지구마다 [ICON_FOOD] 식량 +1을 받습니다. 언덕에 지어야 합니다.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
-			<Text>전장포를 대체하는 한국 특유의 르네상스 시대 유닛입니다. 특수지구 공격 시 [ICON_Ranged] 원거리 전투력 페널티가 없습니다. 같은 턴에 이동과 공격을 같이 할 수는 없습니다.</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_NAME" Language="ko_KR">
 			<Text>나비와 벌</Text>
 		</Replace>

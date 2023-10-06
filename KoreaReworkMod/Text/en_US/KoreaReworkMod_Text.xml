@@ -4,15 +4,6 @@
 <!-- DateCreated: 2023-10-06 오전 11:27:22 -->
 <GameData>
 	<EnglishText>
-		<Row Tag="LOC_ABILITY_HWACHA_DISTRICT_NAME">
-			<Text>Hwacha</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_HWACHA_DISTRICT_DESCRIPTION">
-			<Text>+17 [ICON_Ranged] Ranged Strength vs. Districts.</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_HWACHA_MODIFIER_DESCRIPTION">
-			<Text>+17 [ICON_Ranged] Ranged Strength vs. Districts</Text>
-		</Row>
 		<Row Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP">
 			<Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) from Butterfly and Bee ([ICON_Governor] Governor with {1} {1 : plural 1?Promotion; other?Promotions;})</Text>
 		</Row>
