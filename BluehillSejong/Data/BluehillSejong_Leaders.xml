@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- BluehillSejong_Leaders -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-06 오전 10:13:32 -->
+<GameData>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_FEUDALISM_PLAINS_HILLS_FARMS"/>
+		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_FEUDALISM_GRASS_HILLS_FARMS"/>
+	</TraitModifiers>
+	<ImprovementModifiers>
+		<Row ImprovementType="IMPROVEMENT_FARM" ModifierId="SEJONG_BONUS_RESOURCE_FARM_AMENITY"/>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_PLAINS_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_FEUDALISM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_GRASS_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_FEUDALISM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_BONUS_RESOURCE_FARM_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_PLAINS_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_PLAINS_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_GRASS_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_FEUDALISM_GRASS_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_BONUS_RESOURCE_FARM_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_FEUDALISM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_FEUDALISM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_FEUDALISM_CIVIC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_FEUDALISM_CIVIC</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_FEUDALISM_CIVIC</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_FEUDALISM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
+			<Name>LeaderType</Name>
+			<Value>LEADER_SEJONG</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

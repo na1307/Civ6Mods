@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- BluehillSejong_ConfigText -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-06 오전 10:06:14 -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_TRAIT_LEADER_SEJONG_NAME">
+			<Text>Spirit of Affectionately</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SEJONG_DESCRIPTION">
+			<Text>When you complete your first Technology from a new Era, receive double your [ICON_SCIENCE] Science per turn as [ICON_CULTURE] Culture. +1 [ICON_Amenities] Amenity from Farms over Bonus resources. Can build Farms on Hills once Feudalism is discovered.</Text>
+		</Row>
+	</EnglishText>
+</GameData>
