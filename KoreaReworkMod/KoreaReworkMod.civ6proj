@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Bluehill's Korea Rework</Name>
+    <Guid>4a9798c4-15f7-4510-8874-d7e224b4d1c8</Guid>
+    <ProjectGuid>7f96e284-b331-4311-9774-16639bb5078e</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>Antagonise</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>KoreaReworkMod</AssemblyName>
+    <RootNamespace>KoreaReworkMod</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="FrontArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FrontData"><File>Data/KoreaReworkMod_ConfigData.xml</File></UpdateDatabase><UpdateIcons id="FrontIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="FrontText"><File priority="1">Text/en_US/KoreaReworkMod_ConfigText.xml</File><File>Text/KoreaReworkMod_Translations_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="InGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="InGameData"><File>Data/KoreaReworkMod_Civilizations.xml</File><File>Data/KoreaReworkMod_Leaders.xml</File><File>Data/KoreaReworkMod_Units.xml</File><File>Data/KoreaReworkMod_Units_Hwarang.sql</File></UpdateDatabase><UpdateIcons id="InGameIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="InGameText"><File priority="2">Text/KoreaReworkMod_RemoveText.xml</File><File priority="1">Text/en_US/KoreaReworkMod_ConfigText.xml</File><File priority="1">Text/en_US/KoreaReworkMod_Text.xml</File><File>Text/KoreaReworkMod_Translations_ConfigText.xml</File><File>Text/KoreaReworkMod_Translations_Text.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/Moment_UniqueUnit_Ant_Hwarang.dds</File><File>Textures/Moment_UniqueUnit_Ant_Hwarang.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="KoreaReworkMod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+    <Folder Include="Text\en_US" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Units_Hwarang.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueUnit_Ant_Hwarang.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueUnit_Ant_Hwarang.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ANT_HWARANG_95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\KoreaReworkMod_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\KoreaReworkMod_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\KoreaReworkMod_RemoveText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\KoreaReworkMod_Translations_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\KoreaReworkMod_Translations_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UIIcons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

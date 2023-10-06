@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KoreaReworkMod_RemoveText -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-06 오전 11:19:01 -->
+<GameData>
+	<LocalizedText>
+		<Delete Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_NAME"/>
+		<Delete Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION"/>
+		<Delete Tag="LOC_DISTRICT_SEOWON_DESCRIPTION"/>
+		<Delete Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION"/>
+		<Delete Tag="LOC_TRAIT_LEADER_HWARANG_NAME"/>
+		<Delete Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION"/>
+		<Delete Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP"/>
+	</LocalizedText>
+</GameData>

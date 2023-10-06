@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>762</build>
+		<revision>531</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Ant_Hwarang"/>
+			<m_ObjectName text="Moment_UniqueUnit_Ant_Hwarang"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_22"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_256"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_32"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_38"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_50"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ANT_HWARANG_80"/>
+			<m_ObjectName text="ICON_UNIT_ANT_HWARANG_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_200"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_256"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_38"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_50"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_70"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ANT_HWARANG_95"/>
+			<m_ObjectName text="PORTRAIT_ANT_HWARANG_95"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

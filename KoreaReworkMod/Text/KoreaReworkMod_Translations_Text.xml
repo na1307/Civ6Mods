@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KoreaReworkMod_Translations_Text -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-09-17 오후 8:11:29 -->
+<GameData>
+	<LocalizedText>		
+		<Replace Tag="LOC_ABILITY_HWACHA_DISTRICT_NAME" Language="ko_KR">
+			<Text>화차</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HWACHA_DISTRICT_DESCRIPTION" Language="ko_KR">
+			<Text>특수지구 대항 시 [ICON_Ranged] 원거리 전투력 +17.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HWACHA_MODIFIER_DESCRIPTION" Language="ko_KR">
+			<Text>특수지구 대항 시 [ICON_Ranged] 원거리 전투력 +17</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="ko_KR">
+			<Text>나비와 벌에서 {Value : number +#;-#}%({ActualValue : number +#.#;-#.#})({1}회 {1 : plural 1?진급; other?진급;}한 [ICON_Governor] 총독)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KOREAN_HWARANG_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>화랑은 '꽃의 기사'로도 알려져 있으며, 고대 한국의 신라 왕국 내에서 젊은 남성들의 엘리트 전사 집단이었습니다. 원래는 군사 조직이 아니었지만, 시간이 지나갈수록 중요한 군사 조직으로 발전했습니다. 신라 왕국은 삼국 시대에 좋은 전사와 기사를 개발하기 위해 '좋은 가문과 좋은 도덕을 가진 소년'을 화랑의 일부로 만들었습니다. 화랑은 전투에서 자신의 능력을 향상시키기 위해 불교 승려들의 훈련을 적극적으로 추구했습니다. 또한 화랑은 문화, 예술, 종교(즉 불교)를 깊이 연구하고 자주 연구하기를 모색한 것으로 알려져 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_NAME" Language="ko_KR">
+			<Text>전투 승리 시 문화 획득</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION" Language="ko_KR">
+			<Text>처치한 유닛의 [ICON_Strength] 전투력의 50%만큼의 [ICON_Culture] 문화를 얻음.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_NAME" Language="ko_KR">
+			<Text>전투 승리 시 신앙 획득</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION" Language="ko_KR">
+			<Text>처치한 유닛의 [ICON_Strength] 전투력의 100%만큼의 [ICON_Faith] 신앙을 얻음.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

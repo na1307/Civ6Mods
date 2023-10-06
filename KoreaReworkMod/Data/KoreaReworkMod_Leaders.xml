@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KoreaReworkMod_Leaders -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-06 오후 12:40:39 -->
+<GameData>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_HWARANG</TraitType>
+			<ModifierId>TRAIT_ADJUST_CITY_FAITH_PER_GOVERNOR_TITLE_MODIFIER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_FAITH_PER_GOVERNOR_TITLE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_FAITH_PER_GOVERNOR_TITLE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_FAITH_PER_GOVERNOR_TITLE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
