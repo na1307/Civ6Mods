@@ -8,7 +8,7 @@
 			<Text>홍익인간</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION" Language="ko_KR">
-			<Text>[ICON_GreatWork_WRITING] 걸작 저서가 [ICON_SCIENCE] 과학 +2를 제공합니다. 도서관이 [ICON_GreatWork_WRITING] 걸작 저서 슬롯 2개와 턴당 [ICON_GreatWriter] 위대한 작가 점수 2점을 제공합니다.</Text>
+			<Text>[ICON_GreatWork_WRITING] 걸작 저서가 [ICON_SCIENCE] 과학 +2를 제공합니다. 도서관이 [ICON_GreatWork_WRITING] 걸작 저서 슬롯 2개와 턴당 [ICON_GreatWriter] 위대한 작가 점수 1점을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="ko_KR">
 			<Text>한국 특유의 과학 발전을 위한 특수지구로 캠퍼스 특수지구를 대체합니다. [ICON_SCIENCE] 과학 +4를 제공합니다. 인접한 특수지구 타일마다 [ICON_Science] 과학 -1이 적용됩니다. 광산은 인접한 서원 특수지구마다 [ICON_SCIENCE] 과학 +1을 받습니다. 농장은 인접한 서원 특수지구마다 [ICON_FOOD] 식량 +1을 받습니다. 언덕에 지어야 합니다.</Text>

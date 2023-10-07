@@ -80,7 +80,7 @@
 		<Row>
 			<ModifierId>TRAIT_LIBRARY_WRITER_POINTS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>
