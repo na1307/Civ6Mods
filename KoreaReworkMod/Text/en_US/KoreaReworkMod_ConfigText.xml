@@ -14,7 +14,7 @@
 			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +4 [ICON_SCIENCE] Science. -1 [ICON_Science] Science for every adjacent district tile. Mines receive +1 [ICON_SCIENCE] Science for every adjacent Seowon district. Farms receive +1 [ICON_FOOD] Food for every adjacent Seowon district. Must be built on Hills.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HWARANG_NAME">
-			<Text>Butterfly and Bee</Text>
+			<Text>Butterflies and Bees</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION">
 			<Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture and [ICON_Science] Science, [ICON_Faith] Faith for each Promotion they have earned, including their first. Gain the Hwarang unique unit when the Iron Working technology is researched.</Text>
