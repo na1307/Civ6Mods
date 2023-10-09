@@ -3,7 +3,7 @@
 <!-- Author: Bluehill -->
 <!-- DateCreated: 2023-09-17 오후 8:11:29 -->
 <GameData>
-	<LocalizedText>		
+	<LocalizedText>
 		<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="ko_KR">
 			<Text>나비와 벌에서 {Value : number +#;-#}%({ActualValue : number +#.#;-#.#})({1}회 {1 : plural 1?진급; other?진급;}한 [ICON_Governor] 총독)</Text>
 		</Replace>

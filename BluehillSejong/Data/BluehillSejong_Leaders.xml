@@ -6,10 +6,10 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_FEUDALISM_PLAINS_HILLS_FARMS"/>
 		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_FEUDALISM_GRASS_HILLS_FARMS"/>
+		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_BONUS_FARM_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_PLAINS_HILLS_FARM_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_SEJONG" ModifierId="SEJONG_GRASS_HILLS_FARM_PRODUCTION"/>
 	</TraitModifiers>
-	<ImprovementModifiers>
-		<Row ImprovementType="IMPROVEMENT_FARM" ModifierId="SEJONG_BONUS_RESOURCE_FARM_AMENITY"/>
-	</ImprovementModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>SEJONG_FEUDALISM_PLAINS_HILLS_FARMS</ModifierId>
@@ -22,9 +22,19 @@
 			<SubjectRequirementSetId>PLAYER_HAS_FEUDALISM</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>SEJONG_BONUS_RESOURCE_FARM_AMENITY</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</SubjectRequirementSetId>
+			<ModifierId>SEJONG_BONUS_FARM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_AND_FARM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_PLAINS_HILLS_FARM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLAINS_HILLS_AND_FARM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_GRASS_HILLS_FARM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GRASS_HILLS_AND_FARM</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -49,7 +59,32 @@
 			<Value>TERRAIN_GRASS_HILLS</Value>
 		</Row>
 		<Row>
-			<ModifierId>SEJONG_BONUS_RESOURCE_FARM_AMENITY</ModifierId>
+			<ModifierId>SEJONG_BONUS_FARM_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_BONUS_FARM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_PLAINS_HILLS_FARM_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_PLAINS_HILLS_FARM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_GRASS_HILLS_FARM_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEJONG_GRASS_HILLS_FARM_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -60,7 +95,15 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
+			<RequirementSetId>PLOT_HAS_BONUS_AND_FARM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_AND_FARM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_AND_FARM</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -70,12 +113,28 @@
 			<RequirementId>REQUIRES_PLAYER_HAS_FEUDALISM_CIVIC</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
-			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
+			<RequirementSetId>PLOT_HAS_BONUS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_SEJONG_AND_PLOT_HAS_BONUS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId>
+			<RequirementSetId>PLOT_HAS_BONUS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_AND_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
@@ -84,8 +143,12 @@
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES</RequirementType>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -95,9 +158,14 @@
 			<Value>CIVIC_FEUDALISM</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLAYER_IS_SEJONG</RequirementId>
-			<Name>LeaderType</Name>
-			<Value>LEADER_SEJONG</Value>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

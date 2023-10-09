@@ -8,7 +8,7 @@
 			<Text>Spirit of Affectionately</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SEJONG_DESCRIPTION">
-			<Text>When you complete your first Technology from a new Era, receive double your [ICON_SCIENCE] Science per turn as [ICON_CULTURE] Culture. +1 [ICON_Amenities] Amenity from Farms over Bonus resources. Can build Farms on Hills once Feudalism is discovered.</Text>
+			<Text>When you complete your first Technology from a new Era, receive double your [ICON_SCIENCE] Science per turn as [ICON_CULTURE] Culture. Can build Farms on Hills once Feudalism is discovered. +1 [ICON_PRODUCTION] Production from Farms over Bonus resources or Hills.</Text>
 		</Row>
 	</EnglishText>
 </GameData>
