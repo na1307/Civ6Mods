@@ -24,7 +24,7 @@
 </Associations>]]></AssociationData>
     <AssemblyName>BluehillSejong</AssemblyName>
     <RootNamespace>BluehillSejong</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="FrontText"><File priority="1">Text/en_US/BluehillSejong_ConfigText.xml</File><File>Text/BluehillSejong_Translations_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="FrontText"><File priority="2">Text/BluehillSejong_RemoveText.xml</File><File priority="1">Text/en_US/BluehillSejong_ConfigText.xml</File><File>Text/BluehillSejong_Translations_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/BluehillSejong_Leaders.xml</File></UpdateDatabase><UpdateText id="InGameText"><File priority="2">Text/BluehillSejong_RemoveText.xml</File><File priority="1">Text/en_US/BluehillSejong_ConfigText.xml</File><File priority="1">Text/en_US/BluehillSejong_Text.xml</File><File>Text/BluehillSejong_Translations_ConfigText.xml</File><File>Text/BluehillSejong_Translations_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
