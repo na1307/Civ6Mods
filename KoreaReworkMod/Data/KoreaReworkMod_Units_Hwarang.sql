@@ -1,4 +1,4 @@
-﻿-- KoreaReworkMod_Units_Hwarang
+-- KoreaReworkMod_Units_Hwarang
 -- Author: Bluehill
 -- DateCreated: 2023-09-17 오후 8:43:03
 --------------------------------------------------------------

@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Bluehill's Sejong</Name>
+    <Name>Bluehill's Sejong Rework</Name>
     <Guid>e2d63656-c40b-4600-873b-ef31079ed72c</Guid>
     <ProjectGuid>c188fdd0-1329-4ca0-8ed4-94c0447aa9f6</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Teaser>Reworks Sejong's ability.</Teaser>
+    <Description>Reworks Sejong's ability.</Description>
     <Authors>Bluehill</Authors>
     <SpecialThanks>
     </SpecialThanks>
