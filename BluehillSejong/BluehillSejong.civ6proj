@@ -24,8 +24,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>BluehillSejong</AssemblyName>
     <RootNamespace>BluehillSejong</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="FrontText"><File priority="2">Text/BluehillSejong_RemoveText.xml</File><File priority="1">Text/en_US/BluehillSejong_ConfigText.xml</File><File>Text/BluehillSejong_Translations_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/BluehillSejong_Leaders.xml</File></UpdateDatabase><UpdateText id="InGameText"><File priority="2">Text/BluehillSejong_RemoveText.xml</File><File priority="1">Text/en_US/BluehillSejong_ConfigText.xml</File><File priority="1">Text/en_US/BluehillSejong_Text.xml</File><File>Text/BluehillSejong_Translations_ConfigText.xml</File><File>Text/BluehillSejong_Translations_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="FrontText"><File>Text/BluehillSejong_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/BluehillSejong_Leaders.xml</File></UpdateDatabase><UpdateText id="InGameText"><File>Text/BluehillSejong_ConfigText.xml</File><File>Text/BluehillSejong_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -36,25 +36,15 @@
   <ItemGroup>
     <Folder Include="Data" />
     <Folder Include="Text" />
-    <Folder Include="Text\en_US" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\BluehillSejong_Leaders.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\BluehillSejong_RemoveText.xml">
+    <Content Include="Text\BluehillSejong_ConfigText.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\BluehillSejong_Translations_ConfigText.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\BluehillSejong_Translations_Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\en_US\BluehillSejong_ConfigText.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\en_US\BluehillSejong_Text.xml">
+    <Content Include="Text\BluehillSejong_Text.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

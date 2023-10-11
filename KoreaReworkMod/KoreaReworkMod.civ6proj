@@ -21,8 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>KoreaReworkMod</AssemblyName>
     <RootNamespace>KoreaReworkMod</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="FrontArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FrontData"><File>Data/KoreaReworkMod_ConfigData.xml</File></UpdateDatabase><UpdateIcons id="FrontIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="FrontText"><File priority="2">Text/KoreaReworkMod_RemoveText.xml</File><File priority="1">Text/en_US/KoreaReworkMod_ConfigText.xml</File><File>Text/KoreaReworkMod_Translations_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="InGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="InGameData"><File>Data/KoreaReworkMod_Civilizations.xml</File><File>Data/KoreaReworkMod_Leaders.xml</File><File>Data/KoreaReworkMod_Units_Hwarang.sql</File></UpdateDatabase><UpdateIcons id="InGameIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="InGameText"><File priority="2">Text/KoreaReworkMod_RemoveText.xml</File><File priority="1">Text/en_US/KoreaReworkMod_ConfigText.xml</File><File priority="1">Text/en_US/KoreaReworkMod_Text.xml</File><File>Text/KoreaReworkMod_Translations_ConfigText.xml</File><File>Text/KoreaReworkMod_Translations_Text.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/Moment_UniqueUnit_Ant_Hwarang.dds</File><File>Textures/Moment_UniqueUnit_Ant_Hwarang.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="FrontArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FrontData"><File>Data/KoreaReworkMod_ConfigData.xml</File></UpdateDatabase><UpdateIcons id="FrontIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="FrontText"><File>Text/KoreaReworkMod_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="InGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="InGameData"><File>Data/KoreaReworkMod_Civilizations.xml</File><File>Data/KoreaReworkMod_Leaders.xml</File><File>Data/KoreaReworkMod_Units_Hwarang.sql</File></UpdateDatabase><UpdateIcons id="InGameIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="InGameText"><File>Text/KoreaReworkMod_ConfigText.xml</File><File>Text/KoreaReworkMod_Text.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/Moment_UniqueUnit_Ant_Hwarang.dds</File><File>Textures/Moment_UniqueUnit_Ant_Hwarang.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -34,7 +34,6 @@
     <Folder Include="ArtDefs" />
     <Folder Include="Data" />
     <Folder Include="Text" />
-    <Folder Include="Text\en_US" />
     <Folder Include="XLPs" />
     <Folder Include="Textures" />
   </ItemGroup>
@@ -135,19 +134,10 @@
     <Content Include="Textures\PORTRAIT_ANT_HWARANG_95.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\en_US\KoreaReworkMod_ConfigText.xml">
+    <Content Include="Text\KoreaReworkMod_ConfigText.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\en_US\KoreaReworkMod_Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\KoreaReworkMod_RemoveText.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\KoreaReworkMod_Translations_ConfigText.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Text\KoreaReworkMod_Translations_Text.xml">
+    <Content Include="Text\KoreaReworkMod_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UIIcons.xlp">
