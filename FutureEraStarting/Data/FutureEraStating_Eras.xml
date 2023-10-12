@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- FutureEraStating_Eras -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-12 오후 12:34:04 -->
+<GameData>
+	<StartEras>
+		<Row EraType="ERA_FUTURE" Gold="1050" Faith="2800" FirstTurnCivicChange="true" StartingPopulationCapital="13" StartingPopulationOtherCities="8" StartingAmenitiesCapital="6" StartingAmenitiesOtherCities="3" StartingHousingCapital="11" StartingHousingOtherCities="6" GrowthRate="40" ProductionRate="40" DistrictProductionRate="160" StartingMeleeStrengthMajor="90" StartingMeleeStrengthMinor="90" StartingRangedStrengthMajor="95" StartingRangedStrengthMinor="95" ObsoleteReligion="true" Tiles="8" Year="2020" IgnoreGoodyHutTurn="true"/>
+	</StartEras>
+	<StartEras_XP2>
+		<Row EraType="ERA_FUTURE" DiploVP="14"/>
+	</StartEras_XP2>
+	<MajorStartingUnits>
+		<Row Era="ERA_FUTURE" Unit="UNIT_SETTLER" Quantity="4"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_BUILDER" Quantity="4" OnDistrictCreated="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_TRADER" Quantity="3" OnDistrictCreated="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_SPEC_OPS" Quantity="4" NotStartTile="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_MODERN_AT" Quantity="4" OnDistrictCreated="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_MACHINE_GUN" Quantity="4"/>
+		<!--<Row Era="ERA_FUTURE" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>-->
+		<Row Era="ERA_FUTURE" Unit="UNIT_MODERN_AT" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+	</MajorStartingUnits>
+	<BonusMinorStartingUnits>
+		<Row Era="ERA_FUTURE" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_TRADER" OnDistrictCreated="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_MODERN_AT"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_MACHINE_GUN"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_MODERN_AT" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+	</BonusMinorStartingUnits>
+	<StartingBuildings>
+		<Row Era="ERA_FUTURE" Building="BUILDING_SEAPORT" District="DISTRICT_HARBOR"/>
+		<Row Era="ERA_FUTURE" Building="BUILDING_HANGAR" District="DISTRICT_AERODROME"/>
+		<Row Era="ERA_FUTURE" Building="BUILDING_HYDROELECTRIC_DAM" District="DISTRICT_DAM"/>
+	</StartingBuildings>
+	<StartingGovernments>
+		<Row Era="ERA_FUTURE" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+	</StartingGovernments>
+</GameData>

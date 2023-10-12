@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- FutureEraStating_KublaiKhan_Vietnam -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-12 오후 12:59:48 -->
+<GameData>
+	<StartingBuildings>
+		<Row Era="ERA_FUTURE" Building="BUILDING_SANCTUARY" District="DISTRICT_PRESERVE"/>
+	</StartingBuildings>
+</GameData>
