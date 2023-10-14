@@ -11,7 +11,7 @@
 		
 		<!-- English -->
 		<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Your civilization receives +1 [ICON_FAVOR] Diplomatic Favor for each Delegation or Embassy from a foreign civilization through diplomacy. Enemy Spies operate at 2 levels below normal targeting this district and adjacent districts. Only 1 can exist in your empire at a time. Awards +2 [ICON_ENVOY] Envoys.</Text>
+			<Text>Your civilization receives +1 [ICON_FAVOR] Diplomatic Favor for each Delegation or Embassy from a foreign civilization through diplomacy. Enemy Spies operate at 2 levels below normal targeting this district and adjacent districts. Only 1 can exist in your empire at a time. Awards +1 [ICON_ENVOY] Envoys.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="en_US">
 			<Text>+2 Influence Points per turn. Enemy Spy's level is reduced by 1 when targeting this city or cities with Encampments. Awards +1 [ICON_ENVOY] Envoy.</Text>
@@ -22,7 +22,7 @@
 		
 		<!-- 한국어 -->
 		<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="ko_KR">
-			<Text>플레이어의 문명은 외교를 통해 외부 문명의 대표단 또는 대사관마다 [ICON_FAVOR] 외교적 환심 +1을 얻습니다. 이 특수지구 및 인접 특수지구를 노리는 적 스파이가 2단계 낮은 수준으로 활동합니다. 플레이어의 제국에는 한 번에 하나만 존재할 수 있습니다. 보상으로 [ICON_ENVOY] 사절 +2를 제공합니다.</Text>
+			<Text>플레이어의 문명은 외교를 통해 외부 문명의 대표단 또는 대사관마다 [ICON_FAVOR] 외교적 환심 +1을 얻습니다. 이 특수지구 및 인접 특수지구를 노리는 적 스파이가 2단계 낮은 수준으로 활동합니다. 플레이어의 제국에는 한 번에 하나만 존재할 수 있습니다. 보상으로 [ICON_ENVOY] 사절 +1을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="ko_KR">
 			<Text>턴마다 우호도 점수 +2를 얻습니다. 주둔지 또는 영사관이 있는 도시를 목표로 하는 적 스파이의 레벨이 1 감소합니다. 보상으로 [ICON_ENVOY] 사절 +1을 제공합니다.</Text>
