@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Better Korean Fonts</Name>
+    <Name>문명 6 한글 글꼴 개선 모드</Name>
     <Guid>9bcff7da-c3d8-48b9-b613-bd6e9e4ad4a5</Guid>
     <ProjectGuid>405bb68a-3ed5-4c4c-b58b-cf655569abe9</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>더 나은 한국어 글꼴</Teaser>
-    <Description>더 나은 한국어 글꼴</Description>
+    <Teaser>문명 6 한글 글꼴 개선 모드</Teaser>
+    <Description>문명 6 한글 글꼴 개선 모드</Description>
     <Authors>Bluehill</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Better Korean Fonts</AssemblyName>
     <RootNamespace>Better Korean Fonts</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><ImportFiles id="BetterKoreanFontsImport"><Properties><LoadOrder>1</LoadOrder></Properties><File>UI/Fonts/Civ6_FontStyles_ko_KR.xml</File><File>UI/Fonts/Nanum/D2Coding.ttf</File><File>UI/Fonts/Nanum/NanumMyeongjo.otf</File><File>UI/Fonts/Nanum/NanumMyeongjoBold.otf</File><File>UI/Fonts/Nanum/NanumSquareRoundOTFB.otf</File><File>UI/Fonts/Nanum/NanumSquareRoundOTFEB.otf</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><ImportFiles id="BetterKoreanFontsImport"><Properties><LoadOrder>-100</LoadOrder></Properties><File>UI/Fonts/Civ6_FontStyles_ko_KR.xml</File><File>UI/Fonts/Nanum/D2Coding.ttf</File><File>UI/Fonts/Nanum/NanumMyeongjo.otf</File><File>UI/Fonts/Nanum/NanumMyeongjoBold.otf</File><File>UI/Fonts/Nanum/NanumSquareRoundOTFB.otf</File><File>UI/Fonts/Nanum/NanumSquareRoundOTFEB.otf</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
