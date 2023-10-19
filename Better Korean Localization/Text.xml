@@ -56,11 +56,26 @@
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HARDRADA_ANY" Language="ko_KR">
 			<Text>자네가 여기서 수고하는 동안 나는 발할라의 에인헤랴르와 만찬을 즐기겠소.</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_DESCRIPTION" Language="ko_KR">
+			<Text>과학 발전을 위한 도시의 특수지구입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="ko_KR">
+			<Text>군사 시설을 위한 도시의 특수지구입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_DESCRIPTION" Language="ko_KR">
+			<Text>종교 활동을 위한 도시의 특수지구입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="ko_KR">
+			<Text>산업 활동을 위한 도시의 특수지구입니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_GOLD" Language="ko_KR">
 			<Text>인접한 왕립 해군 공창 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_NAME" Language="ko_KR">
 			<Text>왕립 해군 공창</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="ko_KR">
+			<Text>문화를 위한 도시의 특수지구입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_GAME_MENU_EXIT_TO_DESKTOP" Language="ko_KR">
 			<Text>바탕 화면으로 나가기</Text>
@@ -193,6 +208,12 @@
 		</Replace>
 
 		<!-- Expansion1 -->
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="ko_KR">
+			<Text>금융과 교역에 특화된 도시의 특수지구입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="ko_KR">
+			<Text>해군 활동을 위한 도시의 특수지구입니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다. 산호초 위에 지을 수 없습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="ko_KR">
 			<Text>가장 활성화된 동맹 레벨에 대해 극장가 특수지구가 인접 보너스 +50%를 획득합니다.</Text>
 		</Replace>
@@ -213,14 +234,38 @@
 		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Language="ko_KR">
 			<Text>여왕의 도서관</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>그리스 특유의 문화 특수지구입니다. 극장가 특수지구를 대체하며 건설 비용이 더 저렴합니다. 완료 시 [ICON_Envoy] 사절 1개를 획득합니다.[NEWLINE][NEWLINE]인접한 각 특수지구마다 [ICON_Culture] 문화 +1 보너스를 얻고 인접한 도심부에서 [ICON_Culture] 문화 +1 보너스를 추가로 얻습니다. 인접한 각 불가사의, 유흥단지, 워터 파크마다 [ICON_Culture] 문화 +2 보너스를 얻습니다. 언덕에만 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="ko_KR">
+			<Text>이 도시에 인접한 강, 호수, 오아시스나 산으로부터의 담수 공급원을 제공하는 특수지구입니다. 아직 기존 담수가 없는 도시는 최대 6 [ICON_Housing] 주거공간을 받습니다. 이미 기존 담수가 있는 도시는 대신 [ICON_Housing] 주거 공간 +2를 얻습니다. 지열 열하와 인접하게 건설하면 [ICON_Amenities] 쾌적도 +1을 얻습니다. 가뭄 중 [ICON_Food] 식량 손실을 방지합니다. 도심부와 인접하게 건설해야 합니다. 공병이 건설 횟수를 소비하여 송수로 생산의 20%를 완료할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION" Language="ko_KR">
+			<Text>도시 성장을 위한 로마 특유의 특수지구입니다. 송수로 특수지구를 대체하며 건설 비용이 더 저렴합니다.[NEWLINE][NEWLINE]이 도시에 인접한 강, 호수, 오아시스나 산으로부터의 담수 공급원을 제공합니다. 아직 기존 담수가 없는 도시는 최대 6 [ICON_Housing] 주거공간을 받습니다. 이미 기존 담수가 있는 도시는 대신 [ICON_Housing] 주거 공간 +2를 얻습니다. 지열 열하와 인접하게 건설하면 [ICON_Amenities] 쾌적도 +1을 얻습니다. 모든 경우에 목욕탕은 [ICON_Housing] 주거공간 +2와 [ICON_Amenities] 쾌적도 +1의 추가 보너스를 제공합니다. 도심부와 인접하게 건설해야 합니다. 공병이 건설 횟수를 소비하여 목욕탕 생산의 20%를 완료할 수 있습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_BATH_PRODUCTION" Language="ko_KR">
 			<Text>인접한 목욕탕 특수지구에서 [ICON_PRODUCTION] 생산력 +{1_num}</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="ko_KR">
+			<Text>두 개의 수역을 연결하거나 수역을 도심부에 연결하기 위해 평지에 건설된 특수지구입니다. 이곳을 지나가는 [ICON_TradeRoute] 교역로는 목적지에 있는 특수지구에서 얻는 [ICON_Gold] 금의 양을 배가시킬 수 있습니다. 운하는 육각형을 직선으로 통과하거나 60도 각도로 구부러질 수 있습니다. 그러나 운하의 3방향 교차점은 허용되지 않으며 운하에는 생성된 수로의 양쪽에 완전한 육지 타일이 있어야 합니다. 공병이 건설 횟수를 소비하여 운하 생산의 20%를 완료할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="ko_KR">
+			<Text>이 강을 따라 생활의 편안함을 향상시키기 위해 범람원 타일 위에 건설된 특수지구입니다. 이 강의 범람으로 인한 피해를 방지합니다(홍수로 인한 생산량은 50% 감소함). 가뭄 중 [ICON_Food] 식량 손실을 방지합니다. 각 강의 범람원을 따라 하나만 건설할 수 있으며(가장 먼저 완성하는 플레이어), 강은 댐 육각형의 최소 두 변을 통과해야 합니다. 공병이 건설 횟수를 소비하여 댐 생산의 20%를 완료할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>산업 활동을 위한 독일 특유의 특수지구입니다. 산업구역 특수지구를 대체하며 건설 비용이 더 저렴합니다.[NEWLINE][NEWLINE]인접한 각 상업 중심지, 송수로, 운하, 댐 특수지구마다 [ICON_Production] 생산력 +2 보너스를 얻습니다. 인접한 자원마다 [ICON_Production] 생산력 +1 보너스를 얻습니다. 인접한 특수지구 타일 2개마다 [ICON_Production] 생산력 +1 보너스를 얻습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" Language="ko_KR">
-			<Text>영국 특유의 해상활동용 특수지구입니다. 항만 특수지구를 대체합니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다.[NEWLINE][NEWLINE]공창에서 생성된 모든 해상 유닛에 [ICON_Movement] 이동력 +1을 제공합니다.[NEWLINE]타 대륙에 건설할 경우 턴당 [ICON_Gold] 금 +2 및 충성심 +4를 제공합니다. 산호초 위에 지을 수 없습니다.</Text>
+			<Text>해군 활동을 위한 영국 특유의 특수지구입니다. 항만 특수지구를 대체합니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다.[NEWLINE][NEWLINE]공창에서 생성된 모든 해상 유닛에 [ICON_Movement] 이동력 +1을 제공합니다.[NEWLINE]타 대륙에 건설할 경우 턴당 [ICON_Gold] 금 +2 및 충성심 +4를 제공합니다. 산호초 위에 지을 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2" Language="ko_KR">
+			<Text>과학 승리 프로젝트 건설에 필요한 특수지구입니다. 여기에는 {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME}, {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}이 포함됩니다. 언덕에는 건설할 수 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_CULTURE" Language="ko_KR">
 			<Text>인접한 거리 카니발 특수지구에서 [ICON_Culture] 문화 +{1_num}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION" Language="ko_KR">
+			<Text>금융과 교역에 특화된 말리 특유의 특수지구로, 상업 중심지를 대체합니다. 이 도시에서 [ICON_GOLD] 금과 [ICON_FAITH] 신앙으로 유닛, 건물, 특수지구를 구매하는 비용이 20% 저렴합니다.[NEWLINE][NEWLINE]인접한 성지마다 [ICON_Gold] 금 +2 보너스를 얻습니다. 강가에 있는 타일에서 [ICON_Gold] 금 +2 보너스를 얻습니다. 인접한 특수지구 타일 2개마다 [ICON_Gold] 금 +1 보너스를 얻습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="ko_KR">
 			<Text>건설자가 카호키아 마운드 시설을 건설할 수 있습니다.[NEWLINE][NEWLINE]카호키아 마운드가 [ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
@@ -358,11 +403,35 @@
 		</Replace>
 
 		<!-- Byzantium_Gaul -->
+		<Replace Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION" Language="ko_KR">
+			<Text>플레이어 종교로 개종한 각 성도마다 [ICON_Strength] 전투력 +3을 얻고 주요 문명의 유닛이 패배하면 비잔틴의 종교가 인근 도시로 전파됩니다(탁시스).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_SAME_RELIGION_DESCRIPTION" Language="ko_KR">
+			<Text>비잔틴과 같은 종교를 따르는 도시에 대해 완전한 피해를 입힙니다(포르피로겐네토스)</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_BIOSPHERE_NAME" Language="ko_KR">
 			<Text>바이오스피어</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_AMBIORIX_ANY" Language="ko_KR">
 			<Text>그대의 영토는 조용하고 평화롭군. 그리고 약하네.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>비잔틴 특유의 특수지구입니다. 유흥단지 특수지구를 대체하고, [ICON_Amenities] 쾌적도 +3을 제공하며, 건설 비용이 더 저렴합니다. 히포드롬과 이 특수지구에 건물을 건설하면 중기병 유닛을 얻습니다. 이 특수지구에서 얻은 유닛은 자원 유지 비용이 없습니다. 워터 파크가 있는 도시에는 지을 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="ko_KR">
+			<Text>골 특유의 특수지구입니다. 대체되는 산업구역 특수지구보다 비용이 저렴하고 조기에 이용할 수 있습니다. 오피둠 특수지구는 원거리 공격으로 방어할 수 있습니다. 오피둠을 처음으로 건설하면 도제제도 기술이 잠금 해제됩니다.[NEWLINE][NEWLINE]채석장이나 전략 자원으로부터 [ICON_Production] 생산력 인접 보너스 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="ko_KR">
+			<Text>유닛이 비잔틴의 종교로 개종한 성도(비잔틴의 성도 포함)마다 [ICON_Strength] 전투력 또는 [ICON_Religion] 신앙력 +3을 얻습니다. 적 문명이나 도시 국가에 속한 유닛을 처치하면 비잔틴 종교가 인근 도시로 전파됩니다. 성지 특수지구가 있는 도시에서 [ICON_GreatProphet] 위대한 선지자 점수 +1을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION" Language="ko_KR">
+			<Text>광산은 모든 특수지구에 약간의 인접 보너스를 제공하고, 주인이 없는 영토에 문화 폭탄, [ICON_CULTURE] 문화 +1을 받습니다. 전문 특수지구는 다른 특수지구와 인접해 있어도 약간의 인접 보너스를 얻지 않으며, 이러한 특수지구는 도심부와 인접하게 건설할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BASIL_DESCRIPTION" Language="ko_KR">
+			<Text>중기병 및 경기병 유닛이 비잔틴과 같은 종교를 따르는 도시에 대해 완전한 피해를 입힙니다. 신권 사회 제도를 발견하면 특유 유닛인 타그마를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_DESCRIPTION" Language="ko_KR">
+			<Text>사단노선을 대체하는 비잔틴 특유의 고전 시대 유닛으로, 사정거리가 늘어났으며 유닛 상대 시 [ICON_Strength] 전투력 +10을 얻습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_NAME" Language="ko_KR">
 			<Text>드로몬</Text>

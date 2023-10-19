@@ -36,8 +36,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>Better Korean Localization</AssemblyName>
     <RootNamespace>Better Korean Localization</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="BetterKoreanLocalization_FrontEnd"><Properties><LoadOrder>999</LoadOrder></Properties><File>Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="BetterKoreanLocalization_InGame"><Properties><LoadOrder>999</LoadOrder></Properties><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="BetterKoreanLocalization_FrontEnd"><File>Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="BetterKoreanLocalization_InGame"><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
