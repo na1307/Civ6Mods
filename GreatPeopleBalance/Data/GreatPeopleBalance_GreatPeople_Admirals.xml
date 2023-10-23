@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatPeopleBalance_GreatPeople_Admirals -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-20 오후 8:40:42 -->
+<GameData>
+	<GreatPersonIndividuals>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" Name="LOC_GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionRequiresUnitCanGainExperience="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_SEA"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Delete ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE"/>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE"/>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>75</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

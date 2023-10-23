@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatPeopleBalance_GreatPeople_Scientists -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-20 오후 9:47:45 -->
+<GameData>
+	<GreatPersonIndividualActionModifiers>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_2MEDIEVALTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_GRANTMATHEMATICSTECH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHANG_HENG" ModifierId="GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHANG_HENG" ModifierId="GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANTMATHEMATICSTECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANTMATHEMATICSTECH</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MATHEMATICS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SHIPBUILDING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING</ModifierId>
+			<Name>GrantTechIfBoosted</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_2MEDIEVALTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_2MEDIEVALTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_GRANTMATHEMATICSTECH" Context="Summary" Text="LOC_GREATPERSON_GRANTMATHEMATICSTECH"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_SHIPBUILDING"/>
+	</ModifierStrings>
+</GameData>

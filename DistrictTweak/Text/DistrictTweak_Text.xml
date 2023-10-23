@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- DistrictTweak_Text -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-22 오후 1:23:34 -->
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Replace Tag="LOC_DISTRICT_OASIS_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Oasis tiles.</Text>
+		</Replace>
+		
+		<!-- 한국어 -->
+		<Replace Tag="LOC_DISTRICT_OASIS_GOLD" Language="ko_KR">
+			<Text>인접한 오아시스 타일에서 [ICON_Gold] 금 +{1_num}.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

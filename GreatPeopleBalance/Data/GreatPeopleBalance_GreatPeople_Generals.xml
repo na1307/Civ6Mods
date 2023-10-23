@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatPeopleBalance_GreatPeople_Generals -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-20 오후 5:18:12 -->
+<GameData>
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU"/>
+			<Set EraType="ERA_RENAISSANCE"/>
+		</Update>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_GRANT_2_NITER_PER_TURN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_GRANT_3_COAL_PER_TURN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_GRANT_3_URANIUM_PER_TURN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_NITER_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_COAL_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_URANIUM_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_NITER_PER_TURN</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_NITER_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_COAL_PER_TURN</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_COAL_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_URANIUM_PER_TURN</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_3_URANIUM_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_GRANT_2_NITER_PER_TURN" Context="Summary" Text="LOC_GREATPERSON_GRANT_2_NITER_PER_TURN"/>
+		<Row ModifierId="GREATPERSON_GRANT_3_COAL_PER_TURN" Context="Summary" Text="LOC_GREATPERSON_GRANT_3_COAL_PER_TURN"/>
+		<Row ModifierId="GREATPERSON_GRANT_3_URANIUM_PER_TURN" Context="Summary" Text="LOC_GREATPERSON_GRANT_3_URANIUM_PER_TURN"/>
+	</ModifierStrings>
+</GameData>

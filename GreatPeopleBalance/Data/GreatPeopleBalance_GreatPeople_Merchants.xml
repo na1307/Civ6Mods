@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatPeopleBalance_GreatPeople_Merchants -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-20 오후 9:31:46 -->
+<GameData>
+	<Resources>
+		<Update>
+			<Where ResourceType="RESOURCE_TOYS"/>
+			<Set Happiness="6"/>
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_JEANS"/>
+			<Set Happiness="6"/>
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_COSMETICS"/>
+			<Set Happiness="6"/>
+		</Update>
+	</Resources>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GREATPERSON_GRANT_TOYS" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+	</ModifierArguments>
+</GameData>

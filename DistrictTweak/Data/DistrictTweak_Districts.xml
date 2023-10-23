@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- DistrictTweak_Districts -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-22 오후 1:02:23 -->
+<GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_AQUEDUCT"/>
+			<Set Appeal="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_BATH"/>
+			<Set Appeal="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_GOVERNMENT"/>
+			<Set Appeal="1"/>
+		</Update>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Oasis_Gold"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Oasis_Gold" Description="LOC_DISTRICT_OASIS_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_OASIS"/>
+	</Adjacency_YieldChanges>
+</GameData>
