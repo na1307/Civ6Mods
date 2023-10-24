@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>BluehillPantheon</Name>
+    <Name>Bluehill's Pantheon</Name>
     <Guid>e1d8adcd-94d8-45d6-b52c-2983db0c2386</Guid>
     <ProjectGuid>7354665a-b684-48fd-886d-c854ea9501a6</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
+    <Teaser>Adds new pantheons.</Teaser>
+    <Description>Adds new pantheons.</Description>
     <Authors>Bluehill</Authors>
     <SpecialThanks>
     </SpecialThanks>
