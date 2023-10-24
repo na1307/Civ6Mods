@@ -335,7 +335,7 @@
 		<Row>
 			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>7</Value>
+			<Value>5</Value>
 		</Row>
 		<Row>
 			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
@@ -345,7 +345,7 @@
 		<Row>
 			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>5</Value>
 		</Row>
 	</ModifierArguments>
 	<BeliefModifiers>
