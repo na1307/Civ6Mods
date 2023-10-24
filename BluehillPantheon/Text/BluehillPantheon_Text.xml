@@ -11,10 +11,10 @@
 		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="en_US">
 			<Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Coast and Lake tiles.</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_MARSH_GODDESS_NAME" Language="en_US">
-			<Text>Marsh Goddess</Text>
+		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="en_US">
+			<Text>Mystic of Wetlands</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_MARSH_GODDESS_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="en_US">
 			<Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Marsh and Floodplains tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="en_US">
@@ -29,10 +29,10 @@
 		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="en_US">
 			<Text>Newly trained Builders gain 1 extra build action.</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_SHIELD_NAME" Language="en_US">
-			<Text>God of Shield</Text>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_PROTECTION_NAME" Language="en_US">
+			<Text>Goddess of Protection</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_SHIELD_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_PROTECTION_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Production] Production towards defensive buildings. +7 City [ICON_Strength] Defense Strength. +10 City [ICON_Ranged] Ranged Strength.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
@@ -58,10 +58,10 @@
 		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="ko_KR">
 			<Text>성지 특수지구는 인접한 해안 및 호수 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_MARSH_GODDESS_NAME" Language="ko_KR">
-			<Text>습지의 여신</Text>
+		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="ko_KR">
+			<Text>습지의 신비</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_MARSH_GODDESS_DESCRIPTION" Language="ko_KR">
+		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="ko_KR">
 			<Text>성지 특수지구는 인접한 습지 및 범람원 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="ko_KR">
@@ -76,10 +76,10 @@
 		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="ko_KR">
 			<Text>새로 훈련한 건설자가 1회의 추가 건설 횟수를 얻습니다.</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_SHIELD_NAME" Language="ko_KR">
-			<Text>방패의 신</Text>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_PROTECTION_NAME" Language="ko_KR">
+			<Text>보호의 여신</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_SHIELD_DESCRIPTION" Language="ko_KR">
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_PROTECTION_DESCRIPTION" Language="ko_KR">
 			<Text>방어 건물에 대한 [ICON_Production] 생산력 +50%, 도시의 [ICON_Strength] 방어력 +7, 도시의 [ICON_Ranged] 원거리 전투력 +10을 얻습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">

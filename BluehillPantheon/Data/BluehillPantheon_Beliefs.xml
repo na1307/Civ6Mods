@@ -5,17 +5,17 @@
 <GameData>
 	<Types>
 		<Row Type="BELIEF_LADY_OF_COAST" Kind="KIND_BELIEF"/>
-		<Row Type="BELIEF_MARSH_GODDESS" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_MYSTIC_OF_WETLANDS" Kind="KIND_BELIEF"/>
 		<Row Type="BELIEF_GOD_OF_AGRICULTURE" Kind="KIND_BELIEF"/>
 		<Row Type="BELIEF_GOD_OF_CREATION" Kind="KIND_BELIEF"/>
-		<Row Type="BELIEF_GOD_OF_SHIELD" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GODDESS_OF_PROTECTION" Kind="KIND_BELIEF"/>
 	</Types>
 	<Beliefs>
 		<Row BeliefType="BELIEF_LADY_OF_COAST" Name="LOC_BELIEF_LADY_OF_COAST_NAME" Description="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<Row BeliefType="BELIEF_MARSH_GODDESS" Name="LOC_BELIEF_MARSH_GODDESS_NAME" Description="LOC_BELIEF_MARSH_GODDESS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+		<Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS" Name="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Description="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_GOD_OF_AGRICULTURE" Name="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Description="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 		<Row BeliefType="BELIEF_GOD_OF_CREATION" Name="LOC_BELIEF_GOD_OF_CREATION_NAME" Description="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD" Name="LOC_BELIEF_GOD_OF_SHIELD_NAME" Description="LOC_BELIEF_GOD_OF_SHIELD_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION" Name="LOC_BELIEF_GODDESS_OF_PROTECTION_NAME" Description="LOC_BELIEF_GODDESS_OF_PROTECTION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
 	</Beliefs>
 	<Modifiers>
 		<Row>
@@ -24,22 +24,22 @@
 			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_FEATURE_ADJACENCY</ModifierType>
 			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_FEATURE_ADJACENCY</ModifierType>
 			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_FEATURE_ADJACENCY</ModifierType>
 			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_FEATURE_ADJACENCY</ModifierType>
 			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -64,57 +64,57 @@
 			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_OUTERDEFENSE</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_OUTERDEFENSE_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_RANGEDSTRIKE</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_RANGEDSTRIKE_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE</ModifierType>
 		</Row>
 	</Modifiers>
@@ -145,102 +145,102 @@
 			<Value>LOC_DISTRICT_COAST_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HOLY_SITE</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_MARSH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 			<Name>Description</Name>
 			<Value>LOC_DISTRICT_MARSH_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HOLY_SITE</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_FLOODPLAINS_PLAINS</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Description</Name>
 			<Value>LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HOLY_SITE</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_FLOODPLAINS_GRASSLAND</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Description</Name>
 			<Value>LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HOLY_SITE</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_FLOODPLAINS</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 			<Name>Description</Name>
 			<Value>LOC_DISTRICT_FLOODPLAINS_FAITH</Value>
 		</Row>
@@ -270,82 +270,82 @@
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_WALLS_PRODUCTION_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_WALLS</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_CASTLE_PRODUCTION_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_CASTLE</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_STAR_FORT_PRODUCTION_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_STAR_FORT</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_TSIKHE_PRODUCTION_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_TSIKHE</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_OUTERDEFENSE</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_OUTERDEFENSE_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_OUTERDEFENSE_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>7</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_RANGEDSTRIKE</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOD_OF_SHIELD_RANGEDSTRIKE_MODIFIER</Value>
+			<Value>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOD_OF_SHIELD_RANGEDSTRIKE_MODIFIER</ModifierId>
+			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
@@ -354,17 +354,17 @@
 		<Row BeliefType="BELIEF_LADY_OF_COAST">
 			<ModifierId>LADY_OF_COAST_FAITHCOASTADJACENCY</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_MARSH_GODDESS">
-			<ModifierId>MARSH_GODDESS_FAITHMARSHADJACENCY</ModifierId>
+		<Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS">
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHMARSHADJACENCY</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_MARSH_GODDESS">
-			<ModifierId>MARSH_GODDESS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
+		<Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS">
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHPLAINSFLOODPLAINSADJACENCY</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_MARSH_GODDESS">
-			<ModifierId>MARSH_GODDESS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
+		<Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS">
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHGRASSFLOODPLAINSADJACENCY</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_MARSH_GODDESS">
-			<ModifierId>MARSH_GODDESS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
+		<Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS">
+			<ModifierId>MYSTIC_OF_WETLANDS_FAITHDESERTFLOODPLAINSADJACENCY</ModifierId>
 		</Row>
 		<Row BeliefType="BELIEF_GOD_OF_AGRICULTURE">
 			<ModifierId>GOD_OF_AGRICULTURE_BONUS_FARM_PRODUCTION</ModifierId>
@@ -372,23 +372,23 @@
 		<Row BeliefType="BELIEF_GOD_OF_CREATION">
 			<ModifierId>GOD_OF_CREATION_BUILDERCHARGE</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_WALLS_PRODUCTION</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_CASTLE_PRODUCTION</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_STAR_FORT_PRODUCTION</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_TSIKHE_PRODUCTION</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_OUTERDEFENSE</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
 		</Row>
-		<Row BeliefType="BELIEF_GOD_OF_SHIELD">
-			<ModifierId>GOD_OF_SHIELD_RANGEDSTRIKE</ModifierId>
+		<Row BeliefType="BELIEF_GODDESS_OF_PROTECTION">
+			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
 		</Row>
 	</BeliefModifiers>
 	<RequirementSets>
