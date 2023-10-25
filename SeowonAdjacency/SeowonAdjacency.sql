@@ -1,4 +1,4 @@
-﻿-- SeowonAdjacency
+-- SeowonAdjacency
 -- Author: Bluehill
 -- DateCreated: 2023-09-13 오후 6:50:15
 --------------------------------------------------------------

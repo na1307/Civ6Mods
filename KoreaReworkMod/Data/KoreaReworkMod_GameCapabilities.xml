@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KoreaReworkMod_GameCapabilities -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-25 오전 11:41:49 -->
+<GameData>
+	<Types>
+		<Row Type="CAPABILITY_SEOWONREWORK" Kind="KIND_CAPABILITY" />
+	</Types>
+	<GameCapabilities>
+		<Row GameCapability="CAPABILITY_SEOWONREWORK" />
+	</GameCapabilities>
+</GameData>
