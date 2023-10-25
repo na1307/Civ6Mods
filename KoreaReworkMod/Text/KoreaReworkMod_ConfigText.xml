@@ -37,7 +37,7 @@
 			<Text>Seowon Rework Mode</Text>
 		</Replace>
 		<Replace Tag="LOC_GAMEMODE_SEOWONREWORK_DESCRIPTION" Language="en_US">
-			<Text>When using this mod, the Seowon's base adjacency bonus and tile improvement adjacency bonus are removed, and new adjacency bonuses are gained.</Text>
+			<Text>When using this mode, the Seowon's base adjacency bonus and tile improvement adjacency bonus are removed, and new adjacency bonuses are gained.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SEOWON_SEOWONREWORK_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +2 [ICON_Science] Science for each adjacent mountain and natural wonder tiles. Must be built on Hills.</Text>
