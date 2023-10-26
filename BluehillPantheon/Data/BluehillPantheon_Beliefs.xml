@@ -61,60 +61,6 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_BUILDER_CHARGES</ModifierType>
 			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
 		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE</ModifierType>
-		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -267,86 +213,6 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_WALLS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_CASTLE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_STAR_FORT</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_TSIKHE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
 	</ModifierArguments>
 	<BeliefModifiers>
 		<Row BeliefType="BELIEF_LADY_OF_COAST">
@@ -372,25 +238,6 @@
 		</Row>
 		<Row BeliefType="BELIEF_GOD_OF_CREATION">
 			<ModifierId>CITY_PATRON_GODDESS_DISTRICT_PRODUCTION</ModifierId>
-		</Row>
-		<Delete BeliefType="BELIEF_CITY_PATRON_GODDESS"/>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_WALLS_PRODUCTION</ModifierId>
-		</Row>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_CASTLE_PRODUCTION</ModifierId>
-		</Row>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_STAR_FORT_PRODUCTION</ModifierId>
-		</Row>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_TSIKHE_PRODUCTION</ModifierId>
-		</Row>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_OUTERDEFENSE</ModifierId>
-		</Row>
-		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS">
-			<ModifierId>GODDESS_OF_PROTECTION_RANGEDSTRIKE</ModifierId>
 		</Row>
 	</BeliefModifiers>
 	<RequirementSets>
