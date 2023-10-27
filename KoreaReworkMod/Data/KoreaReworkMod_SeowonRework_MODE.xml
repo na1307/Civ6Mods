@@ -10,27 +10,22 @@
 		</Update>
 	</Districts>
 	<District_Adjacencies>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountain_2Science1"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountain_2Science2"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountain_2Science3"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountain_2Science4"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountain_2Science5"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="River_2Science"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="NaturalWonder_2Science"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Holy_Site_2Science"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Lavra_2Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountains_Science1"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountains_Science2"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountains_Science3"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountains_Science4"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Mountains_Science5"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="River_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="NaturalWonder_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Holy_Site_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Lavra_Science"/>
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Government_Science"/>
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="District_Science"/>
 	</District_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="Mountain_2Science1" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE1" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
-		<Row ID="Mountain_2Science2" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE2" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
-		<Row ID="Mountain_2Science3" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE3" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
-		<Row ID="Mountain_2Science4" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE4" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
-		<Row ID="Mountain_2Science5" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE5" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
-		<Row ID="River_2Science" Description="LOC_DISTRICT_RIVER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentRiver="true"/>
-		<Row ID="NaturalWonder_2Science" Description="LOC_DISTRICT_NATURALWONDER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentNaturalWonder="true"/>
-		<Row ID="Holy_Site_2Science" Description="LOC_DISTRICT_HOLY_SITE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
-		<Row ID="Lavra_2Science" Description="LOC_DISTRICT_LAVRA_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row ID="River_Science" Description="LOC_DISTRICT_RIVER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentRiver="true"/>
+		<Row ID="NaturalWonder_Science" Description="LOC_DISTRICT_NATURALWONDER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentNaturalWonder="true"/>
+		<Row ID="Holy_Site_Science" Description="LOC_DISTRICT_HOLY_SITE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Lavra_Science" Description="LOC_DISTRICT_LAVRA_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
 	</Adjacency_YieldChanges>
 </GameData>
