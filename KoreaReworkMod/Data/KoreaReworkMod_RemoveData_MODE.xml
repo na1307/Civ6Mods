@@ -6,6 +6,9 @@
 	<District_Adjacencies>
 		<Delete DistrictType="DISTRICT_SEOWON"/>
 	</District_Adjacencies>
+	<District_ValidTerrains>
+		<Delete DistrictType="DISTRICT_SEOWON"/>
+	</District_ValidTerrains>
 	<Improvement_Adjacencies>
 		<Delete ImprovementType="IMPROVEMENT_MINE" YieldChangeId="Mine_ScienceSeowonAdjacency"/>
 		<Delete ImprovementType="IMPROVEMENT_FARM" YieldChangeId="Farm_FoodSeowonAdjacency"/>

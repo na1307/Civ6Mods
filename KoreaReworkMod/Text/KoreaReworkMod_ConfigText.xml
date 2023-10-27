@@ -34,13 +34,13 @@
 			<Text>Korean unique Classical era melee unit when Seondeok is their leader. Earns [ICON_Culture] Culture and [ICON_Faith] Faith from kills.</Text>
 		</Replace>
 		<Replace Tag="LOC_GAMEMODE_SEOWONREWORK_NAME" Language="en_US">
-			<Text>Seowon Rework Mode</Text>
+			<Text>More Historical Seowon Mode</Text>
 		</Replace>
 		<Replace Tag="LOC_GAMEMODE_SEOWONREWORK_DESCRIPTION" Language="en_US">
-			<Text>When using this mode, the Seowon's base adjacency bonus and tile improvement adjacency bonus are removed, and new adjacency bonuses are gained.</Text>
+			<Text>When using this mode, the Seowon's base adjacency bonus and tile improvement adjacency bonus, hills requirement are removed, and new adjacency bonuses are gained.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SEOWON_SEOWONREWORK_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +2 [ICON_Science] Science for each adjacent mountain and natural wonder tiles. Must be built on Hills.</Text>
+			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +2 [ICON_Science] Science for each adjacent Mountain, Natural Wonder and Holy Site tiles. +2 [ICON_Science] Science if adjacent to a river.</Text>
 		</Replace>
 
 		<!-- 한국어 -->
@@ -69,10 +69,10 @@
 			<Text>서원 개편 모드</Text>
 		</Replace>
 		<Replace Tag="LOC_GAMEMODE_SEOWONREWORK_DESCRIPTION" Language="ko_KR">
-			<Text>이 모드를 사용하면 서원의 기본 인접 보너스와 시설 인접 보너스가 제거되고, 새로운 인접 보너스를 받습니다.</Text>
+			<Text>이 모드를 사용하면 서원의 기본 인접 보너스와 시설 인접 보너스, 언덕 요구 사항이 제거되고, 새로운 인접 보너스를 받습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SEOWON_SEOWONREWORK_DESCRIPTION" Language="ko_KR">
-			<Text>한국 특유의 과학 발전을 위한 특수지구로 캠퍼스 특수지구를 대체합니다. 인접한 산과 자연경관 타일마다 [ICON_Science] 과학 +2를 받습니다. 언덕에 지어야 합니다.</Text>
+			<Text>한국 특유의 과학 발전을 위한 특수지구로 캠퍼스 특수지구를 대체합니다. 인접한 산, 자연경관 및 성지 타일마다 [ICON_Science] 과학 +2를 얻습니다. 강에 인접하면 [ICON_Science] 과학 +2를 얻습니다.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
