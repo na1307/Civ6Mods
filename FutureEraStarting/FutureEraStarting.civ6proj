@@ -18,19 +18,30 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="DLC: Byzantium and Gaul Pack" id="A1100FC4-70F2-4129-AC27-2A65A685ED08" />
   <Reference type="Dlc" title="DLC: Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
 </Associations>]]></AssociationData>
     <AssemblyName>FutureEraStarting</AssemblyName>
     <RootNamespace>FutureEraStarting</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/FutureEraStating_Eras.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Preserve"><Criteria>Preserve</Criteria><File>Data/FutureEraStating_KublaiKhan_Vietnam.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Preserve"><ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/FutureEraStarting_Buildings.xml</File><File>Data/FutureEraStating_Eras.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Amundsen"><Criteria>Amundsen</Criteria><File>Data/FutureEraStarting_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Biosphere"><Criteria>Biosphere</Criteria><File>Data/FutureEraStarting_Byzantium_Gaul.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Preserve"><Criteria>Preserve</Criteria><File>Data/FutureEraStating_KublaiKhan_Vietnam.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Amundsen"><ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse></Criteria><Criteria id="Biosphere"><ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse></Criteria><Criteria id="Preserve"><ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="FrontData"><File>Data/FutureEraStarting_ConfigData.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Data\FutureEraStarting_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FutureEraStarting_Byzantium_Gaul.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\FutureEraStarting_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FutureEraStarting_Expansion1.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\FutureEraStating_Eras.xml">

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- FutureEraStarting_Byzantium_Gaul -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-29 오후 2:41:19 -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_BIOSPHERE"/>
+			<Set ObsoleteEra="ERA_FUTURE"/>
+		</Update>
+	</Buildings>
+</GameData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- FutureEraStarting_Expansion1 -->
+<!-- Author: na1307 -->
+<!-- DateCreated: 2023-10-29 오후 2:40:20 -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+			<Set ObsoleteEra="ERA_FUTURE"/>
+		</Update>
+	</Buildings>
+</GameData>

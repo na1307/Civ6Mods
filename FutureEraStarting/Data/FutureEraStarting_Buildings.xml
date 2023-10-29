@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- FutureEraStarting_Buildings -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-29 오후 2:36:04 -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_ESTADIO_DO_MARACANA"/>
+			<Set ObsoleteEra="ERA_FUTURE"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/>
+			<Set ObsoleteEra="ERA_FUTURE"/>
+		</Update>
+	</Buildings>
+</GameData>
