@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # ModBuddy Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "DistrictTweak", "DistrictTweak.civ6proj", "{5585BF11-ECE4-4E54-8868-EFAC42C39190}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "RomanFort", "RomanFort.civ6proj", "{6EC28838-A5A8-412A-9A4E-6F8D7D9C900D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Civ6 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5585BF11-ECE4-4E54-8868-EFAC42C39190}.Default|Civ6.ActiveCfg = Default|Civ6
-		{5585BF11-ECE4-4E54-8868-EFAC42C39190}.Default|Civ6.Build.0 = Default|Civ6
+		{6EC28838-A5A8-412A-9A4E-6F8D7D9C900D}.Default|Civ6.ActiveCfg = Default|Civ6
+		{6EC28838-A5A8-412A-9A4E-6F8D7D9C900D}.Default|Civ6.Build.0 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
