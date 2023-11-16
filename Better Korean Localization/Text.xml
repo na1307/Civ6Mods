@@ -220,6 +220,9 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="ko_KR">
 			<Text>해군 활동을 위한 도시의 특수지구입니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다. 산호초 위에 지을 수 없습니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="ko_KR">
+			<Text>네덜란드 특유의 간척지를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량 +1, [ICON_Production] 생산력 +1, [ICON_Housing] 주거공간 +0.5를 제공합니다. 다른 간척지 시설에 인접하면 [ICON_FOOD] 식량 +1을 제공합니다. 기술 발전표와 사회 제도 진보에 따라 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 금, [ICON_FOOD] 식량이 추가됩니다. 3개 이상의 지나갈 수 있는 지상 타일에 인접한 해안이나 호수 타일에 배치해야 합니다. 타일의 [ICON_Movement] 이동 비용이 3으로 증가합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="ko_KR">
 			<Text>가장 활성화된 동맹 레벨에 대해 극장가 특수지구가 인접 보너스 +50%를 획득합니다.</Text>
 		</Replace>
@@ -279,6 +282,9 @@
 		<Replace Tag="LOC_GREATPERSON_LEIF_ERIKSON_EXPANSION2_ACTIVE" Language="ko_KR">
 			<Text>모든 해상 유닛의 시야 +1. 모든 해상 유닛이 일반적인 기술 요구사항을 충족하지 않고도 해양 타일을 건널 수 있습니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="ko_KR">
+			<Text>스코틀랜드 특유의 골프 코스를 지을 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_AMENITIES] 쾌적도 +2, [ICON_GOLD] 금 +2를 제공합니다. 도심부 특수지구에 인접하면 [ICON_CULTURE] 문화 +1, 유흥단지 특수지구에 인접하면 [ICON_CULTURE] 문화 +1을 제공합니다. 기술 발전표와 사회 제도 진보에 따라 [ICON_TOURISM] 관광 및 [ICON_HOUSING] 주거공간이 추가됩니다. 사막이나 사막 언덕에 배치할 수 없으며 도시당 하나만 가능합니다. 골프 코스가 있는 타일은 교체할 수 없습니다. 매력도 +1을 제공합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="ko_KR">
 			<Text>건설자의 카호키아 마운드 건설 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
 		</Replace>
@@ -329,6 +335,9 @@
 		</Replace>
 
 		<!-- GranColombia_Maya -->
+		<Replace Tag="LOC_ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_Capital] 수도 6타일 이내의 유닛에 [ICON_Strength] 전투력 +5를 부여합니다(익스 무탈 아하우).</Text>
+		</Replace>
 		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_NAME" Language="ko_KR">
 			<Text>젊음의 샘</Text>
 		</Replace>
@@ -338,19 +347,61 @@
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_NAME" Language="ko_KR">
 			<Text>아시엔다</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_SOOTHSAYER_INCANTATION_DESCRIPTION" Language="ko_KR">
+			<Text>사용 횟수 +1을 얻습니다. 인접 유닛에 [ICON_Strength] 전투력 +5를 부여합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SOOTHSAYER_INQUISITOR_DESCRIPTION" Language="ko_KR">
+			<Text>사용 횟수 +1과 스텔스 능력을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SOOTHSAYER_MESSENGER_DESCRIPTION" Language="ko_KR">
+			<Text>사용 횟수 +1과 [ICON_Movement] 이동력 +2를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SOOTHSAYER_PLAGUE_BEARER_DESCRIPTION" Language="ko_KR">
+			<Text>사용 횟수 +1을 얻습니다. 인접 적 도시는 자동으로 포위됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SOOTHSAYER_ZEALOT_DESCRIPTION" Language="ko_KR">
+			<Text>사용 횟수 +2를 얻습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="ko_KR">
 			<Text>담수와 해안 근처에 정착해도 추가 [ICON_HOUSING] 주거공간을 제공하지 않습니다. 대신에 각 농장이 추가로 [ICON_HOUSING] 주거공간 +1과 [ICON_GOLD] 금 +1, 인접한 천문대마다 [ICON_PRODuction] 생산력 +1을 제공합니다. 도심부에 인접한 사치 자원마다 [ICON_AMENITIES] 쾌적도 +1을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="ko_KR">
+			<Text>게임이 새 시대에 진입하면 사령관을 얻습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_NAME" Language="ko_KR">
 			<Text>경이로운 원정</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_NAME" Language="ko_KR">
+			<Text>익스 무탈 아하우</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION" Language="ko_KR">
+			<Text>기병대를 대체하는 그란 콜롬비아 특유의 산업 시대 유닛입니다. 유지 비용이 낮습니다. 인접한 각 야네로에게서 [ICON_Strength] 전투력 +2를 얻습니다. 퇴장 능력을 활성화하는 사령관의 범위 내에 있으면 체력을 모두 회복합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_DESCRIPTION" Language="ko_KR">
+			<Text>시몬 볼리바르만 이용할 수 있는 특별 유형의 위인입니다. 각각 패시브 효과와 퇴장 효과를 포함하는 특유의 능력을 가집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LAHORE_NIHANG_DESCRIPTION" Language="ko_KR">
+			<Text>고유한 진급 트리를 보유한 라호르 도시 국가 특유의 유닛입니다. [ICON_Faith] 신앙으로 구매할 수 있습니다. 병영, 무기고, 사관 학교 건물을 처음 건설하면 [ICON_Strength] 전투력이 증가합니다.</Text>
+		</Replace>
 
 		<!-- Ethiopia -->
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="ko_KR">
+			<Text>황금여명회 특유의 건물로 대학교를 대체합니다. 이 캠퍼스 특수지구는 [ICON_Science] 과학 인접 보너스 만큼의 [ICON_Gold] 금을 제공합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_CHANCERY_NAME" Language="ko_KR">
 			<Text>외교 공관</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION" Language="ko_KR">
+			<Text>미네르바의 부엉이 특유의 건물로 은행을 대체합니다. 이 상업 중심지는 [ICON_Gold] 금 인접 보너스 만큼의 [ICON_CULTURE] 문화를 제공합니다. 도시에 항만이 있으면 [ICON_TradeRoute] 교역로 최대치가 +1 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SANGUINE_PACT_3_NAME" Language="ko_KR">
+			<Text>보이보드</Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="ko_KR">
 			<Text>에티오피아 특유의 암굴 교회를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Faith] 신앙 +1을 제공합니다. 인접한 산 및 언덕 타일마다 [ICON_Faith] 신앙 +1을 제공합니다. 비행 연구 후 [ICON_FAITH] 신앙으로 [ICON_TOURISM] 관광을 제공합니다. 매력도 +1을 제공합니다. 자연재해로 인해 약탈당할 수 있지만, 파괴되지는 않습니다. 다른 암굴 교회에 인접하지 않은 언덕 또는 화산토에만 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_VAMPIRE_CASTLE_DESCRIPTION" Language="ko_KR">
+			<Text>플레이어가 소유한 영토 또는 중립 영토에 뱀파이어가 건설할 수 있습니다. 타일 위의 유닛에게 방어 태세를 부여합니다. 건설 시 인접 타일에게서 생산량을 복제하여 뱀파이어 성 타일에 추가하고, 타일의 생산량을 [ICON_Capital] 수도에 부여합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="ko_KR">
 			<Text>모든 방송 센터 및 외교 공관 건물에 [ICON_Culture] 문화 +3.</Text>
