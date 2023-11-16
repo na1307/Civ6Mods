@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- DistrictTweak_Ethiopia -->
+<!-- Author: Bluehill -->
+<!-- DateCreated: 2023-10-22 오후 1:05:28 -->
+<GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_DIPLOMATIC_QUARTER"/>
+			<Set Appeal="1"/>
+		</Update>
+	</Districts>
+</GameData>

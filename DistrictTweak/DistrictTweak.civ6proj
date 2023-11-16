@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>DistrictTweak</Name>
+    <Guid>6fe10b17-9c2b-43af-b215-65966e5faee7</Guid>
+    <ProjectGuid>5585bf11-ece4-4e54-8868-efac42c39190</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="DLC: Ethiopia Pack" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
+</Associations>]]></AssociationData>
+    <AssemblyName>DistrictTweak</AssemblyName>
+    <RootNamespace>DistrictTweak</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="InGameData"><File>Data/DistrictTweak_Districts.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Ethiopia"><Criteria>DistrictTweak_Ethiopia</Criteria><File>Data/DistrictTweak_Ethiopia.xml</File></UpdateDatabase><UpdateText id="InGameText"><File>Text/DistrictTweak_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="DistrictTweak_Ethiopia"><ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\DistrictTweak_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\DistrictTweak_Ethiopia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\DistrictTweak_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
