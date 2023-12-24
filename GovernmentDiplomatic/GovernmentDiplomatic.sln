@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# ModBuddy Solution File, Format Version 12.00
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "GovernmentDiplomatic", "GovernmentDiplomatic.civ6proj", "{A091BD4E-BE19-4FA8-ACCA-D92FA895CE7C}"
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "GovernmentDiplomatic", "GovernmentDiplomatic.civ6proj", "{A091BD4E-BE19-4FA8-ACCA-D92FA895CE7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +15,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {310B3B27-ABFB-4570-B231-B6413C6FD55D}
 	EndGlobalSection
 EndGlobal
