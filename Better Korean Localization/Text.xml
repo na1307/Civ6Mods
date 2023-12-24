@@ -131,6 +131,18 @@
 		<Replace Tag="LOC_PROMOTION_SHELLS_DESCRIPTION" Language="ko_KR">
 			<Text>특수지구 방어 시설 대항 시 [ICON_Strength] 전투력 +10.</Text>
 		</Replace>
+		<Replace Tag="LOC_RAZE_CITY_KEEP_EXPLANATION" Language="ko_KR">
+			<Text>우선은 이 도시를 당신의 제국에 둡니다. 전후 소유권이 평화 협상에서 논의될 때까지 이 도시는 덜 생산적이고 점령된 도시가 됩니다.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+		</Replace>
+		<Replace Tag="LOC_RAZE_CITY_KEEP_EXPLANATION_TRADED" Language="ko_KR">
+			<Text>이 도시를 당신의 제국에 둡니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_RAZE_CITY_RAZE_DISABLED_EXPLANATION" Language="ko_KR">
+			<Text>주요 문명의 원래 수도나 이 전쟁이 시작될 때의 당신이나 동맹이 건설했거나 소유했던 도시는 파괴할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_RAZE_CITY_RAZE_EXPLANATION" Language="ko_KR">
+			<Text>도시를 파괴하면 지도에서 도시와 모든 특수지구, 건물을 제거합니다. 이 옵션은 도시가 정복된 턴에 선택해야 합니다.[NEWLINE][NEWLINE]{1_WarmongerInfo}</Text>
+		</Replace>
 		<Replace Tag="LOC_RESOURCE_NITER_NAME" Language="ko_KR">
 			<Text>초석</Text>
 		</Replace>
@@ -217,6 +229,11 @@
 			<Text>불사부대</Text>
 		</Replace>
 
+		<!-- Nubia_Amanitore -->
+		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="ko_KR">
+			<Text>모든 특수지구에 대한 [ICON_Production] 생산력 +20%, 누비아 피라미드가 도심부에 인접하면 +40%를 제공합니다.</Text>
+		</Replace>
+
 		<!-- Indonesia_Khmer -->
 		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="ko_KR">
 			<Text>인도네시아 특유의 캄풍을 지을 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_PRODUCTION] 생산력 +1과 [ICON_Housing] 주거공간 +1을 제공합니다. 인접한 어선마다 [ICON_FOOD] 식량 +1을 제공합니다. 기술 발전표와 사회 제도표의 진전에 따라 추가 [ICON_PRODUCTION] 생산력, [ICON_Housing] 주거공간과 [ICON_TOURISM] 관광을 제공합니다. 해양 자원과 인접한 해안 또는 호수 타일에 배치되어야 합니다.</Text>
@@ -226,14 +243,59 @@
 		</Replace>
 
 		<!-- Expansion1 -->
+		<Replace Tag="LOC_AGENDA_SYCOPHANT_DESCRIPTION" Language="ko_KR">
+			<Text>황금기를 달성한 문명에 깊은 인상을 받습니다. 암흑기에 있는 문명을 싫어합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SYMPATHIZER_DESCRIPTION" Language="ko_KR">
+			<Text>암흑기를 겪고 있는 문명을 안타깝게 생각합니다. 황금기에 있는 문명을 싫어합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AQUARIUM_NAME" Language="ko_KR">
+			<Text>수족관</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="ko_KR">
+			<Text>적 도시를 점령하면 5턴 동안 모든 도시에 20%의 보너스 [ICON_Production] 생산력이 부여됩니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="ko_KR">
+			<Text>모든 걸작을 위한 슬롯을 4개 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_Faith] 신앙으로 지상 유닛을 구입할 수 있는 능력을 부여합니다.[NEWLINE]시설 및 특수지구 약탈 시 [ICON_Faith] 신앙 보너스를 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="ko_KR">
+			<Text>모든 유닛은 유닛을 제거할 때 최대 20의 체력을 회복합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_NAME" Language="ko_KR">
+			<Text>전쟁부</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="ko_KR">
+			<Text>건설자가 모든 건설 횟수를 사용하여 특수지구 프로젝트에 보너스 [ICON_Production] 생산력을 제공하는 능력을 얻습니다. 도시마다 턴당 1번 사용할 수 있습니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="ko_KR">
+			<Text>스파이 및 스파이 최대치 +1을 제공합니다.[NEWLINE]모든 스파이 작전의 성공 확률이 증가합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_Governor] 총독이 있는 도시는 [ICON_Amenities] 쾌적도 +2 및 [ICON_Housing] 주거공간 +4를 얻습니다.[NEWLINE][ICON_Governor] 총독이 없는 도시는 충성심 -2를 얻습니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="ko_KR">
+			<Text>이 도시의 개척자에 대한 [ICON_Production] 생산력이 50% 증가합니다.[NEWLINE]새로운 도시에 무료 건설자를 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION" Language="ko_KR">
 			<Text>이 도시에서 턴당 충성심 +1을 제공합니다. 도시의 충성심이 이미 최대인 경우 [ICON_Culture] 문화 +1을 추가로 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TSIKHE_DESCRIPTION_XP2" Language="ko_KR">
 			<Text>조지아 특유의 건물입니다. 르네상스 성벽보다 [ICON_Production] 생산력 비용이 낮으며, 외곽 방어력이 높습니다. 보존 사회 제도로 발전 후 [ICON_TOURISM] 관광 +3이 제공됩니다. [ICON_Faith] 신앙 +4를 제공합니다. 황금기에는 [ICON_TOURISM] 관광 및 [ICON_FAITH] 신앙 +100%를 제공합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_DISLOYAL_CITY_CHOOSER_KEEP_EXPLANATION" Language="ko_KR">
+			<Text>이 도시를 유지합니다. [ICON_Governor] 총독을 여기로 이동하여 제국에 합류하는 새로운 시민의 충성심을 강화하는 것이 좋습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISLOYAL_CITY_CHOOSER_REFUSE_EXPLANATION" Language="ko_KR">
+			<Text>이 도시가 당신의 제국에 합류하는 것을 거절합니다. 해당 도시가 자유 도시로 남게 됩니다.[NEWLINE][NEWLINE]이 도시는 당신의 도시와 총독의 충성심 영향력에 면역이 되고 다시는 당신의 문명에 합류하도록 요청하지 않습니다. 여전히 다른 문명에 합류할 수는 있습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="ko_KR">
 			<Text>금융과 교역에 특화된 도시의 특수지구입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="ko_KR">
+			<Text>정부 선택을 기념하기 위해 제국에 한 번만 배치되는 특수지구입니다. 이 도시에 턴당 충성심 +8을 제공하고, 인접한 특수지구가 얻는 인접 보너스가 +1 증가합니다. [Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="ko_KR">
 			<Text>해군 활동을 위한 도시의 특수지구입니다. 이 타일에서 승선 또는 하선할 경우 [ICON_Movement] 이동력 페널티가 없습니다. 육지 옆 해안 또는 호수 지형에 지어야 합니다. 산호초 위에 지을 수 없습니다.</Text>
@@ -253,6 +315,9 @@
 		<Replace Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_DESCRIPTION" Language="ko_KR">
 			<Text>핵무기 유지에 필요한 턴당 [ICON_Gold] 금이 50% 감소합니다.</Text>
 		</Replace>
+		<Replace Tag="LOC_RAZE_CITY_LIBERATE_EXPLANATION" Language="ko_KR">
+			<Text>도시를 해방하면 이전 소유자 중 한 명에게 반환되며, 해당 문명이 게임에 다시 등장할 수도 있습니다.[NEWLINE][NEWLINE]{1_WarmongerInfo}[NEWLINE][NEWLINE]이 도시는 당신의 도시와 총독의 충성심 영향력에 면역이 됩니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="ko_KR">
 			<Text>[ICON_TradeRoute] 교역로 연결을 시작하면 목적지 도시에 즉시 [ICON_TradingPost] 교역소가 설립됩니다. 문명의 어떤 도시에든 [ICON_TradingPost] 교역소를 소유하면 [ICON_VisLimited] 외교 시정이 추가로 높아집니다. 상대보다 높은 레벨의 [ICON_VisLimited] 외교 시정을 가질 경우 모든 몽골 유닛은 일반적인 [ICON_Strength] 전투력 보너스의 두 배를 얻습니다.</Text>
 		</Replace>
@@ -270,11 +335,17 @@
 		</Replace>
 
 		<!-- Expansion2 -->
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_Favor] 외교적 환심 +3을 제공합니다. 도시 국가 징병에 필요한 [ICON_Gold] 금이 절반이 됩니다.[NEWLINE]플레이어가 도시 국가의 종주국인 경우 도시 국가 유닛이 [ICON_Strength] 전투력 +4를 얻습니다. (징집된 유닛 포함)[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="ko_KR">
 			<Text>대욕장이 있는 강가의 범람원 타일은 홍수 피해에 면역이 됩니다(홍수로 인한 [ICON_FOOD] 식량 및 [ICON_PRODUCTION] 생산력 보너스는 50% 감소함). 이 도시의 범람원 타일은 홍수 피해가 완화될 때마다 [ICON_FAITH] 신앙 +1을 얻습니다.[NEWLINE][NEWLINE]범람원 타일에 건설해야 합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="ko_KR">
 			<Text>이 도시에서 훈련된 모든 해상 유닛이 얻는 전투 경험치가 +25% 증가합니다. 항만 특수지구의 인접 보너스만큼 [ICON_Production] 생산력 보너스가 부여됩니다. 이 도시의 개발되지 않은 모든 해안 및 호수 타일에 [ICON_PRODUCTION] 생산력 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" Language="ko_KR">
+			<Text>스웨덴 특유의 건물입니다. 이 건물은 [ICON_GreatWork_WRITING] 저서, [ICON_GreatWork_MUSIC] 음악 및 모든 유형의 [ICON_GreatWork_Landscape] 예술 슬롯 2개를 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Language="ko_KR">
 			<Text>여왕의 도서관</Text>
@@ -365,6 +436,24 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION" Language="ko_KR">
 			<Text>3개 이상의 걸작 슬롯이 있는 건물과 2개 이상의 걸작 슬롯이 있는 불가사의는 모든 슬롯을 채웠을 때 테마가 자동으로 지정됩니다. 정부 청사에 여왕의 도서관을 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="ko_KR">
+			<Text>징병된 유닛이 [ICON_Movement] 이동력 +2와 [ICON_Strength] 전투력 +5를 얻는 능력을 얻습니다. 징병 유닛을 업그레이드하는 데 드는 [ICON_GOLD] 금과 자원 비용이 75% 감소합니다. 도시 국가에서 군대를 징집하면 해당 도시 국가의 [ICON_ENVOY] 사절 2명을 받습니다. 성 기술을 연구하면 특유 유닛인 검은 군대를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_RAZE_CITY_KEEP_FREE_CITY_EXPLANATION" Language="ko_KR">
+			<Text>이 자유 도시를 유지한다고 해서 다른 플레이어들에게 [ICON_STAT_GRIEVANCE] 적대감을 발생시키지는 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_RAZE_CITY_KEEP_LAST_CITY_EXPLANATION" Language="ko_KR">
+			<Text>이 상대방의 마지막 도시를 유지하면 모든 주요 세력에게 우리에 대한 [ICON_STAT_GRIEVANCE] 적대감 {1_Amount : number}을(를) 주게 됩니다(제거된 적과 전쟁 중인 다른 세력에 대해서는 이 효과가 감소함).</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_RAZE_CITY_KEEP_WARMONGER_EXPLANATION" Language="ko_KR">
+			<Text>이 도시를 유지하면 이 상대방에게 우리에 대한 [ICON_STAT_GRIEVANCE] 적대감 {1_Grievances}을(를) 주게 됩니다.[NEWLINE][NEWLINE]전쟁이 끝날 때 도시 유지 여부에 따라 [ICON_STAT_GRIEVANCE] 적대감이 사라지거나 두배가 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_RAZE_CITY_RAZE_FREE_CITY_EXPLANATION" Language="ko_KR">
+			<Text>도시를 파괴하면 지도에서 도시와 모든 특수지구, 건물을 제거합니다. 이 옵션은 도시가 정복된 턴에 선택해야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_RAZE_CITY_RAZE_LAST_CITY_EXPLANATION" Language="ko_KR">
+			<Text>이 상대방의 마지막 도시를 파괴하면 모든 주요 세력에게 우리에 대한 [ICON_STAT_GRIEVANCE] 적대감 {1_Amount : number}을(를) 주게 됩니다(제거된 적과 전쟁 중인 다른 세력에 대해서는 이 효과가 감소함).</Text>
 		</Replace>
 
 		<!-- GranColombia_Maya -->

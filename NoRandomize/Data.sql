@@ -1,0 +1,65 @@
+-- Data
+-- Author: Bluehill
+-- DateCreated: 2023-12-05 오후 8:00:01
+--------------------------------------------------------------
+
+--Description
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_MATHEMATICS', 'TECH_CELESTIAL_NAVIGATION');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_CURRENCY', 'TECH_IRRIGATION');
+
+DELETE FROM Technologies_XP2;
+DELETE FROM TechnologyRandomCosts;
+
+UPDATE Technologies SET UITreeRow = -3 WHERE TechnologyType = 'TECH_PREDICTIVE_SYSTEMS';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_PREDICTIVE_SYSTEMS', 'TECH_TELECOMMUNICATIONS');
+
+UPDATE Technologies SET UITreeRow = -2 WHERE TechnologyType = 'TECH_ADVANCED_AI';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_ADVANCED_AI', 'TECH_TELECOMMUNICATIONS');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_ADVANCED_AI', 'TECH_ROBOTICS');
+
+UPDATE Technologies SET UITreeRow = 1 WHERE TechnologyType = 'TECH_ADVANCED_POWER_CELLS';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_ADVANCED_POWER_CELLS', 'TECH_NUCLEAR_FUSION');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_ADVANCED_POWER_CELLS', 'TECH_NANOTECHNOLOGY');
+
+UPDATE Technologies SET UITreeRow = 2 WHERE TechnologyType = 'TECH_SMART_MATERIALS';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_SMART_MATERIALS', 'TECH_NANOTECHNOLOGY');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_SMART_MATERIALS', 'TECH_STEALTH_TECHNOLOGY');
+
+UPDATE Technologies SET Cost = 2400 WHERE TechnologyType = 'TECH_CYBERNETICS' OR TechnologyType = 'TECH_SEASTEADS' OR TechnologyType = 'TECH_OFFWORLD_MISSION';
+
+UPDATE Technologies SET UITreeRow = -2 WHERE TechnologyType = 'TECH_CYBERNETICS';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_CYBERNETICS', 'TECH_PREDICTIVE_SYSTEMS');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_CYBERNETICS', 'TECH_ADVANCED_AI');
+
+UPDATE Technologies SET UITreeRow = 0 WHERE TechnologyType = 'TECH_SEASTEADS';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_SEASTEADS', 'TECH_ADVANCED_AI');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_SEASTEADS', 'TECH_ADVANCED_POWER_CELLS');
+
+UPDATE Technologies SET UITreeRow = 2 WHERE TechnologyType = 'TECH_OFFWORLD_MISSION';
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_OFFWORLD_MISSION', 'TECH_SMART_MATERIALS');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_OFFWORLD_MISSION', 'TECH_ADVANCED_POWER_CELLS');
+
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_FUTURE_TECH', 'TECH_CYBERNETICS');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_FUTURE_TECH', 'TECH_SEASTEADS');
+INSERT INTO TechnologyPrereqs (Technology, PrereqTech) VALUES ('TECH_FUTURE_TECH', 'TECH_OFFWORLD_MISSION');
+
+DELETE FROM Civics_XP2;
+DELETE FROM CivicRandomCosts;
+
+DELETE FROM CivicPrereqs WHERE Civic = 'CIVIC_FUTURE_CIVIC';
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_GLOBAL_WARMING_MITIGATION', 'CIVIC_NEAR_FUTURE_GOVERNANCE');
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_SMART_POWER_DOCTRINE', 'CIVIC_NEAR_FUTURE_GOVERNANCE');
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_INFORMATION_WARFARE', 'CIVIC_NEAR_FUTURE_GOVERNANCE');
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_EXODUS_IMPERATIVE', 'CIVIC_NEAR_FUTURE_GOVERNANCE');
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_CULTURAL_HEGEMONY', 'CIVIC_NEAR_FUTURE_GOVERNANCE');
+
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_FUTURE_CIVIC', 'CIVIC_GLOBAL_WARMING_MITIGATION');
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_FUTURE_CIVIC', 'CIVIC_SMART_POWER_DOCTRINE');
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_FUTURE_CIVIC', 'CIVIC_INFORMATION_WARFARE');
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_FUTURE_CIVIC', 'CIVIC_EXODUS_IMPERATIVE');
+INSERT INTO CivicPrereqs (Civic, PrereqCivic) VALUES ('CIVIC_FUTURE_CIVIC', 'CIVIC_CULTURAL_HEGEMONY');
