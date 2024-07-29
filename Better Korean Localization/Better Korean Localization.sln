@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# ModBuddy Solution File, Format Version 12.00
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Better Korean Localization", "Better Korean Localization.civ6proj", "{67BA1BD4-A705-4E8E-8A4F-BEB9EE514739}"
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Better Korean Localization", "Better Korean Localization.civ6proj", "{67BA1BD4-A705-4E8E-8A4F-BEB9EE514739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +15,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F4F457C-68F6-4FCC-81FE-79C7A80F1D9B}
 	EndGlobalSection
 EndGlobal

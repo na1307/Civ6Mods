@@ -10,7 +10,7 @@
 		<Replace Tag="LOC_DTCP_TITLE" Language="en_US">
 			<Text>Disable Tech Civic Popup</Text>
 		</Replace>
-		
+
 		<!-- English -->
 		<Replace Tag="LOC_DTCP_TECH_CHECKBOX" Language="en_US">
 			<Text>Enable Tech completed popup</Text>

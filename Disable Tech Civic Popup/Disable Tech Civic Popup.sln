@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# ModBuddy Solution File, Format Version 12.00
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Disable Tech Civic Popup", "Disable Tech Civic Popup.civ6proj", "{0628A414-195F-4173-B9F8-ABF692FE6579}"
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Disable Tech Civic Popup", "Disable Tech Civic Popup.civ6proj", "{0628A414-195F-4173-B9F8-ABF692FE6579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +15,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31A24C31-B0EA-464C-976B-7F2DEAF3AA0D}
 	EndGlobalSection
 EndGlobal

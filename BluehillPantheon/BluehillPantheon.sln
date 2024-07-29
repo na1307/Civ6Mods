@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# ModBuddy Solution File, Format Version 12.00
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "BluehillPantheon", "BluehillPantheon.civ6proj", "{7354665A-B684-48FD-886D-C854EA9501A6}"
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "BluehillPantheon", "BluehillPantheon.civ6proj", "{7354665A-B684-48FD-886D-C854EA9501A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +15,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F3D506-4609-4461-8AC7-FAABB465ACE3}
 	EndGlobalSection
 EndGlobal
