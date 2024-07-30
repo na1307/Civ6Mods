@@ -3,96 +3,96 @@
 <!-- Author: Bluehill -->
 <!-- DateCreated: 2023-10-22 오후 1:47:45 -->
 <GameData>
-	<LocalizedText>
-		<!-- Remove Text -->
-		<Delete Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION"/>
+  <LocalizedText>
+    <!-- Remove Text -->
+    <Delete Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION"/>
 
-		<!-- English -->
-		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="en_US">
-			<Text>Lady of Coast</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="en_US">
-			<Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Coast and Lake tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="en_US">
-			<Text>Mystic of Wetlands</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="en_US">
-			<Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Marsh and Floodplains tiles.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="en_US">
-			<Text>God of Agriculture</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Production] Production from Farms over Bonus resources.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_NAME" Language="en_US">
-			<Text>God of Creation</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="en_US">
-			<Text>+25% [ICON_Production] Production toward districts in cities without a specialty district. Newly trained Builders gain 1 extra build action.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Production] Production towards defensive buildings. +5 City [ICON_Strength] Defense Strength. +5 City [ICON_Ranged] Ranged Strength.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast and Lake {1_Num : plural 1?tile; other?tiles;}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="en_US">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Marsh {1_Num : plural 1?tile; other?tiles;}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="en_US">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Plains Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="en_US">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Grassland Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="en_US">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Desert Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-		</Replace>
+    <!-- English -->
+    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="en_US">
+      <Text>Lady of Coast</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="en_US">
+      <Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Coast and Lake tiles.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="en_US">
+      <Text>Mystic of Wetlands</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="en_US">
+      <Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Marsh and Floodplains tiles.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="en_US">
+      <Text>God of Agriculture</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production from Farms over Bonus resources or Floodplains(+2 [ICON_Production] Production over Bonus resources on Floodplains).</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_CREATION_NAME" Language="en_US">
+      <Text>God of Creation</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="en_US">
+      <Text>+25% [ICON_Production] Production toward districts in cities without a specialty district. Newly trained Builders gain 1 extra build action.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_Production] Production towards defensive buildings. +5 City [ICON_Strength] Defense Strength. +5 City [ICON_Ranged] Ranged Strength.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast and Lake {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Marsh {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Plains Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Grassland Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Desert Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
 
-		<!-- 한국어 -->
-		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="ko_KR">
-			<Text>해안의 여인</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="ko_KR">
-			<Text>성지 특수지구는 인접한 해안 및 호수 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="ko_KR">
-			<Text>습지의 신비</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="ko_KR">
-			<Text>성지 특수지구는 인접한 습지 및 범람원 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="ko_KR">
-			<Text>농경의 신</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>보너스 자원 위에 있는 농장에서 [ICON_Production] 생산력 +1을 제공합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_NAME" Language="ko_KR">
-			<Text>창조의 신</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="ko_KR">
-			<Text>전문 특수지구가 없는 도시의 특수지구 건설에 대한 [ICON_Production] 생산력 +25%를 제공합니다. 새로 훈련한 건설자가 1회의 추가 건설 횟수를 얻습니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="ko_KR">
-			<Text>방어 건물에 대한 [ICON_Production] 생산력 +50%, 도시의 [ICON_Strength] 방어력 +5, 도시의 [ICON_Ranged] 원거리 전투력 +5를 얻습니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">
-			<Text>인접한 해안 및 호수 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="ko_KR">
-			<Text>인접한 습지 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="ko_KR">
-			<Text>인접한 평원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="ko_KR">
-			<Text>인접한 초원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="ko_KR">
-			<Text>인접한 사막 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-		</Replace>
-	</LocalizedText>
+    <!-- 한국어 -->
+    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="ko_KR">
+      <Text>해안의 여인</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="ko_KR">
+      <Text>성지 특수지구는 인접한 해안 및 호수 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="ko_KR">
+      <Text>습지의 신비</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="ko_KR">
+      <Text>성지 특수지구는 인접한 습지 및 범람원 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="ko_KR">
+      <Text>농경의 신</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" Language="ko_KR">
+      <Text>보너스 자원 또는 범람원 위에 있는 농장에서 [ICON_Production] 생산력 +1을 제공합니다(범람원 위에 있는 보너스 자원은 [ICON_Production] 생산력 +2).</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_CREATION_NAME" Language="ko_KR">
+      <Text>창조의 신</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" Language="ko_KR">
+      <Text>전문 특수지구가 없는 도시의 특수지구 건설에 대한 [ICON_Production] 생산력 +25%를 제공합니다. 새로 훈련한 건설자가 1회의 추가 건설 횟수를 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="ko_KR">
+      <Text>방어 건물에 대한 [ICON_Production] 생산력 +50%, 도시의 [ICON_Strength] 방어력 +5, 도시의 [ICON_Ranged] 원거리 전투력 +5를 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">
+      <Text>인접한 해안 및 호수 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="ko_KR">
+      <Text>인접한 습지 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="ko_KR">
+      <Text>인접한 평원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="ko_KR">
+      <Text>인접한 초원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="ko_KR">
+      <Text>인접한 사막 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
+    </Replace>
+  </LocalizedText>
 </GameData>

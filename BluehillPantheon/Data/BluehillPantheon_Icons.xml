@@ -3,10 +3,10 @@
 <!-- Author: Bluehill -->
 <!-- DateCreated: 2023-10-22 오후 1:55:42 -->
 <GameData>
-	<IconDefinitions>
-		<Row Name="ICON_BELIEF_LADY_OF_COAST" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="7"/>
-		<Row Name="ICON_BELIEF_MYSTIC_OF_WETLANDS" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="6"/>
-		<Row Name="ICON_BELIEF_GOD_OF_AGRICULTURE" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="8"/>
-		<Row Name="ICON_BELIEF_GOD_OF_CREATION" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="12"/>
-	</IconDefinitions>
+  <IconDefinitions>
+    <Row Name="ICON_BELIEF_LADY_OF_COAST" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="7"/>
+    <Row Name="ICON_BELIEF_MYSTIC_OF_WETLANDS" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="6"/>
+    <Row Name="ICON_BELIEF_GOD_OF_AGRICULTURE" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="8"/>
+    <Row Name="ICON_BELIEF_GOD_OF_CREATION" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="12"/>
+  </IconDefinitions>
 </GameData>
