@@ -6,6 +6,7 @@
   <LocalizedText>
     <!-- Remove Text -->
     <Delete Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION"/>
+    <Delete Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="en_US">
@@ -34,6 +35,9 @@
     </Replace>
     <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
       <Text>+50% [ICON_Production] Production towards defensive buildings. +5 City [ICON_Strength] Defense Strength. +5 City [ICON_Ranged] Ranged Strength.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Amenities] Amenities in cities with 2 specialty districts.</Text>
     </Replace>
     <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
       <Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast and Lake {1_Num : plural 1?tile; other?tiles;}.</Text>
@@ -78,6 +82,9 @@
     </Replace>
     <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="ko_KR">
       <Text>방어 건물에 대한 [ICON_Production] 생산력 +50%, 도시의 [ICON_Strength] 방어력 +5, 도시의 [ICON_Ranged] 원거리 전투력 +5를 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="ko_KR">
+      <Text>전문 특수지구를 2개 보유한 도시에 [ICON_Amenities] 쾌적도 +2를 제공합니다.</Text>
     </Replace>
     <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">
       <Text>인접한 해안 및 호수 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>

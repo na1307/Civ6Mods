@@ -14,6 +14,12 @@
     <Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS" Name="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Description="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Row BeliefType="BELIEF_GOD_OF_AGRICULTURE" Name="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Description="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Row BeliefType="BELIEF_GOD_OF_CREATION" Name="LOC_BELIEF_GOD_OF_CREATION_NAME" Description="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+    <Update>
+      <Where BeliefType="BELIEF_ZEN_MEDITATION" />
+      <Set>
+        <BeliefClassType>BELIEF_CLASS_PANTHEON</BeliefClassType>
+      </Set>
+    </Update>
   </Beliefs>
   <Modifiers>
     <Row>
@@ -91,6 +97,18 @@
       <ModifierType>MODIFIER_SINGLE_CITY_BUILDER_CHARGES</ModifierType>
       <SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
     </Row>
+    <Update>
+      <Where ModifierId="ZEN_MEDITATION_AMENITY" />
+      <Set>
+        <SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="ZEN_MEDITATION_AMENITY_MODIFIER" />
+      <Set>
+        <SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+      </Set>
+    </Update>
   </Modifiers>
   <ModifierArguments>
     <Row>
@@ -288,6 +306,12 @@
       <Name>Amount</Name>
       <Value>1</Value>
     </Row>
+    <Update>
+      <Where ModifierId="ZEN_MEDITATION_AMENITY_MODIFIER" Name="Amount" />
+      <Set>
+        <Value>2</Value>
+      </Set>
+    </Update>
   </ModifierArguments>
   <BeliefModifiers>
     <Row BeliefType="BELIEF_LADY_OF_COAST">
