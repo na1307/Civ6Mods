@@ -8,16 +8,24 @@
     <Row Type="BELIEF_MYSTIC_OF_WETLANDS" Kind="KIND_BELIEF"/>
     <Row Type="BELIEF_GOD_OF_AGRICULTURE" Kind="KIND_BELIEF"/>
     <Row Type="BELIEF_GOD_OF_CREATION" Kind="KIND_BELIEF"/>
+    <Row Type="BELIEF_BURIAL_GROUNDS" Kind="KIND_BELIEF"/>
   </Types>
   <Beliefs>
     <Row BeliefType="BELIEF_LADY_OF_COAST" Name="LOC_BELIEF_LADY_OF_COAST_NAME" Description="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Row BeliefType="BELIEF_MYSTIC_OF_WETLANDS" Name="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Description="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Row BeliefType="BELIEF_GOD_OF_AGRICULTURE" Name="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Description="LOC_BELIEF_GOD_OF_AGRICULTURE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Row BeliefType="BELIEF_GOD_OF_CREATION" Name="LOC_BELIEF_GOD_OF_CREATION_NAME" Description="LOC_BELIEF_GOD_OF_CREATION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+    <Row BeliefType="BELIEF_BURIAL_GROUNDS" Name="LOC_BELIEF_BURIAL_GROUNDS_NAME" Description="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
     <Update>
       <Where BeliefType="BELIEF_ZEN_MEDITATION" />
       <Set>
         <BeliefClassType>BELIEF_CLASS_PANTHEON</BeliefClassType>
+      </Set>
+    </Update>
+    <Update>
+      <Where BeliefType="BELIEF_WARRIOR_MONKS"/>
+      <Set>
+        <Description>LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION</Description>
       </Set>
     </Update>
   </Beliefs>
@@ -97,6 +105,12 @@
       <ModifierType>MODIFIER_SINGLE_CITY_BUILDER_CHARGES</ModifierType>
       <SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
     </Row>
+    <Update>
+      <Where ModifierId="BURIAL_GROUNDS_CULTURE_BOMB_TRIGGER_HOLY_SITE" />
+      <Set>
+        <SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+      </Set>
+    </Update>
     <Update>
       <Where ModifierId="ZEN_MEDITATION_AMENITY" />
       <Set>
@@ -347,6 +361,10 @@
     <Row BeliefType="BELIEF_GOD_OF_CREATION">
       <ModifierId>CITY_PATRON_GODDESS_DISTRICT_PRODUCTION</ModifierId>
     </Row>
+    <Row BeliefType="BELIEF_BURIAL_GROUNDS">
+      <ModifierId>BURIAL_GROUNDS_CULTURE_BOMB_TRIGGER_HOLY_SITE</ModifierId>
+    </Row>
+    <Delete BeliefType="BELIEF_WARRIOR_MONKS" ModifierId="WARRIOR_MONKS_CULTURE_BOMB_TRIGGER_HOLY_SITE" />
   </BeliefModifiers>
   <Requirements>
     <Row>
