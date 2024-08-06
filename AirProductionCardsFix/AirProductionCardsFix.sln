@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "AirProductionCardsFix", "AirProductionCardsFix.civ6proj", "{D7AED95D-FFEE-43EC-852A-0D0241F824DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7AED95D-FFEE-43EC-852A-0D0241F824DC}.Default|Civ6.ActiveCfg = Default|Civ6
+		{D7AED95D-FFEE-43EC-852A-0D0241F824DC}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {919E2831-1E95-4523-9918-17C726B468B6}
+	EndGlobalSection
+EndGlobal

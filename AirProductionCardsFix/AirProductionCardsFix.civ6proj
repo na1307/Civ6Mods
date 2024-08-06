@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Air units production policy cards fix</Name>
+    <Guid>2abf6cf3-5a97-476c-a842-dc3d3541c1c4</Guid>
+    <ProjectGuid>d7aed95d-ffee-43ec-852a-0d0241f824dc</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This mod fixes an issue where the Strategic Air Force card would not accelerate the production of Modern and Atomic Era units.
+
+It also adds the Aircraft Warehouse card to the vanilla Their Finest Hour card effect.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>AirProductionCardsFix</AssemblyName>
+    <RootNamespace>AirProductionCardsFix</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><File>Data.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- English -->
+    <Replace Tag="LOC_POLICY_AIRCRAFT_WAREHOUSE_NAME" Language="en_US">
+      <Text>Aircraft Warehouse</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_POLICY_AIRCRAFT_WAREHOUSE_NAME" Language="ko_KR">
+      <Text>항공기 공창</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
