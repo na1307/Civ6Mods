@@ -37,7 +37,7 @@
       <Text>Grants 1 promotion level and +75% combat experience to a military land unit.</Text>
     </Replace>
     <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" Language="en_US">
-      <Text>Permanently reduces your empire's War Weariness by 25%.</Text>
+      <Text>+3 [ICON_Strength] Combat Strength for all land units.</Text>
     </Replace>
     <Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="en_US">
       <Text>Grants 1 promotion level and +100% combat experience to a military land unit.</Text>
@@ -57,7 +57,16 @@
     <Replace Tag="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+75% Earned experience from combat (José de San Martín)</Text>
     </Replace>
-    <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_COMBAT_NAME" Language="en_US">
+      <Text>Dandara</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_COMBAT_DESCRIPTION" Language="en_US">
+      <Text>+3 [ICON_Strength] Combat Strength for all land units. (Dandara)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_UNITS_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+      <Text>+{1_Amount} Combat Strength from Dandara</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+100% Earned experience from combat (John Monash)</Text>
     </Replace>
 
@@ -87,7 +96,7 @@
       <Text>지상 군사 유닛에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +75%를 부여합니다.</Text>
     </Replace>
     <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" Language="ko_KR">
-      <Text>제국의 전쟁 피로도가 영구적으로 25% 감소합니다.</Text>
+      <Text>모든 지상 유닛의 [ICON_Strength] 전투력 +3.</Text>
     </Replace>
     <Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="ko_KR">
       <Text>지상 군사 유닛 1개에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +100%를 부여합니다. </Text>
@@ -106,6 +115,15 @@
     </Replace>
     <Replace Tag="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +75% 획득 (호세 데 산 마르틴)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_COMBAT_NAME" Language="ko_KR">
+      <Text>단다라</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_COMBAT_DESCRIPTION" Language="ko_KR">
+      <Text>모든 지상 유닛에 [ICON_Strength] 전투력 +3. (단다라)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_DANDARA_LAND_UNITS_COMBAT_STRENGTH_DESCRIPTION" Language="ko_KR">
+      <Text>단다라에서 전투력 +{1_Amount}</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +100% 획득. (존 모내시)</Text>

@@ -31,10 +31,7 @@
       <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DANDARA"/>
       <Set>
         <ActionCharges>1</ActionCharges>
-        <ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
         <ActionRequiresNoMilitaryUnit>false</ActionRequiresNoMilitaryUnit>
-        <ActionEffectTileHighlighting>true</ActionEffectTileHighlighting>
-        <ActionRequiresCompletedDistrictType>DISTRICT_ENCAMPMENT</ActionRequiresCompletedDistrictType>
       </Set>
     </Update>
     <Update>
@@ -133,7 +130,8 @@
     <Update>
       <Where ModifierId="GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" />
       <Set>
-        <ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+        <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+        <RunOnce>false</RunOnce>
       </Set>
     </Update>
     <Update>
@@ -196,15 +194,10 @@
       <Value>ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE</Value>
     </Row>
     <Delete ModifierId="GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" />
-    <Row>
+     <Row>
       <ModifierId>GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE</ModifierId>
-      <Name>Overall</Name>
-      <Value>true</Value>
-    </Row>
-    <Row>
-      <ModifierId>GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE</ModifierId>
-      <Name>Amount</Name>
-      <Value>-25</Value>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_DANDARA_LAND_COMBAT</Value>
     </Row>
     <Update>
       <Where ModifierId="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE" Name="UnitType" />
