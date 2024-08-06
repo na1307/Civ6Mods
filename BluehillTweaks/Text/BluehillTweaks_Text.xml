@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
   <LocalizedText>
+    <!-- Remove Text -->
+    <Delete Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE"/>
+    <Delete Tag="LOC_GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE"/>
+    <Delete Tag="LOC_GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE"/>
+
     <!-- English -->
     <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="en_US">
       <Text>+{1_num} [ICON_Gold] Gold from the adjacent luxury {1_Num : plural 1?resource; other?resources;}.</Text>
@@ -16,6 +26,39 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="en_US">
       <Text>+{1_num} [ICON_Production] Production from the adjacent Suguba district.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="en_US">
+      <Text>Instantly creates a Knight unit with 1 promotion level.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE" Language="en_US">
+      <Text>Grants 1 promotion level and +50% combat experience to a military land unit.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE" Language="en_US">
+      <Text>Grants 1 promotion level and +75% combat experience to a military land unit.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" Language="en_US">
+      <Text>Permanently reduces your empire's War Weariness by 25%.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="en_US">
+      <Text>Grants 1 promotion level and +100% combat experience to a military land unit.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE" Language="en_US">
+      <Text>Grants a Line Infantry in each of the target city's indefensible and undefended Districts.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE" Language="en_US">
+      <Text>Grants 1 promotion level and +200% combat experience to a military land unit.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" Language="en_US">
+      <Text>Instantly creates a Rocket Artillery unit with 1 promotion level. Grants 1 [ICON_RESOURCE_Oil] Oil per Turn.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+      <Text>+50% Earned experience from combat (Amina)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+      <Text>+75% Earned experience from combat (José de San Martín)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
+      <Text>+100% Earned experience from combat (John Monash)</Text>
     </Replace>
 
     <!-- 한국어 -->
@@ -33,6 +76,39 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="ko_KR">
       <Text>인접한 수구바 특수지구에서 [ICON_Production] 생산력 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="ko_KR">
+      <Text>진급 레벨 1인 기사 유닛을 즉시 생성합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE" Language="ko_KR">
+      <Text>지상 군사 유닛에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +50%를 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE" Language="ko_KR">
+      <Text>지상 군사 유닛에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +75%를 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" Language="ko_KR">
+      <Text>제국의 전쟁 피로도가 영구적으로 25% 감소합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="ko_KR">
+      <Text>지상 군사 유닛 1개에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +100%를 부여합니다. </Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE" Language="ko_KR">
+      <Text>대상 도시의 방어 불가능하고 방어되지 않은 특수지구마다 전열보병을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE" Language="ko_KR">
+      <Text>지상 군사 유닛 1개에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +200%를 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" Language="ko_KR">
+      <Text>진급 레벨 1인 로켓포 유닛을 즉시 생성합니다. 턴당 [ICON_RESOURCE_Oil] 석유 +1을 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
+      <Text>전투에서 경험치 +50% 획득 (아미나)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
+      <Text>전투에서 경험치 +75% 획득 (호세 데 산 마르틴)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
+      <Text>전투에서 경험치 +100% 획득. (존 모내시)</Text>
     </Replace>
   </LocalizedText>
 </GameData>

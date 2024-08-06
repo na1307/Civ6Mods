@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Kind="KIND_ABILITY"/>
+  </Types>
+  <TypeTags>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_RECON"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_MELEE"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_RANGED"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_LIGHT_CAVALRY"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_HEAVY_CAVALRY"/>
+    <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_SIEGE"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_RECON"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_MELEE"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_RANGED"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_LIGHT_CAVALRY"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_HEAVY_CAVALRY"/>
+    <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Tag="CLASS_SIEGE"/>
+  </TypeTags>
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Name="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_NAME" Description="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Inactive="true"/>
+    <Row UnitAbilityType="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Name="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_NAME" Description="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Inactive="true"/>
+  </UnitAbilities>
+  <UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_ANA_NZINGA_BONUS_EXPERIENCE</UnitAbilityType>
+      <ModifierId>ANA_NZINGA_BONUS_EXPERIENCE</ModifierId>
+    </Row>
+    <Row>
+      <UnitAbilityType>ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE</UnitAbilityType>
+      <ModifierId>SIMON_BOLIVAR_BONUS_EXPERIENCE</ModifierId>
+    </Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>ANA_NZINGA_BONUS_EXPERIENCE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>SIMON_BOLIVAR_BONUS_EXPERIENCE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>ANA_NZINGA_BONUS_EXPERIENCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+    <Row>
+      <ModifierId>SIMON_BOLIVAR_BONUS_EXPERIENCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>75</Value>
+    </Row>
+    <Update>
+      <Where ModifierId="JOHN_MONASH_BONUS_EXPERIENCE" Name="Amount" />
+      <Set>
+        <Value>100</Value>
+      </Set>
+    </Update>
+  </ModifierArguments>
+</GameData>

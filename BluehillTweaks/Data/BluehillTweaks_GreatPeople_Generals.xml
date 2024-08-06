@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GreatPersonIndividuals>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED"/>
+      <Set>
+        <ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
+        <ActionRequiresNoMilitaryUnit>true</ActionRequiresNoMilitaryUnit>
+        <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
+        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" />
+      <Set>
+        <ActionRequiresMilitaryUnitDomain>DOMAIN_LAND</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
+      </Set>
+    </Update>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR"/>
+      <Set>
+        <ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
+        <ActionRequiresMilitaryUnitDomain>DOMAIN_LAND</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
+        <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
+        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DANDARA"/>
+      <Set>
+        <ActionCharges>1</ActionCharges>
+        <ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+        <ActionRequiresNoMilitaryUnit>false</ActionRequiresNoMilitaryUnit>
+        <ActionEffectTileHighlighting>true</ActionEffectTileHighlighting>
+        <ActionRequiresCompletedDistrictType>DISTRICT_ENCAMPMENT</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN"/>
+      <Set>
+        <ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
+        <ActionRequiresMilitaryUnitDomain>DOMAIN_LAND</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
+        <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
+        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE"/>
+      <Set>
+        <ActionRequiresNoMilitaryUnit>true</ActionRequiresNoMilitaryUnit>
+        <ActionRequiresMilitaryUnitDomain>NULL</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresUnitCanGainExperience>false</ActionRequiresUnitCanGainExperience>
+      </Set>
+    </Update>
+  </GreatPersonIndividuals>
+  <GreatPersonIndividualActionModifiers>
+    <Update>
+      <Where ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+    <Update>
+      <Where ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+    <Update>
+      <Where ModifierId="GREAT_PERSON_INDIVIDUAL_DANDARA" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+    <Update>
+      <Where ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Delete ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE_UNIT_BONUS" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" ModifierId="GREATPERSON_GRANT_1_OIL_PER_TURN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+  </GreatPersonIndividualActionModifiers>
+  <Modifiers>
+    <Update>
+      <Where ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Row>
+      <ModifierId>GREATPERSON_ANA_NZINGA_ACTIVE_UNIT_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ABILITY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Update>
+      <Where ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Row>
+      <ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE_UNIT_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ABILITY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Update>
+      <Where ModifierId="GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Row>
+      <ModifierId>GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Update>
+      <Where ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Delete ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE_UNIT_BONUS" />
+  </Modifiers>
+  <ModifierArguments>
+    <Delete ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+      <Name>UnitType</Name>
+      <Value>UNIT_KNIGHT</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+      <Name>Experience</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+      <Name>UniqueOverride</Name>
+      <Value>true</Value>
+    </Row>
+    <Delete ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_ANA_NZINGA_ACTIVE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_ANA_NZINGA_ACTIVE_UNIT_BONUS</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_ANA_NZINGA_BONUS_EXPERIENCE</Value>
+    </Row>
+    <Delete ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE_UNIT_BONUS</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE</Value>
+    </Row>
+    <Delete ModifierId="GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE" />
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE</ModifierId>
+      <Name>Overall</Name>
+      <Value>true</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_DANDARA_ACTIVE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-25</Value>
+    </Row>
+    <Update>
+      <Where ModifierId="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE" Name="UnitType" />
+      <Set>
+        <Value>UNIT_LINE_INFANTRY</Value>
+      </Set>
+    </Update>
+    <Delete ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_SUDIRMAN_ACTIVE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS</ModifierId>
+      <Name>Amount</Name>
+      <Value>200</Value>
+    </Row>
+    <Delete ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE</ModifierId>
+      <Name>UnitType</Name>
+      <Value>UNIT_ROCKET_ARTILLERY</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE</ModifierId>
+      <Name>Experience</Name>
+      <Value>-1</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>
