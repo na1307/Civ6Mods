@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Improvements>
+    <Update>
+      <Where ImprovementType="IMPROVEMENT_ROMAN_FORT"/>
+      <Set TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
+    </Update>
+  </Improvements>
+</GameData>

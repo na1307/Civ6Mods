@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Data -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-11-01 오후 1:59:56 -->
 <GameData>
 	<Types>
 		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Kind="KIND_TRAIT"/>
@@ -12,10 +9,4 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
 	</CivilizationTraits>
-	<Improvements>
-		<Update>
-			<Where ImprovementType="IMPROVEMENT_ROMAN_FORT"/>
-			<Set TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
-		</Update>
-	</Improvements>
 </GameData>

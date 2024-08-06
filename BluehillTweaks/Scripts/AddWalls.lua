@@ -1,9 +1,4 @@
-﻿-- AddWalls
--- Author: Bluehill
--- DateCreated: 2023-10-13 오후 2:21:05
---------------------------------------------------------------
-
-function PlaceBuildingInCityCenter(pCity, iBuilding, bRepairPillaged)
+﻿function PlaceBuildingInCityCenter(pCity, iBuilding, bRepairPillaged)
 	local bFixIfPillaged = ((bRepairPillaged ~= nil) and bRepairPillaged or false)
 	local iCityPlotIndex = Map.GetPlot(pCity:GetX(), pCity:GetY()):GetIndex()
 
