@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Districts>
+    <Update>
+      <Where DistrictType="DISTRICT_AQUEDUCT" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_BATH" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_NEIGHBORHOOD" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_MBANZA" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_GOVERNMENT" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_DIPLOMATIC_QUARTER" />
+      <Set>
+        <Appeal>1</Appeal>
+      </Set>
+    </Update>
+  </Districts>
+  <District_Adjacencies>
+    <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="StreetCarnival_Culture"/>
+    <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Copacabana_Culture"/>
+    <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Hippodrome_Culture"/>
+    <Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Geothermal_Science"/>
+    <Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Reef_Science"/>
+    <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Oasis_Gold"/>
+    <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="LuxuryResource_Gold"/>
+    <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Neighborhood_Gold"/>
+    <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Mbanza_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Harbor_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="RoyalDock_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Cothon_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Oasis_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="LuxuryResource_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Neighborhood_Gold"/>
+    <Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Mbanza_Gold"/>
+    <Row DistrictType="DISTRICT_HANSA" YieldChangeId="Suguba_Production"/>
+  </District_Adjacencies>
+  <Adjacency_YieldChanges>
+    <Row ID="Oasis_Gold" Description="LOC_DISTRICT_OASIS_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_OASIS"/>
+    <Row ID="LuxuryResource_Gold" Description="LOC_DISTRICT_LUXURYRESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY"/>
+    <Row ID="Neighborhood_Gold" Description="LOC_DISTRICT_NEIGHBORHOOD_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+    <Row ID="Mbanza_Gold" Description="LOC_DISTRICT_MBANZA_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MBANZA"/>
+    <Row ID="Suguba_Production" Description="LOC_DISTRICT_SUGUBA_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_SUGUBA"/>
+  </Adjacency_YieldChanges>
+</GameData>

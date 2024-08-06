@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- English -->
+    <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent luxury {1_Num : plural 1?resource; other?resources;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_MBANZA_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Mbanza district.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Neighborhood district.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_OASIS_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Oasis tiles.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Suguba district.</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="ko_KR">
+      <Text>인접한 사치 {1_Num : plural 1?자원; other?자원;}에서 [ICON_Gold] 금 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_MBANZA_GOLD" Language="ko_KR">
+      <Text>인접한 음반자 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_GOLD" Language="ko_KR">
+      <Text>인접한 주택가 특수지구에서 [ICON_Gold] 금 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_OASIS_GOLD" Language="ko_KR">
+      <Text>인접한 오아시스 타일에서 [ICON_Gold] 금 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="ko_KR">
+      <Text>인접한 수구바 특수지구에서 [ICON_Production] 생산력 +{1_num}.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

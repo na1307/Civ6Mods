@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "BluehillTweaks", "BluehillTweaks.civ6proj", "{7357E22B-36C4-4D6E-99BA-10EA27FB5B6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7357E22B-36C4-4D6E-99BA-10EA27FB5B6F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{7357E22B-36C4-4D6E-99BA-10EA27FB5B6F}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {231BE97C-B79D-45C2-8BB0-E60928BF6A03}
+	EndGlobalSection
+EndGlobal
