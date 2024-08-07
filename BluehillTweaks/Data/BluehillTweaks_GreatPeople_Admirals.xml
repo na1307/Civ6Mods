@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GreatPersonIndividuals>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" />
+      <Set>
+        <ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
+        <ActionRequiresMilitaryUnitDomain>DOMAIN_SEA</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
+        <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
+        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+  </GreatPersonIndividuals>
+  <GreatPersonIndividualActionModifiers>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" />
+      <Set>
+        <AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE</AttachmentTargetType>
+      </Set>
+    </Update>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+  </GreatPersonIndividualActionModifiers>
+  <Modifiers>
+    <Update>
+      <Where ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" />
+      <Set>
+        <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+      </Set>
+    </Update>
+    <Row>
+      <ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Delete ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" />
+    <Row>
+      <ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+      <Name>Amount</Name>
+      <Value>75</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>
