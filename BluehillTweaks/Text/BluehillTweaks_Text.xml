@@ -85,6 +85,21 @@
     <Replace Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Language="en_US">
       <Text>Grants 1 promotion level and +75% combat experience to a military naval unit.</Text>
     </Replace>
+    <Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for the Printing technology. If they are already triggered, instead completes the tech.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER" Language="en_US">
+      <Text>Grants 275 [ICON_Production] Production towards wonder construction, doubled if the wonder is from the Medieval or Earlier Era.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL_NAME" Language="en_US">
+      <Text>Jang Yeong-sil</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ASTRONOMYTECHBOOST" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for the Astronomy technology. If they are already triggered, instead completes the tech.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for the Rocketry technology. If they are already triggered, instead completes the tech.</Text>
+    </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+50% Earned experience from combat (Amina)</Text>
     </Replace>
@@ -173,6 +188,21 @@
     </Replace>
     <Replace Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Language="ko_KR">
       <Text>해상 군사 유닛 한 개에 진급 레벨을 1만큼 부여하고 전투 경험치 보너스 +75%를 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="ko_KR">
+      <Text>인쇄술 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다. 이미 촉발되었다면, 대신에 기술을 완성시킵니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER" Language="ko_KR">
+      <Text>불가사의 건설에 [ICON_Production] 생산력 275를 부여합니다. 중세 시대 또는 그 이전 시대의 불가사의인 경우 그 2배를 부여합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL_NAME" Language="ko_KR">
+      <Text>장영실</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ASTRONOMYTECHBOOST" Language="ko_KR">
+      <Text>천문학 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다. 이미 촉발되었다면, 대신에 기술을 완성시킵니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="ko_KR">
+      <Text>로켓공학 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다. 이미 촉발되었다면, 대신에 기술을 완성시킵니다.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +50% 획득 (아미나)</Text>

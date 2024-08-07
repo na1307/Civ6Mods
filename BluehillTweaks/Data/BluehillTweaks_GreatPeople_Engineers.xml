@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Delete Type="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" />
+    <Row Type="GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+  </Types>
+  <GreatPersonIndividuals>
+    <Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" />
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" />
+      <Set>
+        <ActionCharges>2</ActionCharges>
+        <ActionRequiresIncompleteWonder>true</ActionRequiresIncompleteWonder>
+        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL" Name="LOC_GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+  </GreatPersonIndividuals>
+  <GreatPersonIndividualActionModifiers>
+    <Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" />
+    <Delete ModifierId="GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_OTHER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL" ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL" ModifierId="GREATPERSON_ASTRONOMYTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+  </GreatPersonIndividualActionModifiers>
+  <Modifiers>
+    <Delete ModifierId="GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" />
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+      <SubjectRequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_OTHER</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+      <SubjectRequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_ASTRONOMYTECHBOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>GREATPERSON_PRINTINGTECHBOOST</ModifierId>
+      <Name>GrantTechIfBoosted</Name>
+      <Value>true</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>540</Value>
+      <Type>ScaleByGameSpeed</Type>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_OTHER</ModifierId>
+      <Name>Amount</Name>
+      <Value>275</Value>
+      <Type>ScaleByGameSpeed</Type>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_OTHER</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_ASTRONOMYTECHBOOST</ModifierId>
+      <Name>TechType</Name>
+      <Value>TECH_ASTRONOMY</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_ASTRONOMYTECHBOOST</ModifierId>
+      <Name>GrantTechIfBoosted</Name>
+      <Value>true</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_ROCKETRYTECHBOOST</ModifierId>
+      <Name>GrantTechIfBoosted</Name>
+      <Value>true</Value>
+    </Row>
+  </ModifierArguments>
+  <ModifierStrings>
+    <Delete ModifierId="GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" />
+    <Row ModifierId="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_PRODUCTION_MEDIEVAL_OR_EARLIER"/>
+    <Row ModifierId="GREATPERSON_ASTRONOMYTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_ASTRONOMYTECHBOOST"/>
+  </ModifierStrings>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementSetId>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementSetId>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_WONDER_IS_ERA</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_WONDER_IS_ERA</RequirementType>
+      <Inverse>true</Inverse>
+    </Row>
+  </Requirements>
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementId>
+      <Name>EarliestEra</Name>
+      <Value>ERA_ANCIENT</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER</RequirementId>
+      <Name>LatestEra</Name>
+      <Value>ERA_MEDIEVAL</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementId>
+      <Name>EarliestEra</Name>
+      <Value>ERA_ANCIENT</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRE_THIS_WONDER_IS_MEDIEVAL_OR_EARLIER_INVERSE</RequirementId>
+      <Name>LatestEra</Name>
+      <Value>ERA_MEDIEVAL</Value>
+    </Row>
+  </RequirementArguments>
+</GameData>
