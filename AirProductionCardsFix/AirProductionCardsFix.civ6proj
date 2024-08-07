@@ -23,13 +23,16 @@ It also adds the Aircraft Warehouse card to the vanilla Their Finest Hour card e
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><File>Data.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><File>Data.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text.xml">
