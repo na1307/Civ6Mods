@@ -2,6 +2,7 @@
 <GameData>
   <LocalizedText>
     <!-- Remove Text -->
+    <Delete Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION"/>
     <Delete Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1"/>
     <Delete Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2"/>
     <Delete Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
@@ -14,6 +15,9 @@
     <Delete Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE"/>
 
     <!-- English -->
+    <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
+      <Text>Grants up to 3 [ICON_Housing] Housing based on Appeal. Culture bombs adjacent neutral tiles, and increases their Appeal by 2.</Text>
+    </Replace>
     <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="en_US">
       <Text>+{1_num} [ICON_Gold] Gold from the adjacent luxury {1_Num : plural 1?resource; other?resources;}.</Text>
     </Replace>
@@ -28,6 +32,18 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="en_US">
       <Text>+{1_num} [ICON_Production] Production from the adjacent Suguba district.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent natural {1_Num : plural 1?wonder; other?wonders;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent natural {1_Num : plural 1?wonder; other?wonders;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent natural {1_Num : plural 1?wonder; other?wonders;}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent natural {1_Num : plural 1?wonder; other?wonders;}.</Text>
     </Replace>
     <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="en_US">
       <Text>Industrial Revolution</Text>
@@ -85,6 +101,9 @@
     </Replace>
 
     <!-- 한국어 -->
+    <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
+      <Text>매력도에 따라 [ICON_Housing] 주거공간을 최대 +3까지 부여합니다. 인접 중립 타일에 문화 폭탄을 투하하며 매력도를 2 높입니다.</Text>
+    </Replace>
     <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="ko_KR">
       <Text>인접한 사치 {1_Num : plural 1?자원; other?자원;}에서 [ICON_Gold] 금 +{1_num}.</Text>
     </Replace>
@@ -99,6 +118,18 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="ko_KR">
       <Text>인접한 수구바 특수지구에서 [ICON_Production] 생산력 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_SCIENCE" Language="ko_KR">
+      <Text>인접한 자연경관에서 [ICON_Science] 과학 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_CULTURE" Language="ko_KR">
+      <Text>인접한 자연경관에서 [ICON_Culture] 문화 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_PRODUCTION" Language="ko_KR">
+      <Text>인접한 자연경관에서 [ICON_Production] 생산력 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_GOLD" Language="ko_KR">
+      <Text>인접한 자연경관에서 [ICON_GOLD] 금 +{1_num}.</Text>
     </Replace>
     <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="ko_KR">
       <Text>산업 혁명</Text>

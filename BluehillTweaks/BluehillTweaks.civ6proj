@@ -18,13 +18,14 @@
     <CompatibleVersions>2.0</CompatibleVersions>
     <AssemblyName>BluehillTweaks</AssemblyName>
     <RootNamespace>BluehillTweaks</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BTD"><File>Data/BluehillTweaks_Districts.xml</File><File>Data/BluehillTweaks_Civilizations.xml</File><File>Data/BluehillTweaks_Improvements.xml</File><File>Data/BluehillTweaks_GreatPeople_Generals.xml</File><File>Data/BluehillTweaks_UnitAbilities.xml</File><File>Data/BluehillTweaks_Governments.xml</File><File>Data/BluehillTweaks_Policies.xml</File></UpdateDatabase><UpdateText id="BTT"><File>Text/BluehillTweaks_Text.xml</File></UpdateText><AddGameplayScripts id="BTGS"><File>Scripts/AddWalls.lua</File></AddGameplayScripts><UpdateIcons id="BTI"><File>Data/BluehillTweaks_Icons_Policies.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BTD"><File>Data/BluehillTweaks_Districts.xml</File><File>Data/BluehillTweaks_Civilizations.xml</File><File>Data/BluehillTweaks_Improvements.xml</File><File>Data/BluehillTweaks_GreatPeople_Generals.xml</File><File>Data/BluehillTweaks_UnitAbilities.xml</File><File>Data/BluehillTweaks_Governments.xml</File><File>Data/BluehillTweaks_Policies.xml</File><File priority="999">Data/BluehillTweaks_Districts_NaturalWonder.sql</File></UpdateDatabase><UpdateText id="BTT"><File>Text/BluehillTweaks_Text.xml</File></UpdateText><AddGameplayScripts id="BTGS"><File>Scripts/AddWalls.lua</File></AddGameplayScripts><UpdateIcons id="BTI"><File>Data/BluehillTweaks_Icons_Policies.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Dlc" title="DLC: Ethiopia Pack" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
   <Dependency type="Dlc" title="DLC: Byzantium and Gaul Pack" id="A1100FC4-70F2-4129-AC27-2A65A685ED08" />
   <Dependency type="Dlc" title="DLC: Babylon Pack" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
+  <Dependency type="Dlc" title="DLC: Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
   <Dependency type="Dlc" title="DLC: Julius Caesar Leader Pack" id="9ED63236-617C-45A6-BB70-8CB6B0BE8ED2" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="BTFED"><File>Data/BluehillTweaks_ConfigData.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
@@ -40,6 +41,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\BluehillTweaks_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BluehillTweaks_Districts_NaturalWonder.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\BluehillTweaks_Governments.xml">

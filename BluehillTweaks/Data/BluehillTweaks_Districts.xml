@@ -37,6 +37,14 @@
         <Appeal>1</Appeal>
       </Set>
     </Update>
+    <Update>
+      <Where DistrictType="DISTRICT_PRESERVE" />
+      <Set>
+        <Cost>36</Cost>
+        <RequiresPopulation>false</RequiresPopulation>
+        <Appeal>2</Appeal>
+      </Set>
+    </Update>
   </Districts>
   <District_Adjacencies>
     <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="StreetCarnival_Culture"/>
