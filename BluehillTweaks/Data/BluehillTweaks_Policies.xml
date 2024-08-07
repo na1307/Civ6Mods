@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="POLICY_INDUSTRIAL_REVOLUTION" Kind="KIND_POLICY"/>
+  </Types>
+  <Policies>
+    <Row PolicyType="POLICY_INDUSTRIAL_REVOLUTION" Name="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Description="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" GovernmentSlotType="SLOT_ECONOMIC"/>
+  </Policies>
+  <ObsoletePolicies>
+    <Update>
+      <Where PolicyType="POLICY_URBAN_PLANNING" />
+      <Set>
+        <ObsoletePolicy>POLICY_INDUSTRIAL_REVOLUTION</ObsoletePolicy>
+      </Set>
+    </Update>
+  </ObsoletePolicies>
+  <PolicyModifiers>
+    <Row>
+      <PolicyType>POLICY_INDUSTRIAL_REVOLUTION</PolicyType>
+      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+    </Row>
+  </PolicyModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>

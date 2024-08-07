@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Government_SlotCounts>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY" />
+      <Set>
+        <NumSlots>2</NumSlots>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD" />
+      <Set>
+        <NumSlots>2</NumSlots>
+      </Set>
+    </Update>
+  </Government_SlotCounts>
+  <Modifiers>
+    <Update>
+      <Where ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE" />
+      <Set>
+        <SubjectRequirementSetId>NULL</SubjectRequirementSetId>
+      </Set>
+    </Update>
+  </Modifiers>
+  <ModifierArguments>
+    <Update>
+      <Where ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE" Name="Amount" />
+      <Set>
+        <Value>1</Value>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="COMMUNISM_SCIENCE" Name="Amount" />
+      <Set>
+        <Value>20</Value>
+      </Set>
+    </Update>
+  </ModifierArguments>
+</GameData>

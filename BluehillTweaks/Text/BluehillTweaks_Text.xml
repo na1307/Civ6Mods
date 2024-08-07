@@ -2,6 +2,8 @@
 <GameData>
   <LocalizedText>
     <!-- Remove Text -->
+    <Delete Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1"/>
+    <Delete Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2"/>
     <Delete Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
     <Delete Tag="LOC_GREATPERSON_ANA_NZINGA_ACTIVE"/>
     <Delete Tag="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE"/>
@@ -26,6 +28,18 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="en_US">
       <Text>+{1_num} [ICON_Production] Production from the adjacent Suguba district.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="en_US">
+      <Text>Industrial Revolution</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="en_US">
+      <Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="en_US">
+      <Text>+20% [ICON_Science] Science.</Text>
     </Replace>
     <Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="en_US">
       <Text>Instantly creates a Knight unit with 1 promotion level.</Text>
@@ -85,6 +99,18 @@
     </Replace>
     <Replace Tag="LOC_DISTRICT_SUGUBA_PRODUCTION" Language="ko_KR">
       <Text>인접한 수구바 특수지구에서 [ICON_Production] 생산력 +{1_num}.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="ko_KR">
+      <Text>산업 혁명</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Citizen] 시민당 [ICON_Production] 생산력 +1을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="ko_KR">
+      <Text>[ICON_Citizen] 시민당 [ICON_Production] 생산력 +1을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="ko_KR">
+      <Text>[ICON_Science] 과학 +20%.</Text>
     </Replace>
     <Replace Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE" Language="ko_KR">
       <Text>진급 레벨 1인 기사 유닛을 즉시 생성합니다.</Text>
