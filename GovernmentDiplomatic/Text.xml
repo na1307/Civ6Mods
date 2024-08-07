@@ -17,7 +17,7 @@
 			<Text>+2 Influence Points per turn. Enemy Spy's level is reduced by 1 when targeting this city or cities with Encampments. Awards +1 [ICON_ENVOY] Envoy.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="en_US">
-			<Text>+3 Influence Points per turn.  When this civilization captures or kills an enemy Spy, receive 50 [ICON_Science] Science for every level of the enemy Spy. Awards +1 [ICON_ENVOY] Envoy.</Text>
+			<Text>+3 Influence Points per turn.  When this civilization captures or kills an enemy Spy, receives [ICON_Science] Science and [ICON_Culture] Culture equal to (50 * player era since Renaissance * level of enemy Spy). Awards +1 [ICON_ENVOY] Envoy.</Text>
 		</Replace>
 
 		<!-- 한국어 -->
@@ -28,7 +28,7 @@
 			<Text>턴마다 우호도 점수 +2를 얻습니다. 주둔지 또는 영사관이 있는 도시를 목표로 하는 적 스파이의 레벨이 1 감소합니다. [ICON_ENVOY] 사절 +1을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="ko_KR">
-			<Text>턴마다 우호도 점수 +3을 얻습니다. 이 문명이 적 스파이를 체포하거나 죽이면 적 스파이의 레벨당 [ICON_Science] 과학 +50을 획득합니다. [ICON_ENVOY] 사절 +1을 제공합니다.</Text>
+			<Text>턴마다 우호도 점수 +3을 얻습니다. 이 문명이 적 스파이를 체포하거나 죽이면 (50 * 르네상스 이후 플레이어 시대 * 적 스파이의 레벨) 만큼의 [ICON_Science] 과학과 [ICON_Culture] 문화를 받습니다. [ICON_ENVOY] 사절 +1을 제공합니다.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
