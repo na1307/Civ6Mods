@@ -18,7 +18,7 @@
     <CompatibleVersions>2.0</CompatibleVersions>
     <AssemblyName>BluehillTweaks</AssemblyName>
     <RootNamespace>BluehillTweaks</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BTD"><File>Data/BluehillTweaks_Districts.xml</File><File>Data/BluehillTweaks_Civilizations.xml</File><File>Data/BluehillTweaks_Improvements.xml</File><File>Data/BluehillTweaks_GreatPeople_Generals.xml</File><File>Data/BluehillTweaks_UnitAbilities.xml</File><File>Data/BluehillTweaks_Governments.xml</File><File>Data/BluehillTweaks_Policies.xml</File><File priority="999">Data/BluehillTweaks_Districts_NaturalWonder.sql</File><File>Data/BluehillTweaks_GreatPeople_Admirals.xml</File><File>Data/BluehillTweaks_GreatPeople_Engineers.xml</File><File>Data/BluehillTweaks_Eras.xml</File></UpdateDatabase><UpdateText id="BTT"><File>Text/BluehillTweaks_Text.xml</File></UpdateText><AddGameplayScripts id="BTGS"><File>Scripts/AddWalls.lua</File></AddGameplayScripts><UpdateIcons id="BTI"><File>Data/BluehillTweaks_Icons_Policies.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BTD"><File>Data/BluehillTweaks_Districts.xml</File><File>Data/BluehillTweaks_Civilizations.xml</File><File>Data/BluehillTweaks_Improvements.xml</File><File>Data/BluehillTweaks_GreatPeople_Generals.xml</File><File>Data/BluehillTweaks_UnitAbilities.xml</File><File>Data/BluehillTweaks_Governments.xml</File><File>Data/BluehillTweaks_Policies.xml</File><File priority="999">Data/BluehillTweaks_Districts_NaturalWonder.sql</File><File>Data/BluehillTweaks_GreatPeople_Admirals.xml</File><File>Data/BluehillTweaks_GreatPeople_Engineers.xml</File><File>Data/BluehillTweaks_Eras.xml</File><File>Data/BluehillTweaks_Resources.xml</File></UpdateDatabase><UpdateText id="BTT"><File>Text/BluehillTweaks_Text.xml</File></UpdateText><AddGameplayScripts id="BTGS"><File>Scripts/AddWalls.lua</File></AddGameplayScripts><UpdateIcons id="BTI"><File>Data/BluehillTweaks_Icons_Policies.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
@@ -68,6 +68,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\BluehillTweaks_Policies.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BluehillTweaks_Resources.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\BluehillTweaks_UnitAbilities.xml">

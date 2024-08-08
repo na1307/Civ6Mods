@@ -14,6 +14,11 @@
     <Delete Tag="LOC_GREATPERSON_SUDIRMAN_ACTIVE"/>
     <Delete Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE"/>
     <Delete Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE"/>
+    <Delete Tag="LOC_GREATPERSON_PRINTINGTECHBOOST"/>
+    <Delete Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST"/>
+    <Delete Tag="LOC_GREATPERSON_GRANT_TOYS"/>
+    <Delete Tag="LOC_GREATPERSON_GRANT_JEANS"/>
+    <Delete Tag="LOC_GREATPERSON_GRANT_COSMETICS"/>
 
     <!-- English -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -99,6 +104,15 @@
     </Replace>
     <Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="en_US">
       <Text>Triggers the [ICON_TechBoosted] Eureka moment for the Rocketry technology. If they are already triggered, instead completes the tech.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="en_US">
+      <Text>Grants {Amount} [ICON_RESOURCE_TOYS] Toys, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="en_US">
+      <Text>Grants {Amount} [ICON_RESOURCE_JEANS] Jeans, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
+      <Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+50% Earned experience from combat (Amina)</Text>
@@ -203,6 +217,15 @@
     </Replace>
     <Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="ko_KR">
       <Text>로켓공학 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다. 이미 촉발되었다면, 대신에 기술을 완성시킵니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="ko_KR">
+      <Text>[ICON_RESOURCE_TOYS] 장난감 {Amount}개를 부여하고, 독특한 방식으로 제조된 이 사치 자원에서 [ICON_Amenities] 쾌적도 +6을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="ko_KR">
+      <Text>[ICON_RESOURCE_JEANS] 청바지 {Amount}개를 부여하고, 독특한 방식으로 제조된 이 사치 자원에서 [ICON_Amenities] 쾌적도 +6을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="ko_KR">
+      <Text>[ICON_RESOURCE_COSMETICS] 화장품 {Amount}개를 부여하고, 독특한 방식으로 제조된 이 사치 자원에서 [ICON_Amenities] 쾌적도 +6을 제공합니다.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +50% 획득 (아미나)</Text>
