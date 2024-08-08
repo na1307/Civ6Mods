@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <CivicModifiers>
+    <Row>
+      <CivicType>CIVIC_HUMANISM</CivicType>
+      <ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+    </Row>
+    <Row>
+      <CivicType>CIVIC_DIPLOMATIC_SERVICE</CivicType>
+      <ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+    </Row>
+    <Row>
+      <CivicType>CIVIC_RAPID_DEPLOYMENT</CivicType>
+      <ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+    </Row>
+    <Row>
+      <CivicType>CIVIC_SPACE_RACE</CivicType>
+      <ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+    </Row>
+  </CivicModifiers>
+</GameData>
