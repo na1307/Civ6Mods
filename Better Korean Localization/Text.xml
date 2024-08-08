@@ -134,11 +134,53 @@
     <Replace Tag="LOC_GAME_MENU_EXIT_TO_DESKTOP" Language="ko_KR">
       <Text>바탕 화면으로 나가기</Text>
     </Replace>
+    <Replace Tag="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST" Language="ko_KR">
+      <Text>중세 또는 르네상스 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_1MODERNATOMICTECHBOOST" Language="ko_KR">
+      <Text>현대 또는 원자 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS" Language="ko_KR">
+      <Text>산업 또는 현대 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS" Language="ko_KR">
+      <Text>원자 또는 정보 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" Language="ko_KR">
+      <Text>고전 또는 중세 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS" Language="ko_KR">
+      <Text>르네상스 또는 산업 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE" Language="ko_KR">
+      <Text>컴퓨터 및 현대 시대의 무작위 기술 1개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="ko_KR">
+      <Text>정보 시대의 모든 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="ko_KR">
+      <Text>컴퓨터 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE" Language="ko_KR">
+      <Text>화학 및 산업 시대의 무작위 기술 1개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
     <Replace Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Language="ko_KR">
       <Text>당신의 도시로 향하는 당신의 [ICON_TradeRoute] 교역로는 목적지의 각 전문 특수지구마다 [ICON_Gold] 금 +{Amount}을(를) 얻습니다.</Text>
     </Replace>
+    <Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="ko_KR">
+      <Text>수학 및 중세 시대의 무작위 기술 1개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
     <Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="ko_KR">
       <Text>해당 특수지구에 공장과 작업장을 즉시 건설합니다. 공장들은 [ICON_Production] 생산력 +2를 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="ko_KR">
+      <Text>중세 또는 르네상스 시대의 무작위 기술 2개에 대한 [ICON_TechBoosted] 유레카를 촉발하고 무작위 사회 제도 1개에 대한 [ICON_CivicBoosted] 영감을 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="ko_KR">
+      <Text>인쇄술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="ko_KR">
+      <Text>로켓공학 기술에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
     </Replace>
     <Replace Tag="LOC_HOF_STAT_CIVIC_BOOSTS" Language="ko_KR">
       <Text>가속된 사회 제도</Text>
