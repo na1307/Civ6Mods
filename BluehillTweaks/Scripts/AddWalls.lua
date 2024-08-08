@@ -31,7 +31,7 @@ end
 function OnResearchCompleted( ePlayer, eTech )
 	local iSteel = GameInfo.Technologies["TECH_STEEL"].Index;
 
-	if (eTech == iSteel) then
+	if (eTech == iSteel and ePlayer == 0) then
 		table.insert(ExposedMembers.SteelResearched, tostring(ePlayer));
 
 		for i, city in Players[ePlayer]:GetCities():Members() do
@@ -52,6 +52,19 @@ function OnCityBuilt( playerID, cityID, cityX, cityY )
 	end
 end
 
+function OnCityConquered( newPlayerID, oldPlayerID, newCityID, iCityX, iCityY )
+	if next(ExposedMembers.SteelResearched) ~= nil then
+		for index, value in ipairs(ExposedMembers.SteelResearched) do
+			if value == tostring(newPlayerID) then
+				local pCity = CityManager.GetCityAt(iCityX, iCityY);
+
+				AddWallsToCity(newPlayerID, pCity);
+			end
+		end
+	end
+end
+
 ExposedMembers.SteelResearched = {};
 Events.ResearchCompleted.Add(OnResearchCompleted);
 GameEvents.CityBuilt.Add(OnCityBuilt);
+GameEvents.CityConquered.Add(OnCityConquered)
