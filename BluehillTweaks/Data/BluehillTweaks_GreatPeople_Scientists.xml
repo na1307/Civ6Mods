@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GreatPersonIndividuals>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" />
+      <Set>
+        <ActionEffectTextOverride>NULL</ActionEffectTextOverride>
+      </Set>
+    </Update>
+  </GreatPersonIndividuals>
+  <GreatPersonIndividualActionModifiers>
+    <Delete ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" />
+    <Delete ModifierId="GREATPERSON_MATHTECHBOOST" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_2MEDIEVALTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_MATHTECH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+  </GreatPersonIndividualActionModifiers>
+  <Modifiers>
+    <Delete ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" />
+    <Delete ModifierId="GREATPERSON_MATHTECHBOOST" />
+    <Row>
+      <ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_MATHTECH</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+      <Name>StartEraType</Name>
+      <Value>ERA_MEDIEVAL</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+      <Name>EndEraType</Name>
+      <Value>ERA_MEDIEVAL</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_2MEDIEVALTECHBOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_MATHTECH</ModifierId>
+      <Name>TechType</Name>
+      <Value>TECH_MATHEMATICS</Value>
+    </Row>
+  </ModifierArguments>
+  <ModifierStrings>
+    <Delete ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" />
+    <Delete ModifierId="GREATPERSON_MATHTECHBOOST" />
+    <Row ModifierId="GREATPERSON_2MEDIEVALTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_2MEDIEVALTECHBOOST"/>
+    <Row ModifierId="GREATPERSON_MATHTECH" Context="Summary" Text="LOC_GREATPERSON_MATHTECH"/>
+  </ModifierStrings>
+</GameData>

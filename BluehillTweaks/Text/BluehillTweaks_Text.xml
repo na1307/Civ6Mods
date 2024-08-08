@@ -114,6 +114,12 @@
     <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
       <Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
     </Replace>
+    <Replace Tag="LOC_GREATPERSON_2MEDIEVALTECHBOOST" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for {Amount} random {Amount : plural 1?technology; other?technologies;} from the Medieval era.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_MATHTECH" Language="en_US">
+      <Text>Unlocks the Mathematics technology.</Text>
+    </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+50% Earned experience from combat (Amina)</Text>
     </Replace>
@@ -226,6 +232,12 @@
     </Replace>
     <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="ko_KR">
       <Text>[ICON_RESOURCE_COSMETICS] 화장품 {Amount}개를 부여하고, 독특한 방식으로 제조된 이 사치 자원에서 [ICON_Amenities] 쾌적도 +6을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_2MEDIEVALTECHBOOST" Language="ko_KR">
+      <Text>중세 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_MATHTECH" Language="ko_KR">
+      <Text>수학 기술을 잠금 해제합니다.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +50% 획득 (아미나)</Text>
