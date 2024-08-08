@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Technologies>
+    <Update>
+      <Where TechnologyType="TECH_SAILING" />
+      <Set>
+        <BarbarianFree>false</BarbarianFree>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_SHIPBUILDING" />
+      <Set>
+        <BarbarianFree>false</BarbarianFree>
+      </Set>
+    </Update>
+  </Technologies>
+</GameData>
