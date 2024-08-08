@@ -1,12 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Types>
-		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Kind="KIND_TRAIT"/>
-	</Types>
-	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME"/>
-	</Traits>
-	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
-	</CivilizationTraits>
+  <Types>
+    <Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Kind="KIND_TRAIT"/>
+  </Types>
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME"/>
+  </Traits>
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
+  </CivilizationTraits>
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_CAMPUS_HOLY_SITE_EXTRA_DISTRICT_CAPACITY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+      <SubjectRequirementSetId>REQUIREMENTS_CITY_HAS_CAMPUS_HOLY_SITE</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Update>
+      <Where ModifierId="TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION" Name="Amount" />
+      <Set>
+        <Value>2</Value>
+      </Set>
+    </Update>
+    <Row>
+      <ModifierId>TRAIT_CAMPUS_HOLY_SITE_EXTRA_DISTRICT_CAPACITY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+  </ModifierArguments>
+  <TraitModifiers>
+    <Row>
+      <TraitType>TRAIT_CIVILIZATION_LAST_PROPHET</TraitType>
+      <ModifierId>TRAIT_CAMPUS_HOLY_SITE_EXTRA_DISTRICT_CAPACITY</ModifierId>
+    </Row>
+  </TraitModifiers>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>REQUIREMENTS_CITY_HAS_CAMPUS_HOLY_SITE</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>REQUIREMENTS_CITY_HAS_CAMPUS_HOLY_SITE</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_HAS_CAMPUS</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>REQUIREMENTS_CITY_HAS_CAMPUS_HOLY_SITE</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_HAS_HOLY_SITE</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
 </GameData>
