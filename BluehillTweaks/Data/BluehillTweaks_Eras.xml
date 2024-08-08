@@ -3,4 +3,12 @@
   <MajorStartingUnits>
     <Delete AiOnly="true" />
   </MajorStartingUnits>
+  <StartingBuildings>
+    <Update>
+      <Where Era="ERA_ANCIENT" MinorOnly="true" MinDifficulty="DIFFICULTY_IMMORTAL" Building="BUILDING_WALLS" District="DISTRICT_CITY_CENTER"/>
+      <Set>
+        <MinDifficulty>NULL</MinDifficulty>
+      </Set>
+    </Update>
+  </StartingBuildings>
 </GameData>
