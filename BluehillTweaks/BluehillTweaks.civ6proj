@@ -27,6 +27,7 @@
   <Dependency type="Dlc" title="DLC: Babylon Pack" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
   <Dependency type="Dlc" title="DLC: Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
   <Dependency type="Dlc" title="DLC: Julius Caesar Leader Pack" id="9ED63236-617C-45A6-BB70-8CB6B0BE8ED2" />
+  <Reference type="Mod" title="문명 6 번역 개선 모드" id="8c466dfa-b063-4bd4-af0b-84e3b77059b9" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="BTFED"><File>Data/BluehillTweaks_ConfigData.xml</File></UpdateDatabase><UpdateText id="BTFET"><File>Text/BluehillTweaks_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>

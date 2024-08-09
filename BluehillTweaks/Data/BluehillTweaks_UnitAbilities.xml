@@ -83,6 +83,7 @@
         <Value>100</Value>
       </Set>
     </Update>
+    <Delete ModifierId="SANGUINE_PACT_VAMPIRE_BARB_COMBAT_STRENGTH_FROM_PROPERTY" Name="Max" />
   </ModifierArguments>
   <ModifierStrings>
     <Row ModifierId="DANDARA_LAND_UNITS_COMBAT_STRENGTH" Context="Preview" Text="LOC_ABILITY_DANDARA_LAND_UNITS_COMBAT_STRENGTH_DESCRIPTION"/>

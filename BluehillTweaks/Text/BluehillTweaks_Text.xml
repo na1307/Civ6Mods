@@ -19,7 +19,9 @@
     <Delete Tag="LOC_GREATPERSON_GRANT_TOYS"/>
     <Delete Tag="LOC_GREATPERSON_GRANT_JEANS"/>
     <Delete Tag="LOC_GREATPERSON_GRANT_COSMETICS"/>
+    <Delete Tag="LOC_GREATPERSON_EUCLID_ACTIVE"/>
     <Delete Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION"/>
+    <Delete Tag="LOC_UNIT_VAMPIRE_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -115,11 +117,8 @@
     <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
       <Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
     </Replace>
-    <Replace Tag="LOC_GREATPERSON_2MEDIEVALTECHBOOST" Language="en_US">
-      <Text>Triggers the [ICON_TechBoosted] Eureka moment for {Amount} random {Amount : plural 1?technology; other?technologies;} from the Medieval era.</Text>
-    </Replace>
-    <Replace Tag="LOC_GREATPERSON_MATHTECH" Language="en_US">
-      <Text>Unlocks the Mathematics technology.</Text>
+    <Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
+      <Text>Unlock Mathematics technology instantly and Triggers the [ICON_TechBoosted] Eureka moment for 1 random technology from the Medieval era.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+50% Earned experience from combat (Amina)</Text>
@@ -142,8 +141,11 @@
     <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="en_US">
       <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
     </Replace>
-    <Replace Tag="LOC_MINOR_CIV_PRESLAV_COMBAT_STRENGTH_BONUS" Language="ko_KR">
+    <Replace Tag="LOC_MINOR_CIV_PRESLAV_COMBAT_STRENGTH_BONUS" Language="en_US">
       <Text>+{1_Value} Preslav suzerain bonus</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_VAMPIRE_DESCRIPTION" Language="en_US">
+      <Text>Combat unit unique to the Sanguine Pact. Has base [ICON_Strength] Combat Strength equal to the strongest unit your cities have produced. Gains permanent [ICON_Strength] Combat Strength when units die in adjacent tiles. When killed, retreats with 1 HP to the [ICON_Capital] Capital or nearest Vampire Castle. Heals an additional 50 HP from pillaging enemy tiles, but receives reduced passive healing.</Text>
     </Replace>
 
     <!-- 한국어 -->
@@ -240,11 +242,8 @@
     <Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="ko_KR">
       <Text>[ICON_RESOURCE_COSMETICS] 화장품 {Amount}개를 부여하고, 독특한 방식으로 제조된 이 사치 자원에서 [ICON_Amenities] 쾌적도 +6을 제공합니다.</Text>
     </Replace>
-    <Replace Tag="LOC_GREATPERSON_2MEDIEVALTECHBOOST" Language="ko_KR">
-      <Text>중세 시대의 무작위 {Amount : plural 1?기술; other?기술;} {Amount}개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
-    </Replace>
-    <Replace Tag="LOC_GREATPERSON_MATHTECH" Language="ko_KR">
-      <Text>수학 기술을 잠금 해제합니다.</Text>
+    <Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="ko_KR">
+      <Text>수학 기술을 즉시 잠금 해제하고 중세 시대의 무작위 기술 1개에 대한 [ICON_TechBoosted] 유레카를 촉발합니다.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +50% 획득 (아미나)</Text>
@@ -269,6 +268,9 @@
     </Replace>
     <Replace Tag="LOC_MINOR_CIV_PRESLAV_COMBAT_STRENGTH_BONUS" Language="ko_KR">
       <Text>프레슬라프 종주국 보너스 +{1_Value}</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_VAMPIRE_DESCRIPTION" Language="ko_KR">
+      <Text>피의 결사 특유 전투 유닛입니다. 플레이어의 도시에서 생산된 가장 강한 유닛과 같은 기본 [ICON_Strength] 전투력을 가집니다. 인접 타일에서 다른 유닛이 죽으면 [ICON_Strength] 전투력을 영구적으로 획득합니다. 사망하면 체력 1을 가지고 [ICON_Capital] 수도 또는 가장 가까운 뱀파이어 성으로 후퇴합니다. 자동 치유량은 낮지만, 적 타일을 약탈하면 체력 50이 추가로 회복합니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
