@@ -19,6 +19,7 @@
     <Delete Tag="LOC_GREATPERSON_GRANT_TOYS"/>
     <Delete Tag="LOC_GREATPERSON_GRANT_JEANS"/>
     <Delete Tag="LOC_GREATPERSON_GRANT_COSMETICS"/>
+    <Delete Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -138,6 +139,12 @@
     <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+100% Earned experience from combat (John Monash)</Text>
     </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="en_US">
+      <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
+    </Replace>
+    <Replace Tag="LOC_MINOR_CIV_PRESLAV_COMBAT_STRENGTH_BONUS" Language="ko_KR">
+      <Text>+{1_Value} Preslav suzerain bonus</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -256,6 +263,12 @@
     </Replace>
     <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +100% 획득. (존 모내시)</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="ko_KR">
+      <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_MINOR_CIV_PRESLAV_COMBAT_STRENGTH_BONUS" Language="ko_KR">
+      <Text>프레슬라프 종주국 보너스 +{1_Value}</Text>
     </Replace>
   </LocalizedText>
 </GameData>

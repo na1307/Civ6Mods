@@ -5,6 +5,7 @@
     <Delete Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION"/>
     <Delete Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION"/>
     <Delete Tag="LOC_BUILDING_MADRASA_DESCRIPTION"/>
+    <Delete Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
 
     <!-- English -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
@@ -16,6 +17,9 @@
     <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
       <Text>A building unique to Arabia. Cheaper to build. Bonus [ICON_Faith] Faith equal to the adjacency bonus of the Campus district.</Text>
     </Replace>
+    <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
+      <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="ko_KR">
@@ -26,6 +30,9 @@
     </Replace>
     <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="ko_KR">
       <Text>아라비아 특유의 건물입니다. 건설 비용이 더 저렴합니다. 캠퍼스 특수지구의 인접 보너스만큼 [ICON_Faith] 신앙 보너스가 부여됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
+      <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
