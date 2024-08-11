@@ -28,6 +28,13 @@
         <Description>LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION</Description>
       </Set>
     </Update>
+    <!-- To avoid Religion Expanded description (Mod Reference is not working) -->
+    <Update>
+      <Where BeliefType="BELIEF_GOD_OF_HEALING" />
+      <Set>
+        <Description>LOC_BELIEF_GOD_OF_HEALING_BLUEHILL_DESCRIPTION</Description>
+      </Set>
+    </Update>
   </Beliefs>
   <Modifiers>
     <Row>
@@ -123,6 +130,11 @@
         <SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
       </Set>
     </Update>
+    <Delete ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" />
+    <Row>
+      <ModifierId>GOD_OF_HEALING_UNIT_HEALING_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+    </Row>
   </Modifiers>
   <ModifierArguments>
     <Row>
@@ -326,6 +338,11 @@
         <Value>2</Value>
       </Set>
     </Update>
+    <Row>
+      <ModifierId>GOD_OF_HEALING_UNIT_HEALING_MODIFIER</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE</Value>
+    </Row>
   </ModifierArguments>
   <BeliefModifiers>
     <Row BeliefType="BELIEF_LADY_OF_COAST">

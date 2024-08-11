@@ -39,6 +39,12 @@
     <Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="en_US">
       <Text>+2 [ICON_Amenities] Amenities in cities with 2 specialty districts.</Text>
     </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_HEALING_BLUEHILL_DESCRIPTION" Language="en_US">
+      <Text>Increases Healing by +30 in your Holy Site district, or any adjacent tiles, or in friendly territory.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_DESCRIPTION" Language="en_US">
+      <Text>Increases Healing by +30 in your Holy Site district, or any adjacent tiles, or in friendly territory.</Text>
+    </Replace>
     <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
       <Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast and Lake {1_Num : plural 1?tile; other?tiles;}.</Text>
     </Replace>
@@ -85,6 +91,12 @@
     </Replace>
     <Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="ko_KR">
       <Text>전문 특수지구를 2개 보유한 도시에 [ICON_Amenities] 쾌적도 +2를 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BELIEF_GOD_OF_HEALING_BLUEHILL_DESCRIPTION" Language="ko_KR">
+      <Text>성지 특수지구와 인접 타일 또는 우호적인 영토 안에서는 치료 효과가 +30 증가합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_DESCRIPTION" Language="ko_KR">
+      <Text>성지 특수지구와 인접 타일 또는 우호적인 영토 안에서는 치료 효과가 +30 증가합니다.</Text>
     </Replace>
     <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">
       <Text>인접한 해안 및 호수 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>

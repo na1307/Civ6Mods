@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Kind="KIND_ABILITY"/>
+  </Types>
+  <TypeTags>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_RECON"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_MELEE"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_RANGED"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_LIGHT_CAVALRY"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_HEAVY_CAVALRY"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_RANGED_CAVALRY"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_SIEGE"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_NAVAL_CARRIER"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_AIRCRAFT"/>
+    <Row Type="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Tag="CLASS_RELIGIOUS_ALL"/>
+  </TypeTags>
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE" Name="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_NAME" Description="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_DESCRIPTION" Inactive="true"/>
+  </UnitAbilities>
+  <UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE</UnitAbilityType>
+      <ModifierId>HEAL_FRIENDLY_OR_HOLY_SITE</ModifierId>
+    </Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>HEAL_FRIENDLY_OR_HOLY_SITE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+      <SubjectRequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_IN_FRIENDLY_TERRITORY</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>HEAL_FRIENDLY_OR_HOLY_SITE</ModifierId>
+      <Name>Amount</Name>
+      <Value>30</Value>
+    </Row>
+    <Row>
+      <ModifierId>HEAL_FRIENDLY_OR_HOLY_SITE</ModifierId>
+      <Name>Type</Name>
+      <Value>ALL</Value>
+    </Row>
+  </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_IN_FRIENDLY_TERRITORY</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_IN_FRIENDLY_TERRITORY</RequirementSetId>
+      <RequirementId>REQUIRES_PLOT_ADJACENT_HOLY_SITE</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_IN_FRIENDLY_TERRITORY</RequirementSetId>
+      <RequirementId>IS_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+</GameData>
