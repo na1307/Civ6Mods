@@ -638,6 +638,18 @@
     <Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="ko_KR">
       <Text>자유 탐구 황금기:[NEWLINE][ICON_TechBoosted] 유레카가 기술 비용의 10%를 추가로 제공합니다. 상업 중심지 및 항만 특수지구의 [ICON_GOLD] 금 인접 보너스는 [ICON_Science] 과학도 제공합니다.</Text>
     </Replace>
+    <Replace Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FOREIGN_CITY_DESCRIPTION" Language="ko_KR">
+      <Text>외국의 한 도시가 대신 우리에게 충성을 맹세하고 제국에 합류하기로 결정했습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_CITY_TRANSFERRED_DISLOYAL_FREE_CITY_DESCRIPTION" Language="ko_KR">
+      <Text>자유 도시가 우리에게 충성을 맹세하고 제국에 합류하기로 결정했습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_CITY_TRANSFERRED_PLAYER_DEFEATED_INSTANCE_DESCRIPTION" Language="ko_KR">
+      <Text>{TargetPlayerCivName}은(는) 시간의 시련을 견디지 못했습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST_DESCRIPTION" Language="ko_KR">
+      <Text>처음으로 [ICON_Governor] 총독을 완전히 진급시켜 도시를 도울 수 있는 강력한 능력을 열었습니다.</Text>
+    </Replace>
     <Replace Tag="LOC_MOMENT_WORLD_CIRCUMNAVIGATED_DESCRIPTION" Language="ko_KR">
       <Text>플레이어 문명이 지도의 모든 수직선에 타일을 드러냈습니다. 비록 그 길이 시작된 곳에서 끝나지 않더라도, 전 세계를 도는 길을 형성합니다.</Text>
     </Replace>
