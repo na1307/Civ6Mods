@@ -147,6 +147,9 @@
     <Replace Tag="LOC_UNIT_VAMPIRE_DESCRIPTION" Language="en_US">
       <Text>Combat unit unique to the Sanguine Pact. Has base [ICON_Strength] Combat Strength equal to the strongest unit your cities have produced. Gains permanent [ICON_Strength] Combat Strength when units die in adjacent tiles. When killed, retreats with 1 HP to the [ICON_Capital] Capital or nearest Vampire Castle. Heals an additional 50 HP from pillaging enemy tiles, but receives reduced passive healing.</Text>
     </Replace>
+    <Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="en_US">
+      <Text>[ICON_GREATSCIENTIST] Great Scientists have an additional charge. Receive a random tech boost after another player recruits a [ICON_GreatScientist] Great Scientist. Must be built on flat land adjacent to a Campus district with a Library.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -271,6 +274,9 @@
     </Replace>
     <Replace Tag="LOC_UNIT_VAMPIRE_DESCRIPTION" Language="ko_KR">
       <Text>피의 결사 특유 전투 유닛입니다. 플레이어의 도시에서 생산된 가장 강한 유닛과 같은 기본 [ICON_Strength] 전투력을 가집니다. 인접 타일에서 다른 유닛이 죽으면 [ICON_Strength] 전투력을 영구적으로 획득합니다. 사망하면 체력 1을 가지고 [ICON_Capital] 수도 또는 가장 가까운 뱀파이어 성으로 후퇴합니다. 자동 치유량은 낮지만, 적 타일을 약탈하면 체력 50이 추가로 회복합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_GreatScientist] 위대한 과학자가 추가 사용 횟수를 받습니다. 다른 플레이어가 [ICON_GreatScientist] 위대한 과학자를 영입하면 무작위 기술 가속을 받습니다. 도서관이 있는 캠퍼스 특수지구 옆 평지에 지어야 합니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>

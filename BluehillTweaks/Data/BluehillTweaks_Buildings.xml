@@ -8,4 +8,50 @@
       </Set>
     </Update>
   </Buildings>
+  <BuildingModifiers>
+    <Delete BuildingType="BUILDING_GREAT_LIBRARY" ModifierId="GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS" />
+    <Row>
+      <BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+      <ModifierId>GREAT_LIBRARY_ADJUST_SCIENTIST_CHARGES</ModifierId>
+    </Row>
+  </BuildingModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_ADJUST_SCIENTIST_CHARGES</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES</ModifierType>
+      <SubjectRequirementSetId>UNIT_IS_SCIENTIST</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_ADJUST_SCIENTIST_CHARGES</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+  </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>UNIT_IS_SCIENTIST</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIREMENT_UNIT_IS_SCIENTIST</RequirementId>
+      <RequirementType>REQUIREMENT_GREAT_PERSON_TYPE_MATCHES</RequirementType>
+    </Row>
+  </Requirements>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>UNIT_IS_SCIENTIST</RequirementSetId>
+      <RequirementId>REQUIREMENT_UNIT_IS_SCIENTIST</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIREMENT_UNIT_IS_SCIENTIST</RequirementId>
+      <Name>GreatPersonClassType</Name>
+      <Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+    </Row>
+  </RequirementArguments>
 </GameData>
