@@ -11,7 +11,7 @@
       <Set>
         <ActionCharges>2</ActionCharges>
         <ActionRequiresIncompleteWonder>true</ActionRequiresIncompleteWonder>
-        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+        <ActionRequiresCompletedDistrictType/>
       </Set>
     </Update>
     <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL" Name="LOC_GREAT_PERSON_INDIVIDUAL_JANG_YEONG_SIL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>

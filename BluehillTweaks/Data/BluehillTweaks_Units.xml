@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Units>
+    <Update>
+      <Where UnitType="UNIT_INFANTRY"/>
+      <Set>
+        <StrategicResource/>
+      </Set>
+    </Update>
+  </Units>
+  <Units_XP2>
+    <Delete UnitType="UNIT_INFANTRY" />
+  </Units_XP2>
+</GameData>

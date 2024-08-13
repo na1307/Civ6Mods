@@ -18,7 +18,7 @@
     <Update>
       <Where ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE" />
       <Set>
-        <SubjectRequirementSetId>NULL</SubjectRequirementSetId>
+        <SubjectRequirementSetId/>
       </Set>
     </Update>
   </Modifiers>

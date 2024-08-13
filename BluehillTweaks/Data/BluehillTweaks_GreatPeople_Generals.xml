@@ -7,7 +7,7 @@
         <ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
         <ActionRequiresNoMilitaryUnit>true</ActionRequiresNoMilitaryUnit>
         <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
-        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+        <ActionRequiresCompletedDistrictType/>
       </Set>
     </Update>
     <Update>
@@ -24,7 +24,7 @@
         <ActionRequiresMilitaryUnitDomain>DOMAIN_LAND</ActionRequiresMilitaryUnitDomain>
         <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
         <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
-        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+        <ActionRequiresCompletedDistrictType/>
       </Set>
     </Update>
     <Update>
@@ -41,14 +41,14 @@
         <ActionRequiresMilitaryUnitDomain>DOMAIN_LAND</ActionRequiresMilitaryUnitDomain>
         <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
         <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
-        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+        <ActionRequiresCompletedDistrictType/>
       </Set>
     </Update>
     <Update>
       <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE"/>
       <Set>
         <ActionRequiresNoMilitaryUnit>true</ActionRequiresNoMilitaryUnit>
-        <ActionRequiresMilitaryUnitDomain>NULL</ActionRequiresMilitaryUnitDomain>
+        <ActionRequiresMilitaryUnitDomain/>
         <ActionRequiresUnitCanGainExperience>false</ActionRequiresUnitCanGainExperience>
       </Set>
     </Update>

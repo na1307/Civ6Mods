@@ -8,7 +8,7 @@
         <ActionRequiresMilitaryUnitDomain>DOMAIN_SEA</ActionRequiresMilitaryUnitDomain>
         <ActionRequiresUnitCanGainExperience>true</ActionRequiresUnitCanGainExperience>
         <ActionEffectTileHighlighting>false</ActionEffectTileHighlighting>
-        <ActionRequiresCompletedDistrictType>NULL</ActionRequiresCompletedDistrictType>
+        <ActionRequiresCompletedDistrictType/>
       </Set>
     </Update>
   </GreatPersonIndividuals>
