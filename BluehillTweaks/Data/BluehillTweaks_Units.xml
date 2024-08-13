@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+  <TypeTags>
+    <Delete Type="UNIT_KOREAN_HWACHA" Tag="CLASS_FIELD_SETUP"/>
+  </TypeTags>
   <Units>
+    <Update>
+      <Where UnitType="UNIT_KOREAN_HWACHA"/>
+      <Set>
+        <Combat>50</Combat>
+      </Set>
+    </Update>
     <Update>
       <Where UnitType="UNIT_INFANTRY"/>
       <Set>

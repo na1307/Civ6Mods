@@ -6,6 +6,7 @@
     <Delete Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION"/>
     <Delete Tag="LOC_BUILDING_MADRASA_DESCRIPTION"/>
     <Delete Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
+    <Delete Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
@@ -20,6 +21,9 @@
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
       <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
     </Replace>
+    <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="en_US">
+      <Text>Korean unique Renaissance Era unit that replaces the Field Cannon. High [ICON_Ranged] Ranged Attack Strength.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="ko_KR">
@@ -33,6 +37,9 @@
     </Replace>
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
       <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
+      <Text>전장포를 대체하는 한국 특유의 르네상스 시대 유닛입니다. 강력한 [ICON_Ranged] 원거리 공격력을 자랑합니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
