@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+  <Tags>
+    <Row Tag="CLASS_KOREAN_HWACHA" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
   <TypeTags>
+    <Row Type="UNIT_KOREAN_HWACHA" Tag="CLASS_KOREAN_HWACHA"/>
     <Delete Type="UNIT_KOREAN_HWACHA" Tag="CLASS_FIELD_SETUP"/>
   </TypeTags>
   <Units>
