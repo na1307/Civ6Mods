@@ -113,6 +113,10 @@
       <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
       <RequirementId>OPPONENT_IS_LAND_UNIT_REQUIREMENTS</RequirementId>
     </Row>
+    <Row>
+      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+    </Row>
   </RequirementSetRequirements>
   <ModifierStrings>
     <Row ModifierId="DANDARA_LAND_UNITS_COMBAT_STRENGTH" Context="Preview" Text="LOC_ABILITY_DANDARA_LAND_UNITS_COMBAT_STRENGTH_DESCRIPTION"/>

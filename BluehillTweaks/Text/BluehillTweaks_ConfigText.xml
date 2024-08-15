@@ -22,7 +22,7 @@
       <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="en_US">
-      <Text>Korean unique Renaissance Era unit that replaces the Field Cannon. High [ICON_Ranged] Ranged Attack Strength.</Text>
+      <Text>Korean unique Renaissance Era unit that replaces the Field Cannon. +10 [ICON_Ranged] Ranged Strength vs. land units.</Text>
     </Replace>
 
     <!-- 한국어 -->
@@ -39,7 +39,7 @@
       <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
-      <Text>전장포를 대체하는 한국 특유의 르네상스 시대 유닛입니다. 강력한 [ICON_Ranged] 원거리 공격력을 자랑합니다.</Text>
+      <Text>전장포를 대체하는 한국 특유의 르네상스 시대 유닛입니다. 지상 유닛 대항 시 [ICON_Ranged] 원거리 전투력 +10을 얻습니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
