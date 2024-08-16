@@ -7,6 +7,7 @@
     <Delete Tag="LOC_BUILDING_MADRASA_DESCRIPTION"/>
     <Delete Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
     <Delete Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION"/>
+    <Delete Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
@@ -24,6 +25,9 @@
     <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="en_US">
       <Text>Korean unique Renaissance Era unit that replaces the Field Cannon. +10 [ICON_Ranged] Ranged Strength vs. land units.</Text>
     </Replace>
+    <Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Japan. Provides +6 [ICON_Culture] Culture to this city after researching the Electricity technology. Its [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="ko_KR">
@@ -40,6 +44,9 @@
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
       <Text>전장포를 대체하는 한국 특유의 르네상스 시대 유닛입니다. 지상 유닛 대항 시 [ICON_Ranged] 원거리 전투력 +10을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="ko_KR">
+      <Text>일본 특유의 건물입니다. 전기 기술을 연구한 후 이 도시에 [ICON_Culture] 문화 +6을 제공합니다. [ICON_Production] 생산력 보너스는 이 건물 유형의 보너스가 없는 6타일 내의 모든 도심부로 확장됩니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
