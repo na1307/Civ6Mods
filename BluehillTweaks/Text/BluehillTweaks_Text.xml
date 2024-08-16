@@ -3,6 +3,10 @@
   <LocalizedText>
     <!-- Remove Text -->
     <Delete Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION"/>
+    <Delete Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION"/>
+    <Delete Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION"/>
+    <Delete Tag="LOC_POLICY_RATIONALISM_DESCRIPTION"/>
+    <Delete Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION"/>
     <Delete Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1"/>
     <Delete Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2"/>
     <Delete Tag="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
@@ -54,11 +58,29 @@
     <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_GOLD" Language="en_US">
       <Text>+{1_num} [ICON_Gold] Gold from the adjacent natural {1_Num : plural 1?wonder; other?wonders;}.</Text>
     </Replace>
-    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="en_US">
-      <Text>Industrial Revolution</Text>
+    <Replace Tag="LOC_POLICY_WORKING_CLASS_NAME" Language="en_US">
+      <Text>Working Class</Text>
     </Replace>
-    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="en_US">
+    <Replace Tag="LOC_POLICY_WORKING_CLASS_DESCRIPTION" Language="en_US">
       <Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_STEEL_INDUSTRY_NAME" Language="en_US">
+      <Text>Steel Industry</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_STEEL_INDUSTRY_DESCRIPTION" Language="en_US">
+      <Text>Extra [ICON_Production] Production from buildings in Industrial Zones: +50% if city [ICON_CITIZEN] population is 10 or higher, +50% if district has at least +4 adjacency bonus.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
+      <Text>Extra [ICON_Gold] Gold from buildings in Commercial Hubs: +50% if city [ICON_CITIZEN] population is 10 or higher, +50% if district has at least +4 adjacency bonus.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="en_US">
+      <Text>Extra [ICON_Culture] Culture from buildings in Theater Squares: +50% if city [ICON_CITIZEN] population is 10 or higher, +50% if district has at least +4 adjacency bonus.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
+      <Text>Extra [ICON_Science] Science from buildings in Campuses: +50% if city [ICON_CITIZEN] population is 10 or higher, +50% if district has at least +4 adjacency bonus.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="en_US">
+      <Text>Extra [ICON_Faith] Faith from buildings in Holy Sites: +50% if city [ICON_CITIZEN] population is 10 or higher, +50% if district has at least +4 adjacency bonus.</Text>
     </Replace>
     <Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="en_US">
       <Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen.</Text>
@@ -185,11 +207,29 @@
     <Replace Tag="LOC_DISTRICT_BT_NATURALWONDER_GOLD" Language="ko_KR">
       <Text>인접한 자연경관에서 [ICON_GOLD] 금 +{1_num}.</Text>
     </Replace>
-    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Language="ko_KR">
-      <Text>산업 혁명</Text>
+    <Replace Tag="LOC_POLICY_WORKING_CLASS_NAME" Language="ko_KR">
+      <Text>노동 계급</Text>
     </Replace>
-    <Replace Tag="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="ko_KR">
+    <Replace Tag="LOC_POLICY_WORKING_CLASS_DESCRIPTION" Language="ko_KR">
       <Text>[ICON_Citizen] 시민당 [ICON_Production] 생산력 +1을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_STEEL_INDUSTRY_NAME" Language="ko_KR">
+      <Text>철강 산업</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_STEEL_INDUSTRY_DESCRIPTION" Language="ko_KR">
+      <Text>산업구역 건물에서 [ICON_Production] 생산력 추가 제공: 도시의 [ICON_CITIZEN] 인구가 10 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="ko_KR">
+      <Text>상업 중심지의 건물에서 [ICON_Gold] 금 추가 제공: 도시의 [ICON_CITIZEN] 인구가 10 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="ko_KR">
+      <Text>극장가의 건물에서 [ICON_Culture] 문화 추가 제공: 도시의 [ICON_CITIZEN] 인구가 10 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="ko_KR">
+      <Text>캠퍼스의 건물에서 [ICON_Science] 과학 추가 제공: 도시의 [ICON_CITIZEN] 인구가 10 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="ko_KR">
+      <Text>성지의 건물에서 [ICON_Faith] 신앙 추가 제공: 도시의 [ICON_CITIZEN] 인구가 10 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
     </Replace>
     <Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="ko_KR">
       <Text>[ICON_Citizen] 시민당 [ICON_Production] 생산력 +1을 제공합니다.</Text>

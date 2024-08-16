@@ -814,6 +814,18 @@
     <Replace Tag="LOC_POLICY_DRILL_MANUALS_DESCRIPTION" Language="ko_KR">
       <Text>개발된 모든 [ICON_RESOURCE_NITER] 초석과 [ICON_RESOURCE_COAL] 석탄 자원에서 턴당 1의 추가 자원이 생산됩니다.</Text>
     </Replace>
+    <Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="ko_KR">
+      <Text>상업 중심지의 건물에서 [ICON_Gold] 금 추가 제공: 도시의 [ICON_CITIZEN] 인구가 15 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="ko_KR">
+      <Text>극장가의 건물에서 [ICON_Culture] 문화 추가 제공: 도시의 [ICON_CITIZEN] 인구가 15 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="ko_KR">
+      <Text>캠퍼스의 건물에서 [ICON_Science] 과학 추가 제공: 도시의 [ICON_CITIZEN] 인구가 15 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="ko_KR">
+      <Text>성지의 건물에서 [ICON_Faith] 신앙 추가 제공: 도시의 [ICON_CITIZEN] 인구가 15 이상이면 +50%, 특수지구의 인접 보너스가 +4 이상이면 +50%.</Text>
+    </Replace>
     <Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="ko_KR">
       <Text>라그랑주 레이저 기지 발사</Text>
     </Replace>

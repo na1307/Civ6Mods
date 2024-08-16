@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
   <IconAliases>
-    <Row Name="ICON_POLICY_INDUSTRIAL_REVOLUTION" OtherName="ICON_POLICY_ECONOMIC"/>
+    <Row Name="ICON_POLICY_WORKING_CLASS" OtherName="ICON_POLICY_ECONOMIC"/>
+    <Row Name="ICON_POLICY_STEEL_INDUSTRY" OtherName="ICON_POLICY_MILITARY"/>
   </IconAliases>
 </GameData>

@@ -50,8 +50,6 @@
     <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="StreetCarnival_Culture"/>
     <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Copacabana_Culture"/>
     <Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Hippodrome_Culture"/>
-    <Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Geothermal_Science"/>
-    <Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Reef_Science"/>
     <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Oasis_Gold"/>
     <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="LuxuryResource_Gold"/>
     <Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Neighborhood_Gold"/>

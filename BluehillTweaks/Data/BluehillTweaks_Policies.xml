@@ -1,41 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
   <Types>
-    <Row Type="POLICY_INDUSTRIAL_REVOLUTION" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_WORKING_CLASS" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_STEEL_INDUSTRY" Kind="KIND_POLICY"/>
   </Types>
   <Policies>
-    <Row PolicyType="POLICY_INDUSTRIAL_REVOLUTION" Name="LOC_POLICY_INDUSTRIAL_REVOLUTION_NAME" Description="LOC_POLICY_INDUSTRIAL_REVOLUTION_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" GovernmentSlotType="SLOT_ECONOMIC"/>
+    <Row PolicyType="POLICY_WORKING_CLASS" Name="LOC_POLICY_WORKING_CLASS_NAME" Description="LOC_POLICY_WORKING_CLASS_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" GovernmentSlotType="SLOT_ECONOMIC"/>
+    <Row PolicyType="POLICY_STEEL_INDUSTRY" Name="LOC_POLICY_STEEL_INDUSTRY_NAME" Description="LOC_POLICY_STEEL_INDUSTRY_DESCRIPTION" PrereqCivic="CIVIC_NATIONALISM" GovernmentSlotType="SLOT_MILITARY"/>
   </Policies>
   <ObsoletePolicies>
     <Update>
       <Where PolicyType="POLICY_URBAN_PLANNING" />
       <Set>
-        <ObsoletePolicy>POLICY_INDUSTRIAL_REVOLUTION</ObsoletePolicy>
+        <ObsoletePolicy>POLICY_WORKING_CLASS</ObsoletePolicy>
       </Set>
     </Update>
   </ObsoletePolicies>
   <PolicyModifiers>
     <Row>
-      <PolicyType>POLICY_INDUSTRIAL_REVOLUTION</PolicyType>
-      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <PolicyType>POLICY_WORKING_CLASS</PolicyType>
+      <ModifierId>WORKING_CLASS_PRODUCTION_PER_CITIZEN</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_STEEL_INDUSTRY</PolicyType>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_STEEL_INDUSTRY</PolicyType>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_POP</ModifierId>
     </Row>
   </PolicyModifiers>
   <Modifiers>
     <Row>
-      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <ModifierId>WORKING_CLASS_PRODUCTION_PER_CITIZEN</ModifierId>
       <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+      <SubjectRequirementSetId>INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_POP</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+      <SubjectRequirementSetId>CITY_HAS_HIGH_POPULATION</SubjectRequirementSetId>
     </Row>
   </Modifiers>
   <ModifierArguments>
     <Row>
-      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <ModifierId>WORKING_CLASS_PRODUCTION_PER_CITIZEN</ModifierId>
       <Name>Amount</Name>
       <Value>1</Value>
     </Row>
     <Row>
-      <ModifierId>INDUSTRIAL_REVOLUTION_PRODUCTION_PER_CITIZEN</ModifierId>
+      <ModifierId>WORKING_CLASS_PRODUCTION_PER_CITIZEN</ModifierId>
       <Name>YieldType</Name>
       <Value>YIELD_PRODUCTION</Value>
     </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
+      <Name>DistrictType</Name>
+      <Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_POP</ModifierId>
+      <Name>DistrictType</Name>
+      <Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_POP</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>STEEL_INDUSTRY_BUILDING_YIELDS_HIGH_POP</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
   </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementSetId>
+      <RequirementId>REQUIRES_INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementId>
+      <RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType>
+    </Row>
+  </Requirements>
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementId>
+      <Name>DistrictType</Name>
+      <Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_INDUSTRIAL_ZONE_HAS_HIGH_ADJACENCY</RequirementId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Update>
+      <Where RequirementId="REQUIRES_CITY_HAS_HIGH_POPULATION" Name="Amount" />
+      <Set>
+        <Value>10</Value>
+      </Set>
+    </Update>
+  </RequirementArguments>
 </GameData>
