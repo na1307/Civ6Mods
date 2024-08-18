@@ -177,7 +177,7 @@
     </Replace>
 
     <!-- 한국어 -->
-    <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
+    <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="ko_KR">
       <Text>매력도에 따라 [ICON_Housing] 주거공간을 최대 +3까지 부여합니다. 인접 중립 타일에 문화 폭탄을 투하하며 매력도를 2 높입니다.</Text>
     </Replace>
     <Replace Tag="LOC_DISTRICT_LUXURYRESOURCE_GOLD" Language="ko_KR">

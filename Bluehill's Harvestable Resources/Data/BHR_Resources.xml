@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Resource_Harvests>
+    <!--Luxury-->
+    <Row ResourceType="RESOURCE_CITRUS" YieldType="YIELD_FOOD" Amount="40" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD" Amount="60" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_CULTURE" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD" Amount="60" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD" Amount="60" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_DYES" YieldType="YIELD_FAITH" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_FURS" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_FURS" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_MASONRY"/>
+    <Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_MASONRY"/>
+    <Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_JADE" YieldType="YIELD_CULTURE" Amount="20" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_CULTURE" Amount="20" PrereqTech="TECH_MASONRY"/>
+    <Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_SCIENCE" Amount="20" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_FAITH" Amount="20" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+    <Row ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_SALT" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_SILK" YieldType="YIELD_CULTURE" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD" Amount="60" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_SPICES" YieldType="YIELD_FOOD" Amount="40" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_SUGAR" YieldType="YIELD_FOOD" Amount="40" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_TEA" YieldType="YIELD_SCIENCE" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_FAITH" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_GOLD" Amount="60" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+    <Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+    <Row ResourceType="RESOURCE_WINE" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_WINE" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <!--Strategic-->
+    <Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_SCIENCE" Amount="20" PrereqTech="TECH_RADIO"/>
+    <Row ResourceType="RESOURCE_COAL" YieldType="YIELD_PRODUCTION" Amount="40" PrereqTech="TECH_INDUSTRIALIZATION"/>
+    <Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+    <Row ResourceType="RESOURCE_IRON" YieldType="YIELD_SCIENCE" Amount="20" PrereqTech="TECH_BRONZE_WORKING"/>
+    <Row ResourceType="RESOURCE_NITER" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+    <Row ResourceType="RESOURCE_NITER" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+    <Row ResourceType="RESOURCE_OIL" YieldType="YIELD_PRODUCTION" Amount="60" PrereqTech="TECH_REFINING"/>
+    <Row ResourceType="RESOURCE_URANIUM" YieldType="YIELD_PRODUCTION" Amount="40" PrereqTech="TECH_COMBINED_ARMS"/>
+    <Row ResourceType="RESOURCE_ANTIQUITY_SITE" YieldType="YIELD_CULTURE" Amount="50"/>
+    <Row ResourceType="RESOURCE_SHIPWRECK" YieldType="YIELD_CULTURE" Amount="50"/>
+  </Resource_Harvests>
+</GameData>

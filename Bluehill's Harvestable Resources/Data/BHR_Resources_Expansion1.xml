@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Resource_Harvests>
+    <!--Luxury-->
+    <Row ResourceType="RESOURCE_AMBER" YieldType="YIELD_CULTURE" Amount="20" PrereqTech="TECH_MINING"/>
+    <Row ResourceType="RESOURCE_OLIVES" YieldType="YIELD_GOLD" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_OLIVES" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+    <Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_SCIENCE" Amount="20" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+  </Resource_Harvests>
+</GameData>

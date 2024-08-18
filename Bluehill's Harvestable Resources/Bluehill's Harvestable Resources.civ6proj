@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Bluehill's Harvestable Resources</Name>
+    <Guid>e326bb15-9c85-4712-8542-1830a6d58a28</Guid>
+    <ProjectGuid>603139dc-8408-4f4c-92e4-2e2ec63f9ff0</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Allows you to harvest strategic and luxury resources.</Teaser>
+    <Description>Allows you to harvest strategic and luxury resources.[NEWLINE][NEWLINE]Unlike other harvestable resource mods, it is based on the yield of that resource. Therefore, it does not support mod resources.[NEWLINE][NEWLINE]Antiquity Site and Shipwreck provides 50 [ICON_Culture] Culture.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>Bluehill's Harvestable Resources</AssemblyName>
+    <RootNamespace>Bluehill's Harvestable Resources</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BHR_InGameDatabase"><File>Data/BHR_Resources.xml</File></UpdateDatabase><UpdateDatabase id="BHR_InGameDatabase_Expansion1"><Criteria>BHR_Expansion1OrExpansion2</Criteria><File>Data/BHR_Resources_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="BHR_InGameDatabase_GranColombia_Maya"><Criteria>BHR_GranColombia_Maya</Criteria><File>Data/BHR_Resources_GranColombia_Maya.xml</File></UpdateDatabase><UpdateText id="BHR_InGameText"><File>Text/BHR_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="BHR_Expansion1OrExpansion2"><RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="BHR_GranColombia_Maya"><ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BHR_Resources.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BHR_Resources_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BHR_Resources_GranColombia_Maya.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BHR_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

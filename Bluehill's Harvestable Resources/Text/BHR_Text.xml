@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- Remove Text -->
+    <Delete Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION"/>
+    <Delete Tag="LOC_TECH_MINING_DESCRIPTION"/>
+    <Delete Tag="LOC_TECH_IRRIGATION_DESCRIPTION"/>
+    <Delete Tag="LOC_TECH_MASONRY_DESCRIPTION"/>
+    <Delete Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION"/>
+
+    <!-- English -->
+    <Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION" Language="en_US">
+      <Text>Allows harvest resources that can be improved with Pastures or Camps.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_MINING_DESCRIPTION" Language="en_US">
+      <Text>Allows chopping of Woods, and harvest resources that can be improved with Mines.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION" Language="en_US">
+      <Text>Allows clearing of Marsh, and harvest resources that can be improved with Plantations.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_MASONRY_DESCRIPTION" Language="en_US">
+      <Text>Allows harvest resources that can be improved with Quarries.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION" Language="en_US">
+      <Text>Allows Traders to embark, and harvest resources that can be improved with Fishing Boats.</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_DESCRIPTION" Language="ko_KR">
+      <Text>목장이나 야영지로 개발되는 자원을 수확할 수 있게 됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_MINING_DESCRIPTION" Language="ko_KR">
+      <Text>숲을 벌목할 수 있게 되고, 광산으로 개발되는 자원을 수확할 수 있게 됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION" Language="ko_KR">
+      <Text>습지를 제거할 수 있게 되고, 재배지로 개발되는 자원을 수확할 수 있게 됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_MASONRY_DESCRIPTION" Language="ko_KR">
+      <Text>채석장으로 개발되는 자원을 수확할 수 있게 됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION" Language="ko_KR">
+      <Text>상인이 승선할 수 있게 되고, 어선으로 개발되는 자원을 수확할 수 있게 됩니다.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

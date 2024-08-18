@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Resource_Harvests>
+    <!--Luxury-->
+    <Row ResourceType="RESOURCE_HONEY" YieldType="YIELD_FOOD" Amount="40" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+  </Resource_Harvests>
+</GameData>

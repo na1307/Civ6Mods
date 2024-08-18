@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Bluehill's Harvestable Resources", "Bluehill's Harvestable Resources.civ6proj", "{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}.Default|Civ6.ActiveCfg = Default|Civ6
+		{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C08CBCD-F1EF-4645-8234-65DF81935533}
+	EndGlobalSection
+EndGlobal
