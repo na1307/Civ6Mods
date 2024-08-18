@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Bluehill's Extra Resource Accumulation</Name>
+    <Guid>e70fdf23-ae16-4fcd-aa1d-08bbedc32865</Guid>
+    <ProjectGuid>6b9b5450-6fc8-4928-aa0e-6fcacf43ff8a</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Bluehill's Extra Resource Accumulation</Teaser>
+    <Description>As technology advances, resource accumulation per turn increases.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>Bluehill's Extra Resource Accumulation</AssemblyName>
+    <RootNamespace>Bluehill's Extra Resource Accumulation</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BERA_InGameDatabase"><File>Data/BERA_Technologies.xml</File></UpdateDatabase><UpdateText id="BERA_InGameText"><File>Text/BERA_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Mod" title="Better Tech Tree (UI)" id="23acd19c-377a-4da8-b8cb-87d3c7fc71af" max_version="0" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BERA_Technologies.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BERA_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Technologies>
+    <Update>
+      <Where TechnologyType="TECH_HORSEBACK_RIDING" />
+      <Set>
+        <Description>LOC_TECH_HORSEBACK_RIDING_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_STIRRUPS" />
+      <Set>
+        <Description>LOC_TECH_STIRRUPS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_SIEGE_TACTICS" />
+      <Set>
+        <Description>LOC_TECH_SIEGE_TACTICS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_MILITARY_SCIENCE" />
+      <Set>
+        <Description>LOC_TECH_MILITARY_SCIENCE_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_APPRENTICESHIP" />
+      <Set>
+        <Description>LOC_TECH_APPRENTICESHIP_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_METAL_CASTING" />
+      <Set>
+        <Description>LOC_TECH_METAL_CASTING_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_INDUSTRIALIZATION" />
+      <Set>
+        <Description>LOC_TECH_INDUSTRIALIZATION_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_STEEL" />
+      <Set>
+        <Description>LOC_TECH_STEEL_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_GUNPOWDER" />
+      <Set>
+        <Description>LOC_TECH_GUNPOWDER_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_BALLISTICS" />
+      <Set>
+        <Description>LOC_TECH_BALLISTICS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_REPLACEABLE_PARTS" />
+      <Set>
+        <Description>LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ADVANCED_BALLISTICS" />
+      <Set>
+        <Description>LOC_TECH_ADVANCED_BALLISTICS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ELECTRICITY" />
+      <Set>
+        <Description>LOC_TECH_ELECTRICITY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_NANOTECHNOLOGY" />
+      <Set>
+        <Description>LOC_TECH_NANOTECHNOLOGY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ROCKETRY" />
+      <Set>
+        <Description>LOC_TECH_ROCKETRY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_CHEMISTRY" />
+      <Set>
+        <Description>LOC_TECH_CHEMISTRY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ADVANCED_FLIGHT" />
+      <Set>
+        <Description>LOC_TECH_ADVANCED_FLIGHT_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
+      <Set>
+        <Description>LOC_TECH_STEALTH_TECHNOLOGY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_SMART_MATERIALS" />
+      <Set>
+        <Description>LOC_TECH_SMART_MATERIALS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_PLASTICS" />
+      <Set>
+        <Description>LOC_TECH_PLASTICS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_COMPOSITES" />
+      <Set>
+        <Description>LOC_TECH_COMPOSITES_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_CYBERNETICS" />
+      <Set>
+        <Description>LOC_TECH_CYBERNETICS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_NUCLEAR_FISSION" />
+      <Set>
+        <Description>LOC_TECH_NUCLEAR_FISSION_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_NUCLEAR_FUSION" />
+      <Set>
+        <Description>LOC_TECH_NUCLEAR_FUSION_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ADVANCED_POWER_CELLS" />
+      <Set>
+        <Description>LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION</Description>
+      </Set>
+    </Update>
+  </Technologies>
+  <Modifiers>
+    <Row>
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_ALUMINUM</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_COAL</Value>
+    </Row>
+    <Row>
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_HORSES</Value>
+    </Row>
+    <Row>
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_IRON</Value>
+    </Row>
+    <Row>
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_NITER</Value>
+    </Row>
+    <Row>
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_OIL</Value>
+    </Row>
+    <Row>
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>ResourceType</Name>
+      <Value>RESOURCE_URANIUM</Value>
+    </Row>
+    <Row>
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+  </ModifierArguments>
+  <TechnologyModifiers>
+    <!-- Horses -->
+    <Row TechnologyType="TECH_HORSEBACK_RIDING">
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_STIRRUPS">
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_SIEGE_TACTICS">
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_MILITARY_SCIENCE">
+      <ModifierId>HORSES_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Iron -->
+    <Row TechnologyType="TECH_APPRENTICESHIP">
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_METAL_CASTING">
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_INDUSTRIALIZATION">
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_STEEL">
+      <ModifierId>IRON_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Niter -->
+    <Row TechnologyType="TECH_GUNPOWDER">
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_BALLISTICS">
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_REPLACEABLE_PARTS">
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_ADVANCED_BALLISTICS">
+      <ModifierId>NITER_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Coal -->
+    <Row TechnologyType="TECH_ELECTRICITY">
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_ROCKETRY">
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_NANOTECHNOLOGY">
+      <ModifierId>COAL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Aluminum -->
+    <Row TechnologyType="TECH_CHEMISTRY">
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_ADVANCED_FLIGHT">
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_STEALTH_TECHNOLOGY">
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_SMART_MATERIALS">
+      <ModifierId>ALUMINUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Oil -->
+    <Row TechnologyType="TECH_PLASTICS">
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_COMPOSITES">
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_CYBERNETICS">
+      <ModifierId>OIL_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <!-- Uranium -->
+    <Row TechnologyType="TECH_NUCLEAR_FISSION">
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_NUCLEAR_FUSION">
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+    <Row TechnologyType="TECH_ADVANCED_POWER_CELLS">
+      <ModifierId>URANIUM_EXTRACTION_RATE_BOOST</ModifierId>
+    </Row>
+  </TechnologyModifiers>
+</GameData>
