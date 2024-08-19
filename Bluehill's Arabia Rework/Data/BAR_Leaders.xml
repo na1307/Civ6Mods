@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <TraitModifiers>
+    <Delete TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_CULTURE"/>
+    <Delete TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_FAITH"/>
+    <Delete TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_SCIENCE"/>
+    <Row TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_FAITH_SHRINE"/>
+    <Row TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_FAITH_MADRASA"/>
+  </TraitModifiers>
+  <Modifiers>
+    <Delete ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_CULTURE" />
+    <Delete ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_FAITH" />
+    <Delete ModifierId="TRAIT_RELIGIOUS_BUILDING_MULTIPLIER_SCIENCE" />
+    <Row>
+      <ModifierId>TRAIT_FAITH_SHRINE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE_BAR</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FAITH_MADRASA</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE_BAR</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_FAITH_SHRINE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_SHRINE</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FAITH_MADRASA</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_MADRASA</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>

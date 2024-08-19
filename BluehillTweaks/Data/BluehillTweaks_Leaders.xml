@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
   <TraitModifiers>
-    <Row TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_SHRINE_SCIENCE"/>
-    <Row TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_TEMPLE_SCIENCE"/>
-    <Row TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH" ModifierId="TRAIT_FAITH_MADRASA"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BARRACKS_STABLE_IDENTITY_BONUS"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_ARMORY_IDENTITY_BONUS"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_MILITARY_ACADEMY_IDENTITY_BONUS"/>
     <Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS"/>
   </TraitModifiers>
   <Modifiers>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE</ModifierId>
-      <ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
-      <ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE</ModifierId>
-      <ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE_MODIFIER</ModifierId>
-      <ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_FAITH_MADRASA</ModifierId>
-      <ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE</ModifierType>
-    </Row>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BARRACKS_STABLE_IDENTITY_BONUS"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_ARMORY_IDENTITY_BONUS"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_MILITARY_ACADEMY_IDENTITY_BONUS"/>
@@ -47,51 +24,6 @@
     </Row>
   </Modifiers>
   <ModifierArguments>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE</ModifierId>
-      <Name>ModifierId</Name>
-      <Value>TRAIT_SHRINE_SCIENCE_MODIFIER</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
-      <Name>BuildingType</Name>
-      <Value>BUILDING_SHRINE</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
-      <Name>YieldType</Name>
-      <Value>YIELD_SCIENCE</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
-      <Name>Amount</Name>
-      <Value>2</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE</ModifierId>
-      <Name>ModifierId</Name>
-      <Value>TRAIT_TEMPLE_SCIENCE_MODIFIER</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE_MODIFIER</ModifierId>
-      <Name>BuildingType</Name>
-      <Value>BUILDING_TEMPLE</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE_MODIFIER</ModifierId>
-      <Name>YieldType</Name>
-      <Value>YIELD_SCIENCE</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_TEMPLE_SCIENCE_MODIFIER</ModifierId>
-      <Name>Amount</Name>
-      <Value>4</Value>
-    </Row>
-    <Row>
-      <ModifierId>TRAIT_FAITH_MADRASA</ModifierId>
-      <Name>BuildingType</Name>
-      <Value>BUILDING_MADRASA</Value>
-    </Row>
     <Row>
       <ModifierId>MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS</ModifierId>
       <Name>ModifierId</Name>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Unit_BuildingPrereqs>
+    <Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_MADRASA"/>
+    <Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_MADRASA"/>
+    <Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_MADRASA"/>
+    <Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_MADRASA"/>
+  </Unit_BuildingPrereqs>
+</GameData>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Buildings>
+    <Delete BuildingType="BUILDING_MADRASA" />
+    <Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA" />
+  </Buildings>
+  <BuildingPrereqs>
+    <Delete Building="BUILDING_MADRASA" PrereqBuilding="BUILDING_LIBRARY"/>
+    <Row Building="BUILDING_MADRASA" PrereqBuilding="BUILDING_SHRINE"/>
+  </BuildingPrereqs>
+  <BuildingReplaces>
+    <Delete CivUniqueBuildingType="BUILDING_MADRASA" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+    <Row CivUniqueBuildingType="BUILDING_MADRASA" ReplacesBuildingType="BUILDING_TEMPLE"/>
+  </BuildingReplaces>
+  <Building_YieldChanges>
+    <Delete BuildingType="BUILDING_MADRASA" />
+    <Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_FAITH" YieldChange="4"/>
+    <Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+  </Building_YieldChanges>
+  <Building_GreatPersonPoints>
+    <Delete BuildingType="BUILDING_MADRASA" />
+    <Row BuildingType="BUILDING_MADRASA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+    <Row BuildingType="BUILDING_MADRASA" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+  </Building_GreatPersonPoints>
+  <Building_YieldDistrictCopies>
+    <Delete BuildingType="BUILDING_MADRASA" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_FAITH"/>
+  </Building_YieldDistrictCopies>
+  <Building_GreatWorks>
+    <Row BuildingType="BUILDING_MADRASA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+  </Building_GreatWorks>
+  <Modifiers>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_FAITH</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_SCIENCE</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>20</Value>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_FAITH</ModifierId>
+      <Name>Amount</Name>
+      <Value>20</Value>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_FAITH</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_SCIENCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>20</Value>
+    </Row>
+    <Row>
+      <ModifierId>MADRASA_MULTIPLIER_SCIENCE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+  </ModifierArguments>
+  <BuildingModifiers>
+    <Row>
+      <BuildingType>BUILDING_MADRASA</BuildingType>
+      <ModifierId>MADRASA_MULTIPLIER_CULTURE</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_MADRASA</BuildingType>
+      <ModifierId>MADRASA_MULTIPLIER_FAITH</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_MADRASA</BuildingType>
+      <ModifierId>MADRASA_MULTIPLIER_SCIENCE</ModifierId>
+    </Row>
+  </BuildingModifiers>
+</GameData>

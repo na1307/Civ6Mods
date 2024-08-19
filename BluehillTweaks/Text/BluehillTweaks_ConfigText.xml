@@ -2,23 +2,11 @@
 <GameData>
   <LocalizedText>
     <!-- Remove Text -->
-    <Delete Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION"/>
-    <Delete Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION"/>
-    <Delete Tag="LOC_BUILDING_MADRASA_DESCRIPTION"/>
     <Delete Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
     <Delete Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION"/>
     <Delete Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION"/>
 
     <!-- English -->
-    <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
-      <Text>Automatically receive the final [ICON_GreatProphet] Great Prophet when the next-to-last one is claimed (if you have not earned a [ICON_GreatProphet] Great Prophet already). +2 [ICON_Science] Science for each foreign city following Arabia's Religion. Additional district capacity when you Build both Campus and Holy Site in cities.</Text>
-    </Replace>
-    <Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="en_US">
-      <Text>The worship building for their Religion can be purchased by any player for just one-tenth of the usual  [ICON_Faith] Faith cost.  This worship building is enhanced to add 10% to the [ICON_Science] Science, [ICON_Faith] Faith, and [ICON_Culture] Culture output of Arabian cities.</Text>
-    </Replace>
-    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
-      <Text>A building unique to Arabia. Cheaper to build. Bonus [ICON_Faith] Faith equal to the adjacency bonus of the Campus district.</Text>
-    </Replace>
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
       <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
     </Replace>
@@ -30,15 +18,6 @@
     </Replace>
 
     <!-- 한국어 -->
-    <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="ko_KR">
-      <Text>플레이어가 [ICON_GreatProphet] 위대한 선지자를 획득하지 못했다면, 마지막에서 두 번째 위대한 선지자를 다른 문명이 영입하는 경우, 플레이어는 마지막 [ICON_GreatProphet] 위대한 선지자를 자동으로 받습니다. 아라비아의 종교를 믿는 타 문명 도시마다 [ICON_Science] 과학 +2를 받습니다. 도시에 캠퍼스와 성지를 모두 건설하면 추가 특수지구 최대치를 얻습니다.</Text>
-    </Replace>
-    <Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="ko_KR">
-      <Text>해당 종교의 예배 건물은 일반적인 [ICON_Faith] 신앙 비용의 10%만으로 구매할 수 있습니다. 이 예배 건물을 건설하면 아라비아 도시의 [ICON_Science] 과학, [ICON_Faith] 신앙 및 [ICON_Culture] 문화 생산량이 10% 증가합니다. 성소와 사원은 고유 [ICON_Faith] 신앙 생산량만큼 [ICON_Science] 과학을 제공합니다. [ICON_Faith] 신앙으로 마드라사를 구매할 수 있습니다.</Text>
-    </Replace>
-    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="ko_KR">
-      <Text>아라비아 특유의 건물입니다. 건설 비용이 더 저렴합니다. 캠퍼스 특수지구의 인접 보너스만큼 [ICON_Faith] 신앙 보너스가 부여됩니다.</Text>
-    </Replace>
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
       <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>
     </Replace>

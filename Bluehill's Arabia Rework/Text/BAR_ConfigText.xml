@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- Remove Text -->
+    <Delete Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION"/>
+    <Delete Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION"/>
+    <Delete Tag="LOC_BUILDING_MADRASA_DESCRIPTION"/>
+
+    <!-- English -->
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
+      <Text>Shrines provide [ICON_Science] Science equal to their intrinsic [ICON_Faith] Faith output. +2 [ICON_Science] Science for each city following Arabia's Religion.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="en_US">
+      <Text>Can purchase Shrines and Madrasas with [ICON_Faith] Faith. The worship building can be purchased by just one-tenth of the usual [ICON_Faith] Faith cost.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Arabia. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. This city's [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith yields increase by 20%.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Arabia. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. This city's [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith yields increase by 20%. Recalling Heroes in this city costs 15% less [ICON_Faith] Faith.</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="ko_KR">
+      <Text>성소는 고유 [ICON_Faith] 신앙 생산량만큼 [ICON_Science] 과학을 제공합니다. 아라비아의 종교를 믿는 도시마다 [ICON_Science] 과학 +2를 받습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Faith] 신앙으로 성소와 마드라사를 구매할 수 있습니다. 예배 건물은 일반적인 [ICON_Faith] 신앙 비용의 10%만으로 구매할 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="ko_KR">
+      <Text>아라비아 특유의 건물입니다. [ICON_Faith] 신앙으로 사도와 이단심문관을 구매하기 위해 요구됩니다. 이 도시의 [ICON_Science] 과학, [ICON_Culture] 문화 및 [ICON_Faith] 신앙 생산량이 20% 증가합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION" Language="ko_KR">
+      <Text>아라비아 특유의 건물입니다. [ICON_Faith] 신앙으로 사도와 이단심문관을 구매하기 위해 요구됩니다. 이 도시의 [ICON_Science] 과학, [ICON_Culture] 문화 및 [ICON_Faith] 신앙 생산량이 20% 증가합니다. 이 도시에 영웅을 소환하기 위해 필요한 [ICON_Faith] 신앙이 15% 감소합니다.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

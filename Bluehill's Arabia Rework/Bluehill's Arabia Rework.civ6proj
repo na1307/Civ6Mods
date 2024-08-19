@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Bluehill's Arabia Rework</Name>
+    <Guid>736797e5-0c45-4e6a-98a4-2d1cc0450c19</Guid>
+    <ProjectGuid>500de638-0366-4f1a-8107-29b0b8335abc</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Bluehill's Arabia Rework</Teaser>
+    <Description>Reworks Arabia and Vizier Saladin's ability.</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>Bluehill's Arabia Rework</AssemblyName>
+    <RootNamespace>Bluehill's Arabia Rework</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="BAR_FontEndData"><File>Data/BAR_ConfigData.xml</File></UpdateDatabase><UpdateText id="BAR_FrontEndText"><File>Text/BAR_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BAR_InGameDatabase"><File>Data/BAR_Modifiers.xml</File><File>Data/BAR_Buildings.xml</File><File>Data/BAR_Civilizations.xml</File><File>Data/BAR_Leaders.xml</File><File>Data/BAR_Units.xml</File></UpdateDatabase><UpdateDatabase id="BAR_InGameDatabase_Heroes"><Criteria>BAR_Heroes_Mode</Criteria><File>Data/BAR_Heroes_MODE.xml</File></UpdateDatabase><UpdateText id="BAR_InGameText"><File>Text/BAR_ConfigText.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="DLC: Babylon Pack" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
+  <Reference type="Dlc" title="DLC: Great Negotiators Leader Pack" id="7A66DB58-B354-4061-8C80-95B638DD6F6C" />
+  <Reference type="Mod" title="문명 6 번역 개선 모드" id="8c466dfa-b063-4bd4-af0b-84e3b77059b9" />
+</Associations>]]></AssociationData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="BAR_Heroes_Mode"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_HEROES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BAR_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_Heroes_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_Modifiers.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BAR_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BAR_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

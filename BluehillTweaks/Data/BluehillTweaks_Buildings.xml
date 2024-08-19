@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-  <Buildings>
-    <Update>
-      <Where BuildingType="BUILDING_MADRASA" />
-      <Set>
-        <Cost>165</Cost>
-      </Set>
-    </Update>
-  </Buildings>
   <Building_YieldChanges>
     <Update>
       <Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/>

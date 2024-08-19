@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="MODIFIER_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE_BAR" Kind="KIND_MODIFIER"/>
+  </Types>
+  <DynamicModifiers>
+    <Row>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE_BAR</ModifierType>
+      <CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+      <EffectType>EFFECT_ENABLE_SPECIFIC_BUILDING_FAITH_PURCHASE</EffectType>
+    </Row>
+  </DynamicModifiers>
+</GameData>

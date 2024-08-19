@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Bluehill's Arabia Rework", "Bluehill's Arabia Rework.civ6proj", "{500DE638-0366-4F1A-8107-29B0B8335ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500DE638-0366-4F1A-8107-29B0B8335ABC}.Default|Civ6.ActiveCfg = Default|Civ6
+		{500DE638-0366-4F1A-8107-29B0B8335ABC}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4979704-10B6-4796-9F75-67D80FADCED6}
+	EndGlobalSection
+EndGlobal

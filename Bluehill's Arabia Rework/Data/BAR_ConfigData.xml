@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GameModePlayerItemOverrides>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:StandardPlayers" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:StandardPlayers" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN_ALT" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN_ALT" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+    <Row GameModeType="GAMEMODE_HEROES" Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ARABIA" LeaderType="LEADER_SALADIN_ALT" Type="BUILDING_MADRASA" Description="LOC_BUILDING_MADRASA_HEROES_DESCRIPTION"/>
+  </GameModePlayerItemOverrides>
+</GameData>

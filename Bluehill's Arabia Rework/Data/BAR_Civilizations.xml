@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE</ModifierId>
+      <Name>ModifierId</Name>
+      <Value>TRAIT_SHRINE_SCIENCE_MODIFIER</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_SHRINE</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SHRINE_SCIENCE_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>BeliefYieldType</Name>
+      <Value>BELIEF_YIELD_PER_CITY</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>PerXItems</Name>
+      <Value>1</Value>
+    </Row>
+  </ModifierArguments>
+  <TraitModifiers>
+    <Delete TraitType="TRAIT_CIVILIZATION_LAST_PROPHET" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET" />
+    <Delete TraitType="TRAIT_CIVILIZATION_LAST_PROPHET" ModifierId="TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION" />
+    <Row TraitType="TRAIT_CIVILIZATION_LAST_PROPHET" ModifierId="TRAIT_SHRINE_SCIENCE" />
+    <Row TraitType="TRAIT_CIVILIZATION_LAST_PROPHET" ModifierId="TRAIT_SCIENCE_PER_CITY_FOLLOWING_RELIGION" />
+  </TraitModifiers>
+</GameData>
