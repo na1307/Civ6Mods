@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Bluehill's Extra Resource Accumulation", "Bluehill's Extra Resource Accumulation.civ6proj", "{6B9B5450-6FC8-4928-AA0E-6FCACF43FF8A}"
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "Real Harvestable Resources", "Real Harvestable Resources.civ6proj", "{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Civ6 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B9B5450-6FC8-4928-AA0E-6FCACF43FF8A}.Default|Civ6.ActiveCfg = Default|Civ6
-		{6B9B5450-6FC8-4928-AA0E-6FCACF43FF8A}.Default|Civ6.Build.0 = Default|Civ6
+		{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}.Default|Civ6.ActiveCfg = Default|Civ6
+		{603139DC-8408-4F4C-92E4-2E2EC63F9FF0}.Default|Civ6.Build.0 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7AD94B87-8048-42CB-BCB0-D7E31E4B51C5}
+		SolutionGuid = {4C08CBCD-F1EF-4645-8234-65DF81935533}
 	EndGlobalSection
 EndGlobal
