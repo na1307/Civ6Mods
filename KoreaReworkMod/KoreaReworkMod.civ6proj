@@ -30,6 +30,33 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="KoreaReworkMod.Art.xml" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.tex"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.tex"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.tex"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.tex"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.tex"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.dds"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.tex"/>
+    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.dds"/>
+    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.tex"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.dds"/>
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.tex"/>
+    <None Include="XLPs\UIIcons.xlp"/>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs" />
@@ -75,84 +102,6 @@
     <Content Include="Data\KoreaReworkMod_Units_Hwarang.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_22.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_ANT_HWARANG_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Moment_UniqueUnit_Ant_Hwarang.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Moment_UniqueUnit_Ant_Hwarang.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_200.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_200.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_70.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_70.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_95.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_ANT_HWARANG_95.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Text\KoreaReworkMod_ConfigText.xml">
       <SubType>Content</SubType>
     </Content>
@@ -162,9 +111,6 @@
     <Content Include="Text\KoreaReworkMod_Text_MODE.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\UIIcons.xlp">
-      <SubType>Content</SubType>
-    </Content>
   </ItemGroup>
-  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
 </Project>
