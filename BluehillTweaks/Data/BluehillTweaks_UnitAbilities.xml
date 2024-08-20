@@ -4,7 +4,6 @@
     <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Kind="KIND_ABILITY"/>
     <Row Type="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Kind="KIND_ABILITY"/>
     <Row Type="ABILITY_DANDARA_LAND_COMBAT" Kind="KIND_ABILITY"/>
-    <Row Type="ABILITY_KOREAN_HWACHA" Kind="KIND_ABILITY"/>
   </Types>
   <TypeTags>
     <Row Type="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Tag="CLASS_RECON"/>
@@ -28,13 +27,11 @@
     <Row Type="ABILITY_DANDARA_LAND_COMBAT" Tag="CLASS_LIGHT_CAVALRY"/>
     <Row Type="ABILITY_DANDARA_LAND_COMBAT" Tag="CLASS_HEAVY_CAVALRY"/>
     <Row Type="ABILITY_DANDARA_LAND_COMBAT" Tag="CLASS_SIEGE"/>
-    <Row Type="ABILITY_KOREAN_HWACHA" Tag="CLASS_KOREAN_HWACHA"/>
   </TypeTags>
   <UnitAbilities>
     <Row UnitAbilityType="ABILITY_ANA_NZINGA_BONUS_EXPERIENCE" Name="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_NAME" Description="LOC_ABILITY_ANA_NZINGA_BONUS_EXPERIENCE_DESCRIPTION" Inactive="true"/>
     <Row UnitAbilityType="ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE" Name="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_NAME" Description="LOC_ABILITY_SIMON_BOLIVAR_BONUS_EXPERIENCE_DESCRIPTION" Inactive="true"/>
     <Row UnitAbilityType="ABILITY_DANDARA_LAND_COMBAT" Name="LOC_ABILITY_DANDARA_LAND_COMBAT_NAME" Description="LOC_ABILITY_DANDARA_LAND_COMBAT_DESCRIPTION" Inactive="true"/>
-    <Row UnitAbilityType="ABILITY_KOREAN_HWACHA" Name="LOC_ABILITY_KOREAN_HWACHA_NAME" Description="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION"/>
   </UnitAbilities>
   <UnitAbilityModifiers>
     <Row>
@@ -49,10 +46,6 @@
       <UnitAbilityType>ABILITY_DANDARA_LAND_COMBAT</UnitAbilityType>
       <ModifierId>DANDARA_LAND_UNITS_COMBAT_STRENGTH</ModifierId>
     </Row>
-    <Row>
-      <UnitAbilityType>ABILITY_KOREAN_HWACHA</UnitAbilityType>
-      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
-    </Row>
   </UnitAbilityModifiers>
   <Modifiers>
     <Row>
@@ -66,11 +59,6 @@
     <Row>
       <ModifierId>DANDARA_LAND_UNITS_COMBAT_STRENGTH</ModifierId>
       <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-    </Row>
-    <Row>
-      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
-      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-      <SubjectRequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
     </Row>
   </Modifiers>
   <ModifierArguments>
@@ -96,30 +84,8 @@
       </Set>
     </Update>
     <Delete ModifierId="SANGUINE_PACT_VAMPIRE_BARB_COMBAT_STRENGTH_FROM_PROPERTY" Name="Max" />
-    <Row>
-      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
-      <Name>Amount</Name>
-      <Value>10</Value>
-    </Row>
   </ModifierArguments>
-  <RequirementSets>
-    <Row>
-      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
-      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-    </Row>
-  </RequirementSets>
-  <RequirementSetRequirements>
-    <Row>
-      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
-      <RequirementId>OPPONENT_IS_LAND_UNIT_REQUIREMENTS</RequirementId>
-    </Row>
-    <Row>
-      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
-      <RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
-    </Row>
-  </RequirementSetRequirements>
   <ModifierStrings>
     <Row ModifierId="DANDARA_LAND_UNITS_COMBAT_STRENGTH" Context="Preview" Text="LOC_ABILITY_DANDARA_LAND_UNITS_COMBAT_STRENGTH_DESCRIPTION"/>
-    <Row ModifierId="HWACHA_BUFF_VS_LAND_UNIT" Context="Preview" Text="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION"/>
   </ModifierStrings>
 </GameData>

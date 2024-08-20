@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- KoreaReworkMod_RemoveData_MODE -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-10-25 오전 11:38:06 -->
 <GameData>
 	<District_Adjacencies>
 		<Delete DistrictType="DISTRICT_SEOWON"/>

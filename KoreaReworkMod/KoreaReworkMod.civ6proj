@@ -22,7 +22,7 @@
     <AssemblyName>KoreaReworkMod</AssemblyName>
     <RootNamespace>KoreaReworkMod</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="FrontArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FrontData"><File>Data/KoreaReworkMod_ConfigData.xml</File></UpdateDatabase><UpdateIcons id="FrontIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="FrontText"><File>Text/KoreaReworkMod_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="InGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="InGameData"><File>Data/KoreaReworkMod_Civilizations.xml</File><File>Data/KoreaReworkMod_Districts.xml</File><File>Data/KoreaReworkMod_Leaders.xml</File><File>Data/KoreaReworkMod_Units_Hwarang.sql</File></UpdateDatabase><UpdateDatabase id="InGameData_MODE"><Criteria>KoreaReworkMod_Mode</Criteria><File priority="1">Data/KoreaReworkMod_RemoveData_MODE.xml</File><File>Data/KoreaReworkMod_GameCapabilities.xml</File><File>Data/KoreaReworkMod_SeowonRework_MODE.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_SS"><Criteria>KoreaReworkMod_SecretSocieties_Mode</Criteria><File>Data/KoreaReworkMod_SecretSocieties_MODE.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Babylon"><Criteria>KoreaReworkMod_Babylon</Criteria><File>Data/KoreaReworkMod_Babylon.xml</File></UpdateDatabase><UpdateIcons id="InGameIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="InGameText"><File>Text/KoreaReworkMod_ConfigText.xml</File><File>Text/KoreaReworkMod_Text.xml</File></UpdateText><UpdateText id="InGameText_MODE"><File>Text/KoreaReworkMod_Text_MODE.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/Moment_UniqueUnit_Ant_Hwarang.dds</File><File>Textures/Moment_UniqueUnit_Ant_Hwarang.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_22.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_256.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_32.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_38.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_50.tex</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.dds</File><File>Textures/ICON_UNIT_ANT_HWARANG_80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="InGameArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="InGameData"><File>Data/KoreaReworkMod_Civilizations.xml</File><File>Data/KoreaReworkMod_Districts.xml</File><File>Data/KoreaReworkMod_Leaders.xml</File><File>Data/KoreaReworkMod_UnitAbilities.xml</File><File>Data/KoreaReworkMod_Units.xml</File><File>Data/KoreaReworkMod_Units_Hwarang.sql</File></UpdateDatabase><UpdateDatabase id="InGameData_MODE"><Criteria>KoreaReworkMod_Mode</Criteria><File priority="1">Data/KoreaReworkMod_RemoveData_MODE.xml</File><File>Data/KoreaReworkMod_GameCapabilities.xml</File><File>Data/KoreaReworkMod_SeowonRework_MODE.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_SS"><Criteria>KoreaReworkMod_SecretSocieties_Mode</Criteria><File>Data/KoreaReworkMod_SecretSocieties_MODE.xml</File></UpdateDatabase><UpdateDatabase id="InGameData_Babylon"><Criteria>KoreaReworkMod_Babylon</Criteria><File>Data/KoreaReworkMod_Babylon.xml</File></UpdateDatabase><UpdateIcons id="InGameIcon"><File>Data/KoreaReworkMod_Icons.xml</File></UpdateIcons><UpdateText id="InGameText"><File>Text/KoreaReworkMod_ConfigText.xml</File><File>Text/KoreaReworkMod_Text.xml</File></UpdateText><UpdateText id="InGameText_MODE"><File>Text/KoreaReworkMod_Text_MODE.xml</File></UpdateText></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="KoreaReworkMod_Mode"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SEOWONREWORK</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="KoreaReworkMod_SecretSocieties_Mode"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="KoreaReworkMod_Babylon"><ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -30,33 +30,33 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="KoreaReworkMod.Art.xml" />
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.tex"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.tex"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.tex"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.tex"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.tex"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.dds"/>
-    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.tex"/>
-    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.dds"/>
-    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.tex"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.dds"/>
-    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.tex"/>
-    <None Include="XLPs\UIIcons.xlp"/>
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_22.tex" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_256.tex" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_32.tex" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_38.tex" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_50.tex" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.dds" />
+    <None Include="Textures\ICON_UNIT_ANT_HWARANG_80.tex" />
+    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.dds" />
+    <None Include="Textures\Moment_UniqueUnit_Ant_Hwarang.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_200.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_256.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_38.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_50.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_70.tex" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.dds" />
+    <None Include="Textures\PORTRAIT_ANT_HWARANG_95.tex" />
+    <None Include="XLPs\UIIcons.xlp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs" />
@@ -97,6 +97,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\KoreaReworkMod_SeowonRework_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\KoreaReworkMod_Units.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\KoreaReworkMod_Units_Hwarang.sql">

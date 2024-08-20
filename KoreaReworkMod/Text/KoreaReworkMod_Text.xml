@@ -1,50 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- KoreaReworkMod_Text -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-10-06 오전 11:27:22 -->
 <GameData>
-	<LocalizedText>
-		<!-- Remove Text -->
-		<Delete Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP"/>
+  <LocalizedText>
+    <!-- Remove Text -->
+    <Delete Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP"/>
 
-		<!-- English -->
-		<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="en_US">
-			<Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) from Butterflies and Bees ([ICON_Governor] Governor with {1} {1 : plural 1?Promotion; other?Promotions;})</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KOREAN_HWARANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Hwarang, also known as the 'Flowering Knights', were an elite warrior group of male youth in the ancient Silla kingdom of Korea. The were likely not originally a military organization, but developed into a an important military unit as time went on. The kingdom of Silla selected 'boys from good families and with good morals' to become part of the Hwarang, where they would be developed into warriors and knights during the Three Kingdoms period. Some Hwarang actively sought training from Buddhist monks in order to improve their own capabilities in combat. Hwarang also were known to study culture, the arts and religion (namely Buddhism) in depth, frequently gathering for study.</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_NAME" Language="en_US">
-			<Text>Gain Culture from combat victories</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION" Language="en_US">
-			<Text>Gain 50% of defeated units [ICON_Strength] Strength as [ICON_Culture] Culture.</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_NAME" Language="en_US">
-			<Text>Gain Faith from combat victories</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION" Language="en_US">
-			<Text>Gain 100% of defeated units [ICON_Strength] Strength as [ICON_Faith] Faith.</Text>
-		</Replace>
+    <!-- English -->
+    <Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="en_US">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) from Butterflies and Bees ([ICON_Governor] Governor with {1} {1 : plural 1?Promotion; other?Promotions;})</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION" Language="en_US">
+      <Text>+5 [ICON_Strength] Combat Strength when defending against land units</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KOREAN_HWARANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>Hwarang, also known as the 'Flowering Knights', were an elite warrior group of male youth in the ancient Silla kingdom of Korea. The were likely not originally a military organization, but developed into a an important military unit as time went on. The kingdom of Silla selected 'boys from good families and with good morals' to become part of the Hwarang, where they would be developed into warriors and knights during the Three Kingdoms period. Some Hwarang actively sought training from Buddhist monks in order to improve their own capabilities in combat. Hwarang also were known to study culture, the arts and religion (namely Buddhism) in depth, frequently gathering for study.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_NAME" Language="en_US">
+      <Text>Gain Culture from combat victories</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION" Language="en_US">
+      <Text>Gain 50% of defeated units [ICON_Strength] Strength as [ICON_Culture] Culture.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_NAME" Language="en_US">
+      <Text>Gain Faith from combat victories</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION" Language="en_US">
+      <Text>Gain 100% of defeated units [ICON_Strength] Strength as [ICON_Faith] Faith.</Text>
+    </Replace>
 
-		<!-- 한국어 -->
-		<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="ko_KR">
-			<Text>나비와 벌에서 {Value : number +#;-#}%({ActualValue : number +#.#;-#.#})({1}회 {1 : plural 1?진급; other?진급;}한 [ICON_Governor] 총독)</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KOREAN_HWARANG_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
-			<Text>화랑은 '꽃의 기사'로도 알려져 있으며, 고대 한국의 신라 왕국 내에서 젊은 남성들의 엘리트 전사 집단이었습니다. 원래는 군사 조직이 아니었지만, 시간이 지나갈수록 중요한 군사 조직으로 발전했습니다. 신라 왕국은 삼국 시대에 좋은 전사와 기사를 개발하기 위해 '좋은 가문과 좋은 도덕을 가진 소년'을 화랑의 일부로 만들었습니다. 화랑은 전투에서 자신의 능력을 향상시키기 위해 불교 승려들의 훈련을 적극적으로 추구했습니다. 또한 화랑은 문화, 예술, 종교(즉 불교)를 깊이 연구하고 자주 연구하기를 모색한 것으로 알려져 있습니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_NAME" Language="ko_KR">
-			<Text>전투 승리 시 문화 획득</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>처치한 유닛의 [ICON_Strength] 전투력의 50%만큼의 [ICON_Culture] 문화를 얻음.</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_NAME" Language="ko_KR">
-			<Text>전투 승리 시 신앙 획득</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>처치한 유닛의 [ICON_Strength] 전투력의 100%만큼의 [ICON_Faith] 신앙을 얻음.</Text>
-		</Replace>
-	</LocalizedText>
+    <!-- 한국어 -->
+    <Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="ko_KR">
+      <Text>나비와 벌에서 {Value : number +#;-#}%({ActualValue : number +#.#;-#.#})({1}회 {1 : plural 1?진급; other?진급;}한 [ICON_Governor] 총독)</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
+      <Text>지상 유닛으로부터 방어 시 [ICON_Strength] 전투력 +5</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KOREAN_HWARANG_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+      <Text>화랑은 '꽃의 기사'로도 알려져 있으며, 고대 한국의 신라 왕국 내에서 젊은 남성들의 엘리트 전사 집단이었습니다. 원래는 군사 조직이 아니었지만, 시간이 지나갈수록 중요한 군사 조직으로 발전했습니다. 신라 왕국은 삼국 시대에 좋은 전사와 기사를 개발하기 위해 '좋은 가문과 좋은 도덕을 가진 소년'을 화랑의 일부로 만들었습니다. 화랑은 전투에서 자신의 능력을 향상시키기 위해 불교 승려들의 훈련을 적극적으로 추구했습니다. 또한 화랑은 문화, 예술, 종교(즉 불교)를 깊이 연구하고 자주 연구하기를 모색한 것으로 알려져 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_NAME" Language="ko_KR">
+      <Text>전투 승리 시 문화 획득</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION" Language="ko_KR">
+      <Text>처치한 유닛의 [ICON_Strength] 전투력의 50%만큼의 [ICON_Culture] 문화를 얻음.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_NAME" Language="ko_KR">
+      <Text>전투 승리 시 신앙 획득</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION" Language="ko_KR">
+      <Text>처치한 유닛의 [ICON_Strength] 전투력의 100%만큼의 [ICON_Faith] 신앙을 얻음.</Text>
+    </Replace>
+  </LocalizedText>
 </GameData>

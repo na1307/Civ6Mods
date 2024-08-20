@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- KoreaReworkMod_Icons -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-09-17 오후 8:41:41 -->
 <GameData>
 	<IconTextureAtlases>
 		<Row Name="ICON_ATLAS_UNITS_ANT_HWARANG" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_ANT_HWARANG_22.dds"/>

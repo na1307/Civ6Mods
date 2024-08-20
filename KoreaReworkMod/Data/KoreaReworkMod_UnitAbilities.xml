@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="ABILITY_KOREAN_HWACHA" Kind="KIND_ABILITY"/>
+  </Types>
+  <TypeTags>
+    <Row Type="ABILITY_KOREAN_HWACHA" Tag="CLASS_KOREAN_HWACHA"/>
+  </TypeTags>
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_KOREAN_HWACHA" Name="LOC_ABILITY_KOREAN_HWACHA_NAME" Description="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION"/>
+  </UnitAbilities>
+  <UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_KOREAN_HWACHA</UnitAbilityType>
+      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
+    </Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>HWACHA_BUFF_VS_LAND_UNIT</ModifierId>
+      <Name>Amount</Name>
+      <Value>5</Value>
+    </Row>
+  </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementId>OPPONENT_IS_LAND_UNIT_REQUIREMENTS</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>HWACHA_LAND_UNIT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <ModifierStrings>
+    <Row ModifierId="HWACHA_BUFF_VS_LAND_UNIT" Context="Preview" Text="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION"/>
+  </ModifierStrings>
+</GameData>

@@ -160,9 +160,6 @@
     <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
       <Text>+100% Earned experience from combat (John Monash)</Text>
     </Replace>
-    <Replace Tag="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION" Language="en_US">
-      <Text>+10 [ICON_Ranged] Ranged Strength vs. land units</Text>
-    </Replace>
     <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="en_US">
       <Text>Your all units gain +3 [ICON_Strength] combat strength.</Text>
     </Replace>
@@ -308,9 +305,6 @@
     </Replace>
     <Replace Tag="LOC_ABILITY_JOHN_MONASH_BONUS_EXPERIENCE_DESCRIPTION" Language="ko_KR">
       <Text>전투에서 경험치 +100% 획득. (존 모내시)</Text>
-    </Replace>
-    <Replace Tag="LOC_ABILITY_KOREAN_HWACHA_DESCRIPTION" Language="ko_KR">
-      <Text>지상 유닛 대항 시 [ICON_Ranged] 원거리 전투력 +10</Text>
     </Replace>
     <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="ko_KR">
       <Text>플레이어의 모든 유닛은 [ICON_Strength] 전투력 +3을 얻습니다.</Text>

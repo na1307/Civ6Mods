@@ -1,8 +1,3 @@
--- KoreaReworkMod_Units_Hwarang
--- Author: Bluehill
--- DateCreated: 2023-09-17 오후 8:43:03
---------------------------------------------------------------
-
 INSERT INTO Types (Type, Kind) VALUES ('TRAIT_LEADER_UNIT_KOREAN_HWARANG', 'KIND_TRAIT'), ('UNIT_KOREAN_HWARANG', 'KIND_UNIT'), ('ABILITY_POST_COMBAT_CULTURE', 'KIND_ABILITY'), ('ABILITY_POST_COMBAT_FAITH', 'KIND_ABILITY');
 INSERT INTO Tags (Tag, Vocabulary) VALUES ('CLASS_HWARANG', 'ABILITY_CLASS');
 

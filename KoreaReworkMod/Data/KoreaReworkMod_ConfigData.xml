@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- KoreaReworkMod_ConfigData -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-09-17 오후 8:40:53 -->
 <GameData>
 	<PlayerItems>
 		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_KOREA" LeaderType="LEADER_SEONDEOK" Type="UNIT_KOREAN_HWARANG" Icon="ICON_UNIT_KOREAN_HWARANG" Name="LOC_UNIT_KOREAN_HWARANG_NAME" Description="LOC_UNIT_KOREAN_HWARANG_DESCRIPTION" SortIndex="30" />
