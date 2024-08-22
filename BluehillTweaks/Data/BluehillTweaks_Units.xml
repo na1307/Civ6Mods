@@ -8,6 +8,18 @@
       </Set>
     </Update>
     <Update>
+      <Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+      <Set>
+        <PrereqTech>TECH_RIFLING</PrereqTech>
+      </Set>
+    </Update>
+    <Update>
+      <Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+      <Set>
+        <PrereqTech>TECH_RIFLING</PrereqTech>
+      </Set>
+    </Update>
+    <Update>
       <Where UnitType="UNIT_INFANTRY"/>
       <Set>
         <StrategicResource/>

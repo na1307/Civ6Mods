@@ -7,7 +7,7 @@
     <ProjectGuid>603139dc-8408-4f4c-92e4-2e2ec63f9ff0</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Allows you to harvest strategic and luxury resources.</Teaser>
-    <Description>Allows you to harvest strategic and luxury resources.[NEWLINE][NEWLINE]Unlike other harvestable resource mods, it is based on the yield of that resource. Therefore, it does not support mod resources.[NEWLINE][NEWLINE]Antiquity Site and Shipwreck provides 50 [ICON_Culture] Culture.</Description>
+    <Description>Allows you to harvest strategic and luxury resources.[NEWLINE][NEWLINE]Unlike other harvestable resource mods, it is based on the yield of that resource. For example, if the resource yields food, the harvest reward is also food. Therefore, it does not support mod resources.[NEWLINE][NEWLINE]Antiquity Site and Shipwreck provides 50 [ICON_Culture] Culture.</Description>
     <Authors>Bluehill</Authors>
     <SpecialThanks>
     </SpecialThanks>

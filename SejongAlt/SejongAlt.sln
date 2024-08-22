@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "SejongAlt", "SejongAlt.civ6proj", "{637539F8-EBEB-4CD9-AC50-EBE4866E8B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637539F8-EBEB-4CD9-AC50-EBE4866E8B51}.Default|Civ6.ActiveCfg = Default|Civ6
+		{637539F8-EBEB-4CD9-AC50-EBE4866E8B51}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D55BCF4-C622-4C55-B52A-F83F8782C4AF}
+	EndGlobalSection
+EndGlobal

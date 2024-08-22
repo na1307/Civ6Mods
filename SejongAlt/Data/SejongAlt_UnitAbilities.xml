@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Kind="KIND_ABILITY"/>
+  </Types>
+  <TypeTags>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_RECON"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_MELEE"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_RANGED"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_SIEGE"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_HEAVY_CAVALRY"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_LIGHT_CAVALRY"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_RANGED_CAVALRY"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_HEAVY_CHARIOT"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_LIGHT_CHARIOT"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Tag="CLASS_AIRCRAFT"/>
+  </TypeTags>
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH" Name="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Description="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION" Inactive="true"/>
+  </UnitAbilities>
+  <UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH</UnitAbilityType>
+      <ModifierId>SEJONG_NEAR_CAPITAL_STRENGTH_MODIFIER</ModifierId>
+    </Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>SEJONG_NEAR_CAPITAL_STRENGTH_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <OwnerRequirementSetId>SEJONG_NEAR_CAPITAL_REQUIREMENTS</OwnerRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>SEJONG_NEAR_CAPITAL_STRENGTH_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+  </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>SEJONG_NEAR_CAPITAL_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>SEJONG_NEAR_CAPITAL_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_SEJONG_NEAR_CAPITAL</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_SEJONG_NEAR_CAPITAL</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_NEAR_CAPITAL</RequirementType>
+    </Row>
+  </Requirements>
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_SEJONG_NEAR_CAPITAL</RequirementId>
+      <Name>MinDistance</Name>
+      <Value>0</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_SEJONG_NEAR_CAPITAL</RequirementId>
+      <Name>MaxDistance</Name>
+      <Value>10</Value>
+    </Row>
+  </RequirementArguments>
+  <ModifierStrings>
+    <Row ModifierId="SEJONG_NEAR_CAPITAL_STRENGTH_MODIFIER" Context="Preview" Text="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION"/>
+  </ModifierStrings>
+</GameData>

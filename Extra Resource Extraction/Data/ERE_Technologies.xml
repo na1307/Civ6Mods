@@ -80,15 +80,15 @@
       </Set>
     </Update>
     <Update>
-      <Where TechnologyType="TECH_NANOTECHNOLOGY" />
-      <Set>
-        <Description>LOC_TECH_NANOTECHNOLOGY_DESCRIPTION</Description>
-      </Set>
-    </Update>
-    <Update>
       <Where TechnologyType="TECH_ROCKETRY" />
       <Set>
         <Description>LOC_TECH_ROCKETRY_DESCRIPTION</Description>
+      </Set>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_NANOTECHNOLOGY" />
+      <Set>
+        <Description>LOC_TECH_NANOTECHNOLOGY_DESCRIPTION</Description>
       </Set>
     </Update>
     <Update>

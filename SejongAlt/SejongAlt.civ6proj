@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>SejongAlt</Name>
+    <Guid>e6da848b-8188-4317-a728-e404c6854ba1</Guid>
+    <ProjectGuid>637539f8-ebeb-4cd9-ac50-ebe4866e8b51</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Test Mod</Teaser>
+    <Description>Test Mod</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>SejongAlt</AssemblyName>
+    <RootNamespace>SejongAlt</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="BluehillSejong" id="e2d63656-c40b-4600-873b-ef31079ed72c" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="FEA"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FED"><File>Data/SejongAlt_ConfigData.xml</File></UpdateDatabase><UpdateColors id="FEC"><File>Data/SejongAlt_Colors.xml</File></UpdateColors><UpdateIcons id="FEI"><File>Data/SejongAlt_Icons.xml</File></UpdateIcons><UpdateText id="FET"><File>Text/SejongAlt_ConfigText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="IGA"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="IGD"><File>Data/SejongAlt_Leaders.xml</File><File>Data/SejongAlt_Civilizations.xml</File><File>Data/SejongAlt_UnitAbilities.xml</File></UpdateDatabase><UpdateColors id="IGC"><File>Data/SejongAlt_Colors.xml</File></UpdateColors><UpdateIcons id="IGI"><File>Data/SejongAlt_Icons.xml</File></UpdateIcons><UpdateText id="IGT"><File>Text/SejongAlt_ConfigText.xml</File><File>Text/SejongAlt_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="SejongAlt.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="ArtDefs" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SejongAlt_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\SejongAlt_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\SejongAlt_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

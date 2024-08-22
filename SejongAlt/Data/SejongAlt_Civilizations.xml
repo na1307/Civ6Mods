@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_KOREA" LeaderType="LEADER_SEJONG_ALT" CapitalName="LOC_CITY_NAME_SEOUL"/>
+  </CivilizationLeaders>
+</GameData>

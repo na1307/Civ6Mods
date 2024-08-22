@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- English -->
+    <Replace Tag="LOC_LEADER_SEJONG_ALT_NAME" Language="en_US">
+      <Text>Sejong (Conqueror)</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_SEJONG_ORIGINAL_NAME" Language="en_US">
+      <Text>Sejong (Enlightened King)</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Language="en_US">
+      <Text>Conquer the Jurchen</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_DESCRIPTION" Language="en_US">
+      <Text>Units within 10 tiles of the [ICON_Capital] Capital receive +10 [ICON_Strength] Combat Strength.</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_LEADER_SEJONG_ALT_NAME" Language="ko_KR">
+      <Text>세종대왕(정벌자)</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_SEJONG_ORIGINAL_NAME" Language="ko_KR">
+      <Text>세종대왕(깨우친 임금)</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Language="ko_KR">
+      <Text>여진족 정벌</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Capital] 수도로부터 10타일 내에 있는 유닛들은 [ICON_Strength] 전투력 +10을 받습니다.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

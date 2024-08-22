@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_FIRST_MEET_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_GREETING_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_GREETING_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_KUDO_LEADER_SEJONG_ALT_REASON_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_KUDO_LEADER_SEJONG_REASON_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_LEADER_SEJONG_ALT_REASON_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_WARNING_LEADER_SEJONG_REASON_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+
+    <!-- Remove Text -->
+    <Delete Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_TITLE"/>
+
+    <!-- English -->
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_TITLE" Language="en_US">
+      <Text>Sejong (Enlightened King)</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_TITLE" Language="en_US">
+      <Text>Sejong (Conqueror)</Text>
+    </Replace>
+    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_NAME" Language="en_US">
+      <Text>4-Gun 6-Jin</Text>
+    </Replace>
+    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_DESCRIPTION" Language="en_US">
+      <Text>Tries to conquer neighboring civilizations, and likes civilizations that are not his neighbors (yet). Does not like his neighbors.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION" Language="en_US">
+      <Text>+10 [ICON_Strength] Combat Strength when within 10 tiles of the [ICON_Capital] Capital.</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>If you settle near us, we will respond accordingly.</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>Since there is no city near us, how good would that be?</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NEIGHBOR" Language="en_US">
+      <Text>Sejong is not pleased with your city being near theirs</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR" Language="en_US">
+      <Text>King Sejong is pleased that your city is not near their city</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_4_GUN_6_JIN" Language="en_US">
+      <Text>(Your borders are too close to him.)</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_TITLE" Language="ko_KR">
+      <Text>세종대왕(깨우친 임금)</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_TITLE" Language="ko_KR">
+      <Text>세종대왕(정벌자)</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+      <Text>세종대왕의 유닛은 그들의 수도 근처에서 전투할 때 아주 강력합니다. 이를 이용하여 주변에 정착한 문명에게 본때를 보여줄 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_CHAPTER_DETAILED_BODY" Language="ko_KR">
+      <Text>세종대왕의 강력한 유닛을 이용하여 수도 근처에 있는 야만인 전초기지를 정리하고, 적 문명의 도시를 정복하십시오. 이러한 도시에 서원을 건설하여 강력한 과학 도시로 만드십시오. 이를 바탕으로 과학 승리에 한 발짝 더 가까워질 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_NAME" Language="ko_KR">
+      <Text>4군 6진</Text>
+    </Replace>
+    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_DESCRIPTION" Language="ko_KR">
+      <Text>인접 문명을 정복하려 하며 (아직) 인접하지 않은 문명을 좋아합니다. 인접 문명을 싫어합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Capital] 수도로부터 10타일 내에 있으면 [ICON_Strength] 전투력 +10.</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SEJONG_ALT_ANY" Language="ko_KR">
+      <Text>자네가 우리 근처에 정착한다면 우리도 맞대응할 것이오.</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEJONG_ALT_ANY" Language="ko_KR">
+      <Text>우리 근처에 자네의 도시가 없으니, 얼마나 좋은 일이겠소?</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NEIGHBOR" Language="ko_KR">
+      <Text>세종대왕은 당신의 도시가 그들의 도시 근처에 있는 것을 탐탁치 않아함</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR" Language="ko_KR">
+      <Text>세종대왕은 당신의 도시가 그들의 도시 근처에 없다는 사실에 기뻐함</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_4_GUN_6_JIN" Language="ko_KR">
+      <Text>(국경이 그와 너무 가깝습니다.)</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
