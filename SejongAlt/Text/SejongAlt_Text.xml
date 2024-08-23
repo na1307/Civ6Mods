@@ -25,9 +25,6 @@
     <Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
       <Text>{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SEJONG_ANY}</Text>
     </Replace>
-    <Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
-      <Text>{LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
-    </Replace>
     <Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ALT_ANY" Language="en_US">
       <Text>{LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SEJONG_ANY}</Text>
     </Replace>
@@ -58,12 +55,6 @@
     <Replace Tag="LOC_DIPLO_GREETING_LEADER_SEJONG_ALT_ANY" Language="en_US">
       <Text>{LOC_DIPLO_GREETING_LEADER_SEJONG_ANY}</Text>
     </Replace>
-    <Replace Tag="LOC_DIPLO_KUDO_LEADER_SEJONG_ALT_REASON_ANY" Language="en_US">
-      <Text>{LOC_DIPLO_KUDO_LEADER_SEJONG_REASON_ANY}</Text>
-    </Replace>
-    <Replace Tag="LOC_DIPLO_WARNING_LEADER_SEJONG_ALT_REASON_ANY" Language="en_US">
-      <Text>{LOC_DIPLO_WARNING_LEADER_SEJONG_REASON_ANY}</Text>
-    </Replace>
     <Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
       <Text>{LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SEJONG_ANY}</Text>
     </Replace>
@@ -88,11 +79,11 @@
     <Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEJONG_ALT_ANY" Language="en_US">
       <Text>{LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SEJONG_ANY}</Text>
     </Replace>
-    <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
-      <Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
-    </Replace>
     <Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
-      <Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SEJONG_ANY}</Text>
+      <Text>{LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ANY}</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ALT_ANY" Language="en_US">
+      <Text>{LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SEJONG_ANY}</Text>
     </Replace>
 
     <!-- Remove Text -->
@@ -118,13 +109,13 @@
       <Text>If you settle near us, we will respond accordingly.</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEJONG_ALT_ANY" Language="en_US">
-      <Text>Since there is no city near us, how good would that be?</Text>
+      <Text>Our border and your border are so far apart that I feel at ease.</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NEIGHBOR" Language="en_US">
       <Text>Sejong is not pleased with your city being near theirs</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR" Language="en_US">
-      <Text>King Sejong is pleased that your city is not near their city</Text>
+      <Text>Sejong is pleased that your city is not near their city</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_4_GUN_6_JIN" Language="en_US">
       <Text>(Your borders are too close to him.)</Text>
@@ -156,7 +147,7 @@
       <Text>자네가 우리 근처에 정착한다면 우리도 맞대응할 것이오.</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SEJONG_ALT_ANY" Language="ko_KR">
-      <Text>우리 근처에 자네의 도시가 없으니, 얼마나 좋은 일이겠소?</Text>
+      <Text>우리의 국경과 자네의 국경이 이렇게 멀리 떨어져 있으니 짐의 마음도 편안하오.</Text>
     </Replace>
     <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NEIGHBOR" Language="ko_KR">
       <Text>세종대왕은 당신의 도시가 그들의 도시 근처에 있는 것을 탐탁치 않아함</Text>
