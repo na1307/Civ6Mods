@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Bluehill's Simple AI Tweaks</Name>
+    <Guid>c6a0633c-cd54-4bea-8914-f27c2a3be6b5</Guid>
+    <ProjectGuid>53721404-4e15-435b-87e8-431680ba5c79</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Bluehill's Simple AI Tweaks</Teaser>
+    <Description>Bluehill's Simple AI Tweaks</Description>
+    <Authors>Bluehill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>BluehillAI</AssemblyName>
+    <RootNamespace>BluehillAI</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="BluehillAI_InGameDatabase"><File priority="500">Data/BluehillAI_Eras.xml</File><File priority="500">Data/BluehillAI_Leaders.xml</File></UpdateDatabase><AddGameplayScripts id="BluehillAI_GameplayScripts"><File>Scripts/DeitySecondPromotion.lua</File></AddGameplayScripts><UpdateText id="BluehillAI_InGameText"><File>Text/BluehillAI_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Mod" title="BluehillTweaks" id="50bc0933-26a8-4536-9477-0b5c3a195812" />
+  <Reference type="Mod" title="LOC_MOD_DOOTOON_AI_2024_NAME" id="5d668ab2-38fd-400a-8784-7f1e3072c06f" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Scripts" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BluehillAI_Eras.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BluehillAI_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\DeitySecondPromotion.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BluehillAI_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Civ6ModBuddyAlt\Civ6ModBuddyAlt.targets" />
+</Project>

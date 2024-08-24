@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "BluehillAI", "BluehillAI.civ6proj", "{53721404-4E15-435B-87E8-431680BA5C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53721404-4E15-435B-87E8-431680BA5C79}.Default|Civ6.ActiveCfg = Default|Civ6
+		{53721404-4E15-435B-87E8-431680BA5C79}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0352A24A-17DE-426D-9D90-621A25262406}
+	EndGlobalSection
+EndGlobal

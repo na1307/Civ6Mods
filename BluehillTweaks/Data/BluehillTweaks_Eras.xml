@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+  <StartEras>
+    <Update>
+      <Where EraType="ERA_ANCIENT" />
+      <Set>
+        <Gold>50</Gold>
+      </Set>
+    </Update>
+  </StartEras>
   <MajorStartingUnits>
     <Delete AiOnly="true" />
   </MajorStartingUnits>

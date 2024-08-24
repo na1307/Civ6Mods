@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET" Language="en_US">
+      <Text>AI difficulty bonus offset when playing against city-states: {1_Amount}.</Text>
+    </Replace>
+    <Replace Tag="LOC_HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET" Language="ko_KR">
+      <Text>AI가 도시 국가 대항 시 난이도 보너스 상쇄: {1_Amount}.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
