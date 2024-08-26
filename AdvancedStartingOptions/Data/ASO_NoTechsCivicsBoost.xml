@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Boosts>
+    <Delete/>
+  </Boosts>
+  <UnitOperations>
+    <Delete OperationType="UNITOPERATION_SPY_STEAL_TECH_BOOST"/>
+  </UnitOperations>
+  <UnitPromotions>
+    <Delete UnitPromotionType="PROMOTION_SPY_TECHNOLOGIST"/>
+  </UnitPromotions>
+</GameData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GameCapabilities>
+    <Delete GameCapability="CAPABILITY_TRADE"/>
+    <Delete GameCapability="CAPABILITY_NEW_TRADE"/>
+  </GameCapabilities>
+  <Units>
+    <Update>
+      <Where UnitType="UNIT_TRADER" />
+      <Set>
+        <TraitType>TRAIT_CIVILIZATION_NO_PLAYER</TraitType>
+      </Set>
+    </Update>
+  </Units>
+  <DynamicModifiers>
+    <Update>
+      <Where EffectType="EFFECT_ADJUST_TRADE_ROUTE_CAPACITY" />
+      <Set>
+        <EffectType>EFFECT_DO_NOTHING</EffectType>
+      </Set>
+    </Update>
+  </DynamicModifiers>
+</GameData>

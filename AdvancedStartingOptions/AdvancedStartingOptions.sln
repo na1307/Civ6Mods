@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{67E9A580-B80A-47B4-AABE-EA3C686919CE}") = "AdvancedStartingOptions", "AdvancedStartingOptions.civ6proj", "{87D71C84-71B5-4449-A2BD-246730B7E1CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D71C84-71B5-4449-A2BD-246730B7E1CB}.Default|Civ6.ActiveCfg = Default|Civ6
+		{87D71C84-71B5-4449-A2BD-246730B7E1CB}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {655E678D-41D0-4C56-99EB-A714600F156E}
+	EndGlobalSection
+EndGlobal

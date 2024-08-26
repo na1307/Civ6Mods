@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- English -->
+    <Replace Tag="LOC_ASO_NO_AMENITIES_NAME" Language="en_US">
+      <Text>No Amenities</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_AMENITIES_DESCRIPTION" Language="en_US">
+      <Text>Disables [ICON_Amenities] Amenities. Bonuses and penalties based on amenities are also removed.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TECHS_CIVICS_BOOST_NAME" Language="en_US">
+      <Text>No Tech and Civic Boosts</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TECHS_CIVICS_BOOST_DESCRIPTION" Language="en_US">
+      <Text>Disables Technology and Civic Boosts.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TRADE_ROUTES_NAME" Language="en_US">
+      <Text>No Trade Route</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TRADE_ROUTES_DESCRIPTION" Language="en_US">
+      <Text>Disables [ICON_TradeRoute] Trade Routes. Traders cannot be trained.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TILE_PURCHASE_NAME" Language="en_US">
+      <Text>No Tile Purchase</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TILE_PURCHASE_DESCRIPTION" Language="en_US">
+      <Text>Disable tile purchasing.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_CULTURE_BORDER_GROWTH_NAME" Language="en_US">
+      <Text>No Culture Border Growth</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_CULTURE_BORDER_GROWTH_DESCRIPTION" Language="en_US">
+      <Text>Disables border expansion based on [ICON_Culture] Culture.</Text>
+    </Replace>
+
+    <!-- 한국어 -->
+    <Replace Tag="LOC_ASO_NO_AMENITIES_NAME" Language="ko_KR">
+      <Text>쾌적도 비활성화</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_AMENITIES_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Amenities] 쾌적도를 비활성화합니다. 쾌적도로 인한 보너스와 페널티 또한 제거됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TECHS_CIVICS_BOOST_NAME" Language="ko_KR">
+      <Text>기술 및 사회 제도 가속 비활성화</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TECHS_CIVICS_BOOST_DESCRIPTION" Language="ko_KR">
+      <Text>기술 및 사회 제도 가속(상승)을 비활성화합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TRADE_ROUTES_NAME" Language="ko_KR">
+      <Text>교역로 비활성화</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TRADE_ROUTES_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_TradeRoute] 교역로를 비활성화합니다. 상인은 훈련이 불가능합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TILE_PURCHASE_NAME" Language="ko_KR">
+      <Text>타일 구매 비활성화</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_TILE_PURCHASE_DESCRIPTION" Language="ko_KR">
+      <Text>타일 구매를 비활성화합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_CULTURE_BORDER_GROWTH_NAME" Language="ko_KR">
+      <Text>영토 자동 확장 비활성화</Text>
+    </Replace>
+    <Replace Tag="LOC_ASO_NO_CULTURE_BORDER_GROWTH_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Culture] 문화로 인한 영토 확장을 비활성화합니다.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Parameters>
+    <Row ParameterId="NoAmenities" Name="LOC_ASO_NO_AMENITIES_NAME" Description="LOC_ASO_NO_AMENITIES_DESCRIPTION" Domain="bool" ConfigurationGroup="Game" ConfigurationId="NO_AMENITIES" GroupId="AdvancedOptions" SortIndex="2500"/>
+    <Row ParameterId="NoTechsCivicsBoost" Name="LOC_ASO_NO_TECHS_CIVICS_BOOST_NAME" Description="LOC_ASO_NO_TECHS_CIVICS_BOOST_DESCRIPTION" Domain="bool" ConfigurationGroup="Game" ConfigurationId="NO_TECHS_CIVICS_BOOST" GroupId="AdvancedOptions" SortIndex="2501"/>
+    <Row ParameterId="NoTradeRoutes" Name="LOC_ASO_NO_TRADE_ROUTES_NAME" Description="LOC_ASO_NO_TRADE_ROUTES_DESCRIPTION" Domain="bool" ConfigurationGroup="Game" ConfigurationId="NO_TRADE_ROUTES" GroupId="AdvancedOptions" SortIndex="2502"/>
+    <Row ParameterId="NoTilePurchase" Name="LOC_ASO_NO_TILE_PURCHASE_NAME" Description="LOC_ASO_NO_TILE_PURCHASE_DESCRIPTION" Domain="bool" ConfigurationGroup="Game" ConfigurationId="NO_TILE_PURCHASE" GroupId="AdvancedOptions" SortIndex="2504"/>
+    <Row ParameterId="NoCultureBorderGrowth" Name="LOC_ASO_NO_CULTURE_BORDER_GROWTH_NAME" Description="LOC_ASO_NO_CULTURE_BORDER_GROWTH_DESCRIPTION" Domain="bool" ConfigurationGroup="Game" ConfigurationId="NO_CULTURE_BORDER_GROWTH" GroupId="AdvancedOptions" SortIndex="2505"/>
+  </Parameters>
+</GameData>

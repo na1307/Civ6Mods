@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GameCapabilities>
+    <Delete GameCapability="CAPABILITY_CULTURE_BORDER_GROWTH"/>
+  </GameCapabilities>
+</GameData>
