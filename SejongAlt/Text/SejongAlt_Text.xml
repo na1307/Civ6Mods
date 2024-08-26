@@ -96,10 +96,10 @@
     <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_TITLE" Language="en_US">
       <Text>Sejong (Conqueror)</Text>
     </Replace>
-    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_NAME" Language="en_US">
-      <Text>4-Gun 6-Jin</Text>
+    <Replace Tag="LOC_AGENDA_CONQUER_THE_JURCHEN_NAME" Language="en_US">
+      <Text>Conquer the Jurchen</Text>
     </Replace>
-    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_DESCRIPTION" Language="en_US">
+    <Replace Tag="LOC_AGENDA_CONQUER_THE_JURCHEN_DESCRIPTION" Language="en_US">
       <Text>Tries to conquer neighboring civilizations, and likes civilizations that are not his neighbors (yet). Does not like his neighbors.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION" Language="en_US">
@@ -117,7 +117,7 @@
     <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR" Language="en_US">
       <Text>Sejong is pleased that your city is not near their city</Text>
     </Replace>
-    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_4_GUN_6_JIN" Language="en_US">
+    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_CONQUER_THE_JURCHEN" Language="en_US">
       <Text>(Your borders are too close to him.)</Text>
     </Replace>
 
@@ -134,10 +134,10 @@
     <Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SEJONG_ALT_CHAPTER_DETAILED_BODY" Language="ko_KR">
       <Text>세종대왕의 강력한 유닛을 이용하여 수도 근처에 있는 야만인 전초기지를 정리하고, 적 문명의 도시를 정복하십시오. 이러한 도시에 서원을 건설하여 강력한 과학 도시로 만드십시오. 이를 바탕으로 과학 승리에 한 발짝 더 가까워질 수 있습니다.</Text>
     </Replace>
-    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_NAME" Language="ko_KR">
-      <Text>4군 6진</Text>
+    <Replace Tag="LOC_AGENDA_CONQUER_THE_JURCHEN_NAME" Language="ko_KR">
+      <Text>여진족 정벌</Text>
     </Replace>
-    <Replace Tag="LOC_AGENDA_4_GUN_6_JIN_DESCRIPTION" Language="ko_KR">
+    <Replace Tag="LOC_AGENDA_CONQUER_THE_JURCHEN_DESCRIPTION" Language="ko_KR">
       <Text>인접 문명을 정복하려 하며 (아직) 인접하지 않은 문명을 좋아합니다. 인접 문명을 싫어합니다.</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH_DESCRIPTION" Language="ko_KR">
@@ -155,7 +155,7 @@
     <Replace Tag="LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR" Language="ko_KR">
       <Text>세종대왕은 당신의 도시가 그들의 도시 근처에 없다는 사실에 기뻐함</Text>
     </Replace>
-    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_4_GUN_6_JIN" Language="ko_KR">
+    <Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_CONQUER_THE_JURCHEN" Language="ko_KR">
       <Text>(국경이 그와 너무 가깝습니다.)</Text>
     </Replace>
   </LocalizedText>

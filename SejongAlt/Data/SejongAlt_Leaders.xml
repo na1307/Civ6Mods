@@ -3,7 +3,7 @@
   <Types>
     <Row Type="LEADER_SEJONG_ALT" Kind="KIND_LEADER"/>
     <Row Type="TRAIT_LEADER_SEJONG_ALT" Kind="KIND_TRAIT"/>
-    <Row Type="TRAIT_AGENDA_4_GUN_6_JIN" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_AGENDA_CONQUER_THE_JURCHEN" Kind="KIND_TRAIT"/>
   </Types>
   <Leaders>
     <Row LeaderType="LEADER_SEJONG_ALT" Name="LOC_LEADER_SEJONG_ALT_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
@@ -27,16 +27,16 @@
     <Row LeaderType="LEADER_SEJONG" OtherLeaderType="LEADER_SEJONG_ALT"/>
   </DuplicateLeaders>
   <Agendas>
-    <Row AgendaType="AGENDA_4_GUN_6_JIN" Name="LOC_AGENDA_4_GUN_6_JIN_NAME" Description="LOC_AGENDA_4_GUN_6_JIN_DESCRIPTION"/>
+    <Row AgendaType="AGENDA_CONQUER_THE_JURCHEN" Name="LOC_AGENDA_CONQUER_THE_JURCHEN_NAME" Description="LOC_AGENDA_CONQUER_THE_JURCHEN_DESCRIPTION"/>
   </Agendas>
   <AgendaTraits>
-    <Row AgendaType="AGENDA_4_GUN_6_JIN" TraitType="TRAIT_AGENDA_4_GUN_6_JIN"/>
+    <Row AgendaType="AGENDA_CONQUER_THE_JURCHEN" TraitType="TRAIT_AGENDA_CONQUER_THE_JURCHEN"/>
   </AgendaTraits>
   <HistoricalAgendas>
-    <Row LeaderType="LEADER_SEJONG_ALT" AgendaType="AGENDA_4_GUN_6_JIN"/>
+    <Row LeaderType="LEADER_SEJONG_ALT" AgendaType="AGENDA_CONQUER_THE_JURCHEN"/>
   </HistoricalAgendas>
   <ExclusiveAgendas>
-    <Row AgendaOne="AGENDA_4_GUN_6_JIN" AgendaTwo="AGENDA_PARANOID"/>
+    <Row AgendaOne="AGENDA_CONQUER_THE_JURCHEN" AgendaTwo="AGENDA_PARANOID"/>
   </ExclusiveAgendas>
   <AgendaPreferredLeaders>
     <Row AgendaType="AGENDA_CIVILIZED" LeaderType="LEADER_SEJONG_ALT" PercentageChance="50"/>
@@ -63,12 +63,12 @@
   </AiFavoredItems>
   <Traits>
     <Row TraitType="TRAIT_LEADER_SEJONG_ALT" Name="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Description="LOC_TRAIT_LEADER_SEJONG_ALT_DESCRIPTION"/>
-    <Row TraitType="TRAIT_AGENDA_4_GUN_6_JIN"/>
+    <Row TraitType="TRAIT_AGENDA_CONQUER_THE_JURCHEN"/>
   </Traits>
   <TraitModifiers>
     <Row TraitType="TRAIT_LEADER_SEJONG_ALT" ModifierId="SEJONG_NEAR_CAPITAL_STRENGTH"/>
-    <Row TraitType="TRAIT_AGENDA_4_GUN_6_JIN" ModifierId="AGENDA_4_GUN_6_JIN_NEIGHBORS"/>
-    <Row TraitType="TRAIT_AGENDA_4_GUN_6_JIN" ModifierId="AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS"/>
+    <Row TraitType="TRAIT_AGENDA_CONQUER_THE_JURCHEN" ModifierId="AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS"/>
+    <Row TraitType="TRAIT_AGENDA_CONQUER_THE_JURCHEN" ModifierId="AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS"/>
   </TraitModifiers>
   <Modifiers>
     <Row>
@@ -76,12 +76,12 @@
       <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
       <SubjectRequirementSetId>PLAYERS_ARE_NEIGHBORS</SubjectRequirementSetId>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS</ModifierId>
       <ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
       <SubjectRequirementSetId>PLAYERS_ARE_NOT_NEIGHBORS</SubjectRequirementSetId>
     </Row>
@@ -93,54 +93,54 @@
       <Value>ABILITY_SEJONG_NEAR_CAPITAL_STRENGTH</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>InitialValue</Name>
       <Value>-7</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>MaxValue</Name>
       <Value>-15</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>IncrementValue</Name>
       <Value>-1</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>IncrementTurns</Name>
       <Value>15</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>StatementKey</Name>
       <Value>LOC_DIPLO_WARNING_EXIT_LEADER_SEJONG_ALT_ANY</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS</ModifierId>
       <Name>SimpleModifierDescription</Name>
       <Value>LOC_DIPLO_MODIFIER_SEJONG_ALT_NEIGHBOR</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS</ModifierId>
       <Name>InitialValue</Name>
       <Value>7</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS</ModifierId>
       <Name>StatementKey</Name>
       <Value>LOC_DIPLO_KUDO_EXIT_LEADER_SEJONG_ALT_ANY</Value>
     </Row>
     <Row>
-      <ModifierId>AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS</ModifierId>
+      <ModifierId>AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS</ModifierId>
       <Name>SimpleModifierDescription</Name>
       <Value>LOC_DIPLO_MODIFIER_SEJONG_ALT_NOT_NEIGHBOR</Value>
     </Row>
   </ModifierArguments>
   <ModifierStrings>
-    <Row ModifierId="AGENDA_4_GUN_6_JIN_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-    <Row ModifierId="AGENDA_4_GUN_6_JIN_NOT_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+    <Row ModifierId="AGENDA_CONQUER_THE_JURCHEN_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+    <Row ModifierId="AGENDA_CONQUER_THE_JURCHEN_NOT_NEIGHBORS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
   </ModifierStrings>
   <FavoredReligions>
     <Row LeaderType="LEADER_SEJONG_ALT" ReligionType="RELIGION_CONFUCIANISM"/>

@@ -9,7 +9,7 @@
       <Text>Sejong (Enlightened King)</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Language="en_US">
-      <Text>Conquer the Jurchen</Text>
+      <Text>4-Gun 6-Jin</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_DESCRIPTION" Language="en_US">
       <Text>Units within 10 tiles of the [ICON_Capital] Capital receive +10 [ICON_Strength] Combat Strength.</Text>
@@ -23,7 +23,7 @@
       <Text>세종대왕(깨우친 임금)</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_NAME" Language="ko_KR">
-      <Text>여진족 정벌</Text>
+      <Text>4군 6진</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_SEJONG_ALT_DESCRIPTION" Language="ko_KR">
       <Text>[ICON_Capital] 수도로부터 10타일 내에 있는 유닛들은 [ICON_Strength] 전투력 +10을 받습니다.</Text>
