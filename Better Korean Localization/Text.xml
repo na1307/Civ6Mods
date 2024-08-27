@@ -188,6 +188,9 @@
     <Replace Tag="LOC_HOF_STAT_TECH_BOOSTS" Language="ko_KR">
       <Text>가속된 기술</Text>
     </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="ko_KR">
+      <Text>건설자의 농장 건설 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Food] 식량 +1을 제공합니다. 초원 또는 평원에만 건설할 수 있습니다.[NEWLINE][NEWLINE]농장 옆에 다른 농장을 지으면 주거공간 보너스를 받습니다.</Text>
+    </Replace>
     <Replace Tag="LOC_IMPROVEMENT_MISSION_NAME" Language="ko_KR">
       <Text>선교부</Text>
     </Replace>
@@ -809,7 +812,7 @@
       <Text>모든 해상 유닛의 시야 +1. 모든 해상 유닛이 일반적인 기술 요구사항을 충족하지 않고도 해양 타일을 건널 수 있습니다.</Text>
     </Replace>
     <Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="ko_KR">
-      <Text>스코틀랜드 특유의 골프 코스를 지을 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_AMENITIES] 쾌적도 +2, [ICON_GOLD] 금 +2를 제공합니다. 도심부 특수지구에 인접하면 [ICON_CULTURE] 문화 +1, 유흥단지 특수지구에 인접하면 [ICON_CULTURE] 문화 +1을 제공합니다. 기술 발전표와 사회 제도 진보에 따라 [ICON_TOURISM] 관광 및 [ICON_HOUSING] 주거공간이 추가됩니다. 사막이나 사막 언덕에 배치할 수 없습니다. 도시당 하나만 가능합니다. 골프 코스가 있는 타일은 교체할 수 없습니다. 매력도 +1을 제공합니다.</Text>
+      <Text>스코틀랜드 특유의 골프 코스를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_AMENITIES] 쾌적도 +2, [ICON_GOLD] 금 +2를 제공합니다. 도심부 특수지구에 인접하면 [ICON_CULTURE] 문화 +1, 유흥단지 특수지구에 인접하면 [ICON_CULTURE] 문화 +1을 제공합니다. 기술 발전표와 사회 제도 진보에 따라 [ICON_TOURISM] 관광 및 [ICON_HOUSING] 주거공간이 추가됩니다. 사막이나 사막 언덕에 배치할 수 없습니다. 도시당 하나만 가능합니다. 골프 코스가 있는 타일은 교체할 수 없습니다. 매력도 +1을 제공합니다.</Text>
     </Replace>
     <Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="ko_KR">
       <Text>건설자의 카호키아 마운드 건설 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_GOLD] 금 +3을 제공합니다. 도시는 첫 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 자연사를 발견하면 도시는 두 번째 카호키아 마운드 시설에서 [ICON_AMENITIES] 쾌적도 +1을 얻습니다. 봉건제를 발견한 경우 인접한 특수지구 2개마다, 교환부품이 연구된 경우 인접한 특수지구마다 [ICON_FOOD] 식량 +1을 제공합니다. [ICON_HOUSING] 주거공간 +1을 제공합니다. 문화 유산을 발견하면 추가 [ICON_HOUSING] 주거공간을 얻습니다. 다른 카호키아 마운드 옆에 건설할 수 없습니다.</Text>
@@ -819,6 +822,9 @@
     </Replace>
     <Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="ko_KR">
       <Text>이집트 특유의 스핑크스를 건설할 수 있는 건설자의 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Faith] 신앙 +1 및 [ICON_Culture] 문화 +1을 제공합니다. 매력도 +2를 제공합니다. 불가사의 옆에 지으면 [ICON_Faith] 신앙 +2를 제공합니다. 범람원에 지으면 [ICON_CULTURE] 문화 +1을 제공합니다. 자연사를 발견하면 [ICON_CULTURE] 문화를 추가로 제공합니다. 비행을 연구하면 [ICON_TOURISM] 관광을 제공합니다. 다른 스핑크스 옆에 지을 수 없습니다. 설원 또는 설원 언덕에 지을 수 없습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="ko_KR">
+      <Text>잉카 특유의 계단식 농장 건설을 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량 +1을 제공합니다. [ICON_Housing] 주거공간 +1을 제공합니다. 인접한 각 산 타일마다 [ICON_FOOD] 식량 +1을 제공합니다. 인접한 각 송수로 특수지구마다 [ICON_PRODUCTION] 생산력 +2를 제공합니다. 담수에 인접하고 송수로에 인접하지 않으면 [ICON_PRODUCTION] 생산력 +1을 제공합니다. 다른 계단식 농장과 인접한 경우 기술 발전표와 사회 제도 진보에 따라 [ICON_FOOD] 식량이 추가됩니다. 초원 언덕, 평원 언덕과 사막 언덕에 배치할 수 있습니다.</Text>
     </Replace>
     <Replace Tag="LOC_LEADER_TRAIT_CARDIFF_DESCRIPTION" Language="ko_KR">
       <Text>도시가 각 항만 건물마다 [ICON_Power] 전력 +2를 얻습니다.</Text>

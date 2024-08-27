@@ -26,6 +26,11 @@
     <Delete Tag="LOC_GREATPERSON_EUCLID_ACTIVE"/>
     <Delete Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION"/>
     <Delete Tag="LOC_UNIT_VAMPIRE_DESCRIPTION"/>
+    <Delete Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION"/>
+    <Delete Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION"/>
+    <Delete Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION"/>
+    <Delete Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION"/>
+    <Delete Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="en_US">
@@ -172,6 +177,21 @@
     <Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="en_US">
       <Text>[ICON_GREATSCIENTIST] Great Scientists have an additional charge. Receive a random tech boost after another player recruits a [ICON_GreatScientist] Great Scientist. Must be built on flat land adjacent to a Campus district with a Library.</Text>
     </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Farms.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on Grassland or Plains.[NEWLINE][NEWLINE]Grants additional [ICON_Food] Food to Farms when Discovering Feudalism: Adjacent to fresh water; Discovering Civil Engineering: Not adjacent to fresh water.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Terrace Farm, unique to the Inca.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food. Provides +1 [ICON_Housing] Housing. +1 [ICON_FOOD] Food for each adjacent Mountain Tile. Gain +2 [ICON_PRODUCTION] Production for each adjacent Aqueduct district. Receive +1 [ICON_PRODUCTION] Production if adjacent to Fresh Water and not an Aqueduct district. Grants additional [ICON_Food] Food to Terrace Farms when Discovering Feudalism: Adjacent to fresh water; Discovering Civil Engineering: Not adjacent to fresh water. Can be placed on Grassland Hills, Plains Hills, and Desert Hills.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="en_US">
+      <Text>Farm improvements now gain +1 [ICON_Food] Food from adjacent fresh water. Plantation improvements receive +1 [ICON_Food] Food.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="en_US">
+      <Text>Farm improvements now gain +1 [ICON_Food] Food from not adjacent fresh water. Can build Farms on Grassland Hills and Plains Hills.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="en_US">
+      <Text>All improved [ICON_RESOURCE_NITER] Niter resources yield 1 additional resource per turn.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION" Language="ko_KR">
@@ -317,6 +337,21 @@
     </Replace>
     <Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="ko_KR">
       <Text>[ICON_GreatScientist] 위대한 과학자가 추가 사용 횟수를 받습니다. 다른 플레이어가 [ICON_GreatScientist] 위대한 과학자를 영입하면 무작위 기술 가속을 받습니다. 도서관이 있는 캠퍼스 특수지구 옆 평지에 지어야 합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="ko_KR">
+      <Text>건설자의 농장 건설 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_Food] 식량 +1을 제공합니다. 초원 또는 평원에만 건설할 수 있습니다.[NEWLINE][NEWLINE]봉건제를 발견하면 담수에 인접한 농장에, 토목 공학을 발견하면 담수에 인접하지 않은 농장에 추가 [ICON_Food] 식량이 부여됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="ko_KR">
+      <Text>잉카 특유의 계단식 농장 건설을 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량 +1을 제공합니다. [ICON_Housing] 주거공간 +1을 제공합니다. 인접한 각 산 타일마다 [ICON_FOOD] 식량 +1을 제공합니다. 인접한 각 송수로 특수지구마다 [ICON_PRODUCTION] 생산력 +2를 제공합니다. 담수에 인접하고 송수로에 인접하지 않으면 [ICON_PRODUCTION] 생산력 +1을 제공합니다. 봉건제를 발견하면 담수에 인접한 계단식 농장에, 토목 공학을 발견하면 담수에 인접하지 않은 계단식 농장에 추가 [ICON_Food] 식량이 부여됩니다. 초원 언덕, 평원 언덕과 사막 언덕에 배치할 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="ko_KR">
+      <Text>이제 담수에 인접한 농장 시설에 [ICON_Food] 식량 +1. 재배지 시설이 [ICON_Food] 식량 +1을 받습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="ko_KR">
+      <Text>이제 담수에 인접하지 않은 농장 시설에 [ICON_Food] 식량 +1. 초원 언덕 및 평원 언덕에 농장을 지을 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="ko_KR">
+      <Text>개발된 모든 [ICON_RESOURCE_NITER] 초석 자원에서 턴당 1개의 추가 자원이 생산됩니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
