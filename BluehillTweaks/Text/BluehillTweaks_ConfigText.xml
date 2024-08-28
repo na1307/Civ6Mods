@@ -4,6 +4,8 @@
     <!-- Remove Text -->
     <Delete Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1"/>
     <Delete Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION"/>
+    <Delete Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION"/>
+    <Delete Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
@@ -12,6 +14,12 @@
     <Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="en_US">
       <Text>A building unique to Japan. Provides +6 [ICON_Culture] Culture to this city after researching the Electricity technology. Its [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
     </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION" Language="en_US">
+      <Text>Exclusive unique Governor with military and diplomatic abilities. Gain a [Icon_Governor] Governor Title when the Gunpowder technology is researched.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="en_US">
+      <Text>Babylonian unique Ancient era anti-cavalry unit that replaces the Spearman. Higher [ICON_Strength] Combat Strength. This unit has 3 [ICON_Movement] Movement and sight.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
@@ -19,6 +27,12 @@
     </Replace>
     <Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="ko_KR">
       <Text>일본 특유의 건물입니다. 전기 기술을 연구한 후 이 도시에 [ICON_Culture] 문화 +6을 제공합니다. [ICON_Production] 생산력 보너스는 이 건물 유형의 보너스가 없는 6타일 내의 모든 도심부로 확장됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION" Language="ko_KR">
+      <Text>군사 및 외교 능력을 지닌 특유의 총독입니다. 화약 기술을 연구하면 [Icon_Governor] 총독 타이틀을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="ko_KR">
+      <Text>창병을 대체하는 바빌론 특유의 고대 시대 대기병 유닛입니다. [ICON_Strength] 전투력이 더 높습니다. 이 유닛의 [ICON_Movement] 이동력과 시야는 3입니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>

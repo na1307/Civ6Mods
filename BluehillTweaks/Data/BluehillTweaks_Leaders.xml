@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+  <LeaderTraits>
+    <Delete LeaderType="LEADER_SULEIMAN" TraitType="TRAIT_LEADER_UNIT_SULEIMAN_JANISSARY"/>
+  </LeaderTraits>
   <TraitModifiers>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BARRACKS_STABLE_IDENTITY_BONUS"/>
     <Delete ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_ARMORY_IDENTITY_BONUS"/>

@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+  <TypeTags>
+    <Delete Type="UNIT_BABYLONIAN_SABUM_KIBITTUM"/>
+    <Row Type="UNIT_BABYLONIAN_SABUM_KIBITTUM" Tag="CLASS_ANTI_CAVALRY"/>
+  </TypeTags>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" AiType="UNITTYPE_ANTI_CAVALRY"/>
+  </UnitAiInfos>
   <Units>
+    <Update>
+      <Where UnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM"/>
+      <Set>
+        <Cost>65</Cost>
+        <Maintenance>1</Maintenance>
+        <Combat>30</Combat>
+        <PromotionClass>PROMOTION_CLASS_ANTI_CAVALRY</PromotionClass>
+        <MandatoryObsoleteTech>TECH_METAL_CASTING</MandatoryObsoleteTech>
+        <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+      </Set>
+    </Update>
+    <Delete UnitType="UNIT_OTTOMAN_BARBARY_CORSAIR"/>
     <Update>
       <Where UnitType="UNIT_LINE_INFANTRY"/>
       <Set>
@@ -29,4 +48,15 @@
   <Units_XP2>
     <Delete UnitType="UNIT_INFANTRY" />
   </Units_XP2>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" ReplacesUnitType="UNIT_SPEARMAN"/>
+  </UnitReplaces>
+  <UnitUpgrades>
+    <Update>
+      <Where Unit="UNIT_BABYLONIAN_SABUM_KIBITTUM"/>
+      <Set>
+        <UpgradeUnit>UNIT_PIKEMAN</UpgradeUnit>
+      </Set>
+    </Update>
+  </UnitUpgrades>
 </GameData>

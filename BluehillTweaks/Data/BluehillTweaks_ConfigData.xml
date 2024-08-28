@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<PlayerItems>
-		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ROME" LeaderType="LEADER_TRAJAN" Type="IMPROVEMENT_ROMAN_FORT" Icon="ICON_IMPROVEMENT_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" Description="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" SortIndex="30" />
-		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ROME" LeaderType="LEADER_JULIUS_CAESAR" Type="IMPROVEMENT_ROMAN_FORT" Icon="ICON_IMPROVEMENT_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" Description="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" SortIndex="30" />
-	</PlayerItems>
+  <PlayerItems>
+    <Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ROME" LeaderType="LEADER_TRAJAN" Type="IMPROVEMENT_ROMAN_FORT" Icon="ICON_IMPROVEMENT_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" Description="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" SortIndex="30" />
+    <Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_ROME" LeaderType="LEADER_JULIUS_CAESAR" Type="IMPROVEMENT_ROMAN_FORT" Icon="ICON_IMPROVEMENT_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" Description="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" SortIndex="30" />
+    <Delete Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_OTTOMAN" Type="UNIT_OTTOMAN_BARBARY_CORSAIR"/>
+    <Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_OTTOMAN" LeaderType="LEADER_SULEIMAN_ALT" Type="UNIT_SULEIMAN_JANISSARY" Icon="ICON_UNIT_SULEIMAN_JANISSARY" Name="LOC_UNIT_SULEIMAN_JANISSARY_NAME" Description="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION" SortIndex="30"/>
+  </PlayerItems>
 </GameData>

@@ -8,5 +8,7 @@
   </Traits>
   <CivilizationTraits>
     <Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
+    <Delete CivilizationType="CIVILIZATION_OTTOMAN" TraitType="TRAIT_CIVILIZATION_UNIT_OTTOMAN_BARBARY_CORSAIR"/>
+    <Row CivilizationType="CIVILIZATION_OTTOMAN" TraitType="TRAIT_LEADER_UNIT_SULEIMAN_JANISSARY"/>
   </CivilizationTraits>
 </GameData>
