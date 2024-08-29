@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <DiplomaticActions>
+    <Update>
+      <Where DiplomaticActionType="DIPLOACTION_DECLARE_HOLY_WAR" />
+      <Set>
+        <InitiatorPrereqCivic>CIVIC_THEOLOGY</InitiatorPrereqCivic>
+      </Set>
+    </Update>
+    <Update>
+      <Where DiplomaticActionType="DIPLOACTION_DECLARE_LIBERATION_WAR" />
+      <Set>
+        <InitiatorPrereqCivic>CIVIC_CIVIL_SERVICE</InitiatorPrereqCivic>
+      </Set>
+    </Update>
+    <Update>
+      <Where DiplomaticActionType="DIPLOACTION_DECLARE_RECONQUEST_WAR" />
+      <Set>
+        <InitiatorPrereqCivic>CIVIC_DIPLOMATIC_SERVICE</InitiatorPrereqCivic>
+      </Set>
+    </Update>
+    <Update>
+      <Where DiplomaticActionType="DIPLOACTION_DECLARE_COLONIAL_WAR" />
+      <Set>
+        <InitiatorPrereqCivic>CIVIC_COLONIALISM</InitiatorPrereqCivic>
+      </Set>
+    </Update>
+  </DiplomaticActions>
+</GameData>

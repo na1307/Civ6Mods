@@ -730,6 +730,9 @@
     </Replace>
 
     <!-- Expansion2 -->
+    <Replace Tag="LOC_ABILITY_MANDEKALU_DESCRIPTION" Language="ko_KR">
+      <Text>근처의 지상 상인 유닛을 약탈로부터 보호합니다.[NEWLINE][ICON_Bullet]해당 유닛의 기본 [ICON_Strength] 전투력의 100%에 해당하는 [ICON_GOLD] 금을 얻습니다.</Text>
+    </Replace>
     <Replace Tag="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" Language="ko_KR">
       <Text>스파이를 통해서 가속하십시오.</Text>
     </Replace>
@@ -755,7 +758,7 @@
       <Text>매 턴마다 자동으로 [ICON_RESOURCE_URANIUM] 우라늄을 6타일 내의 도시에 필요한 [ICON_Power] 전력으로 변환합니다.[NEWLINE][ICON_Bullet] [ICON_RESOURCE_URANIUM] 우라늄 1에 [ICON_PowerRight] [ICON_Power] 전력 16을 얻습니다.[NEWLINE][ICON_Bullet] 극소량의 CO2를 대기 중으로 배출합니다.[NEWLINE]일단 건설되면 원자력 발전소가 노후화됨에 따라 원자력 사고가 발생할 가능성이 높아집니다. [ICON_Production] 생산력 및 [ICON_Science] 과학 보너스는 발전소 건물의 보너스가 없는 6타일 내의 모든 도심부로 확장됩니다.</Text>
     </Replace>
     <Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" Language="ko_KR">
-      <Text>스웨덴 특유의 건물입니다. 이 건물은 [ICON_GreatWork_WRITING] 저서, [ICON_GreatWork_MUSIC] 음악 및 모든 유형의 [ICON_GreatWork_Landscape] 예술 슬롯 2개를 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
+      <Text>스웨덴 특유의 건물입니다. 이 건물은 [ICON_GreatWork_WRITING] 저서, [ICON_GreatWork_MUSIC] 음악 및 모든 유형의 [ICON_GreatWork_Landscape] 예술품 슬롯 2개를 제공합니다.[NEWLINE][Icon_Governor] 총독 타이틀 +1을 제공합니다.</Text>
     </Replace>
     <Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Language="ko_KR">
       <Text>여왕의 도서관</Text>
@@ -1172,6 +1175,9 @@
     </Replace>
     <Replace Tag="LOC_LEADER_TRAIT_JOHANNESBURG_DESCRIPTION" Language="ko_KR">
       <Text>도시가 개발된 각 자원 유형마다 [ICON_Production] 생산력 +1을 얻습니다. 산업화를 연구한 후에는 [ICON_PRODUCTION] 생산력 +2가 됩니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_LOOK_AT_HERO" Language="ko_KR">
+      <Text>영웅 보기</Text>
     </Replace>
     <Replace Tag="LOC_MODIFIER_HUNAHPU_RESURRECT_KILL" Language="ko_KR">
       <Text>우나푸와 스발란케가 처치한 일반 지상 유닛은 체력과 이동력이 전부 회복된 채로 부활합니다.</Text>

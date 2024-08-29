@@ -3,7 +3,22 @@
   <Improvements>
     <Update>
       <Where ImprovementType="IMPROVEMENT_ROMAN_FORT"/>
-      <Set TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT"/>
+      <Set>
+        <TraitType>TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT</TraitType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ImprovementType="IMPROVEMENT_GOLF_COURSE"/>
+      <Set>
+        <PrereqCivic>CIVIC_HUMANISM</PrereqCivic>
+        <Appeal>2</Appeal>
+      </Set>
+    </Update>
+    <Update>
+      <Where ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"/>
+      <Set>
+        <PrereqCivic>CIVIC_CIVIL_ENGINEERING</PrereqCivic>
+      </Set>
     </Update>
   </Improvements>
   <Improvement_Adjacencies>

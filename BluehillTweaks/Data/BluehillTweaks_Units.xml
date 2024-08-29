@@ -19,7 +19,29 @@
         <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
       </Set>
     </Update>
+    <Update>
+      <Where UnitType="UNIT_BARBARIAN_HORSEMAN"/>
+      <Set>
+        <PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+      </Set>
+    </Update>
+    <Update>
+      <Where UnitType="UNIT_BARBARIAN_HORSE_ARCHER"/>
+      <Set>
+        <PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+      </Set>
+    </Update>
     <Delete UnitType="UNIT_OTTOMAN_BARBARY_CORSAIR"/>
+    <Update>
+      <Where UnitType="UNIT_PORTUGUESE_NAU"/>
+      <Set>
+        <Cost>200</Cost>
+        <Combat>50</Combat>
+        <MandatoryObsoleteTech/>
+        <PrereqTech/>
+        <PrereqCivic>CIVIC_EXPLORATION</PrereqCivic>
+      </Set>
+    </Update>
     <Update>
       <Where UnitType="UNIT_LINE_INFANTRY"/>
       <Set>
@@ -50,6 +72,7 @@
   </Units_XP2>
   <UnitReplaces>
     <Row CivUniqueUnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" ReplacesUnitType="UNIT_SPEARMAN"/>
+    <Delete CivUniqueUnitType="UNIT_PORTUGUESE_NAU" ReplacesUnitType="UNIT_CARAVEL"/>
   </UnitReplaces>
   <UnitUpgrades>
     <Update>
@@ -58,5 +81,6 @@
         <UpgradeUnit>UNIT_PIKEMAN</UpgradeUnit>
       </Set>
     </Update>
+    <Delete Unit="UNIT_PORTUGUESE_NAU" UpgradeUnit="UNIT_IRONCLAD"/>
   </UnitUpgrades>
 </GameData>

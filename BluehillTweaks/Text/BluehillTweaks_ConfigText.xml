@@ -6,6 +6,9 @@
     <Delete Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION"/>
     <Delete Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION"/>
     <Delete Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION"/>
+    <Delete Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION"/>
+    <Delete Tag="LOC_ABILITY_NAU_DESCRIPTION"/>
+    <Delete Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION"/>
 
     <!-- English -->
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
@@ -20,6 +23,15 @@
     <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="en_US">
       <Text>Babylonian unique Ancient era anti-cavalry unit that replaces the Spearman. Higher [ICON_Strength] Combat Strength. This unit has 3 [ICON_Movement] Movement and sight.</Text>
     </Replace>
+    <Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="en_US">
+      <Text>Portuguese unique Renaissance Era naval melee unit. Trader units are immune to being plundered if they are within 4 tiles of a Nau and on a water tile. Has two charges to build Feitorias.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_NAU_DESCRIPTION" Language="en_US">
+      <Text>Protects nearby Trade units from being Plundered on Water Tiles.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TRADER_PROTECTED_BY_NAU_DESCRIPTION" Language="en_US">
+      <Text>Trade units near a your Nau are immune to being Plundered on Water Tiles.</Text>
+    </Replace>
 
     <!-- 한국어 -->
     <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
@@ -33,6 +45,18 @@
     </Replace>
     <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="ko_KR">
       <Text>창병을 대체하는 바빌론 특유의 고대 시대 대기병 유닛입니다. [ICON_Strength] 전투력이 더 높습니다. 이 유닛의 [ICON_Movement] 이동력과 시야는 3입니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="ko_KR">
+      <Text>포르투갈 특유의 르네상스 시대 해상 근접 유닛입니다. 나우로부터 4타일 이내의 물 타일에 있는 상인 유닛은 약탈당하지 않습니다. 페이토리아를 2회 건설할 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_NAU_DESCRIPTION" Language="ko_KR">
+      <Text>근처의 상인 유닛이 물 타일에서 약탈당하지 않도록 보호합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TRADER_PROTECTED_BY_NAU_DESCRIPTION" Language="ko_KR">
+      <Text>나우 근처의 상인 유닛이 물 타일에서 약탈당하지 않습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="ko_KR">
+      <Text>스코틀랜드 특유의 골프 코스를 건설할 수 있는 건설자 능력을 잠금 해제합니다.[NEWLINE][NEWLINE][ICON_AMENITIES] 쾌적도 +2, [ICON_GOLD] 금 +2를 제공합니다. 도심부 특수지구에 인접하면 [ICON_CULTURE] 문화 +1, 유흥단지 특수지구에 인접하면 [ICON_CULTURE] 문화 +1을 제공합니다. 기술 발전표와 사회 제도 진보에 따라 [ICON_TOURISM] 관광 및 [ICON_HOUSING] 주거공간이 추가됩니다. 사막이나 사막 언덕에 배치할 수 없습니다. 도시당 하나만 가능합니다. 골프 코스가 있는 타일은 교체할 수 없습니다. 매력도 +2를 제공합니다.</Text>
     </Replace>
   </LocalizedText>
 </GameData>
