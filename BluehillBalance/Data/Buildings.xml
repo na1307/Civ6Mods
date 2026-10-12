@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Buildings>
+    <Update>
+      <Where BuildingType="BUILDING_PALACE" />
+      <Set>
+        <Entertainment>1</Entertainment>
+      </Set>
+    </Update>
+    <Update>
+      <Where BuildingType="BUILDING_SHIPYARD" />
+      <Set>
+        <Maintenance>0</Maintenance>
+      </Set>
+    </Update>
+  </Buildings>
+  <Buildings_XP2>
+    <Row BuildingType="BUILDING_SEAPORT" RequiredPower="2" />
+  </Buildings_XP2>
+  <Building_YieldChanges>
+    <Update>
+      <Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" />
+      <Set>
+        <YieldChange>5</YieldChange>
+      </Set>
+    </Update>
+    <Update>
+      <Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" />
+      <Set>
+        <YieldChange>5</YieldChange>
+      </Set>
+    </Update>
+    <Update>
+      <Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" />
+      <Set>
+        <YieldChange>6</YieldChange>
+      </Set>
+    </Update>
+    <Update>
+      <Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_SCIENCE" />
+      <Set>
+        <YieldChange>4</YieldChange>
+      </Set>
+    </Update>
+  </Building_YieldChanges>
+  <Building_YieldChangesBonusWithPower>
+    <Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="5" />
+    <Update>
+      <Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" />
+      <Set>
+        <YieldChange>3</YieldChange>
+      </Set>
+    </Update>
+  </Building_YieldChangesBonusWithPower>
+  <MutuallyExclusiveBuildings>
+    <Delete Building="BUILDING_FOOD_MARKET" MutuallyExclusiveBuilding="BUILDING_SHOPPING_MALL" />
+    <Delete Building="BUILDING_SHOPPING_MALL" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET" />
+  </MutuallyExclusiveBuildings>
+  <BuildingModifiers>
+    <Delete BuildingType="BUILDING_GREAT_LIBRARY" ModifierId="GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS" />
+    <Row>
+      <BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+      <ModifierId>GREAT_LIBRARY_LIBRARY_CULTURE</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+      <ModifierId>GREAT_LIBRARY_UNIVERSITY_CULTURE</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+      <ModifierId>GREAT_LIBRARY_RESEARCH_LAB_CULTURE</ModifierId>
+    </Row>
+    <Row BuildingType="BUILDING_BARRACKS" ModifierId="BARRACKS_LOYALTY" />
+    <Row BuildingType="BUILDING_BASILIKOI_PAIDES" ModifierId="BARRACKS_LOYALTY" />
+    <Row BuildingType="BUILDING_STABLE" ModifierId="STABLE_LOYALTY" />
+    <Row BuildingType="BUILDING_ORDU" ModifierId="STABLE_LOYALTY" />
+    <Row BuildingType="BUILDING_ARMORY" ModifierId="ARMORY_LOYALTY" />
+    <Row BuildingType="BUILDING_MILITARY_ACADEMY" ModifierId="MILITARY_ACADEMY_LOYALTY" />
+  </BuildingModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_LIBRARY_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_UNIVERSITY_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_RESEARCH_LAB_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>BARRACKS_LOYALTY</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>STABLE_LOYALTY</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ARMORY_LOYALTY</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>MILITARY_ACADEMY_LOYALTY</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+    </Row>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_RECON" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_MELEE" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_RANGED" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_SIEGE" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_HEAVY_CAVALRY" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_LIGHT_CAVALRY" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_RANGED_CAVALRY" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_ANTI_CAVALRY" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_HEAVY_CHARIOT" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+    <Update>
+      <Where ModifierId="GOV_FAITH_PURCHASE_LIGHT_CHARIOT" />
+      <Set>
+        <ModifierType>MODIFIER_CITY_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+      </Set>
+    </Update>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_LIBRARY_CULTURE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_LIBRARY</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_LIBRARY_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_LIBRARY_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_UNIVERSITY_CULTURE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_UNIVERSITY</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_UNIVERSITY_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_UNIVERSITY_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_RESEARCH_LAB_CULTURE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_RESEARCH_LAB</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_RESEARCH_LAB_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREAT_LIBRARY_RESEARCH_LAB_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>BARRACKS_LOYALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>STABLE_LOYALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>ARMORY_LOYALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>MILITARY_ACADEMY_LOYALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>

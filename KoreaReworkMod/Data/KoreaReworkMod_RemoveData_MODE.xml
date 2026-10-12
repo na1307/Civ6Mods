@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<District_Adjacencies>
-		<Delete DistrictType="DISTRICT_SEOWON"/>
+		<Delete DistrictType="DISTRICT_SEOWON" YieldChangeId="BaseDistrict_Science"/>
+		<Delete DistrictType="DISTRICT_SEOWON" YieldChangeId="NegativeDistrict_Science"/>
 	</District_Adjacencies>
 	<District_ValidTerrains>
 		<Delete DistrictType="DISTRICT_SEOWON"/>

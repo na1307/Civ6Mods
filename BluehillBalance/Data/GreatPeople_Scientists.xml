@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GreatPersonIndividuals>
+    <Update>
+      <Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" />
+      <Set>
+        <ActionRequiresCompletedDistrictType>DISTRICT_CAMPUS</ActionRequiresCompletedDistrictType>
+      </Set>
+    </Update>
+  </GreatPersonIndividuals>
+  <GreatPersonIndividualActionModifiers>
+    <Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" />
+    <Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_MATHTECHBOOST" />
+    <Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" ModifierId="GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_2CLASSICALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_MATHTECH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" ModifierId="GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE" />
+  </GreatPersonIndividualActionModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>GREATPERSON_2CLASSICALTECHBOOSTS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_MATHTECH</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>GREATPERSON_2CLASSICALTECHBOOSTS</ModifierId>
+      <Name>StartEraType</Name>
+      <Value>ERA_CLASSICAL</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_2CLASSICALTECHBOOSTS</ModifierId>
+      <Name>EndEraType</Name>
+      <Value>ERA_CLASSICAL</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_2CLASSICALTECHBOOSTS</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_MATHTECH</ModifierId>
+      <Name>TechType</Name>
+      <Value>TECH_MATHEMATICS</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH</ModifierId>
+      <Name>YieldTypeToMirror</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH</ModifierId>
+      <Name>YieldTypeToGrant</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+  </ModifierArguments>
+  <ModifierStrings>
+    <Row ModifierId="GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH" Context="Summary" Text="LOC_GREATPERSON_CAMPUS_ADJACENCY_AS_FAITH" />
+  </ModifierStrings>
+</GameData>

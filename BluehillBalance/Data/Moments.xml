@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <CommemorationTypes>
+    <Update>
+      <Where CommemorationType="COMMEMORATION_SCIENTIFIC" />
+      <Set>
+        <MaximumGameEra>ERA_RENAISSANCE</MaximumGameEra>
+      </Set>
+    </Update>
+    <Update>
+      <Where CommemorationType="COMMEMORATION_CULTURAL" />
+      <Set>
+        <MaximumGameEra>ERA_RENAISSANCE</MaximumGameEra>
+      </Set>
+    </Update>
+    <Update>
+      <Where CommemorationType="COMMEMORATION_INFRASTRUCTURE" />
+      <Set>
+        <MaximumGameEra>ERA_MEDIEVAL</MaximumGameEra>
+      </Set>
+    </Update>
+    <Update>
+      <Where CommemorationType="COMMEMORATION_RELIGIOUS" />
+      <Set>
+        <MaximumGameEra>ERA_MEDIEVAL</MaximumGameEra>
+      </Set>
+    </Update>
+  </CommemorationTypes>
+  <CommemorationModifiers>
+    <Delete ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" />
+    <Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION" />
+  </CommemorationModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+      <OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+  </ModifierArguments>
+</GameData>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Types>
+    <Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Kind="KIND_TRAIT" />
+  </Types>
+  <Buildings>
+    <Update>
+      <Where BuildingType="BUILDING_PRASAT" />
+      <Set Description="LOC_BUILDING_PRASAT_DESCRIPTION" />
+    </Update>
+  </Buildings>
+  <Building_YieldChanges>
+    <Update>
+      <Where BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" />
+      <Set>
+        <YieldChange>4</YieldChange>
+      </Set>
+    </Update>
+  </Building_YieldChanges>
+  <Building_GreatWorks>
+    <Update>
+      <Where BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC" />
+      <Set>
+        <NumSlots>2</NumSlots>
+      </Set>
+    </Update>
+  </Building_GreatWorks>
+  <BuildingModifiers>
+    <Delete ModifierId="PRASAT_CULTURE_POPULATION"/>
+    <Row>
+      <BuildingType>BUILDING_PRASAT</BuildingType>
+      <ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+    </Row>
+  </BuildingModifiers>
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" />
+    <Update>
+      <Where TraitType="TRAIT_CIVILIZATION_KHMER_BARAYS" />
+      <Set Description="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION" />
+    </Update>
+  </Traits>
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ROMAN_FORT" />
+  </CivilizationTraits>
+  <TraitModifiers>
+    <Delete ModifierId="TRAIT_SHRINE_WRITING_POINTS" />
+    <Delete ModifierId="TRAIT_TEMPLE_ARTIST_POINTS" />
+    <Delete ModifierId="TRAIT_TIER3_MUSICIAN_POINTS" />
+    <Delete ModifierId="BARAYS_FAITH_POPULATION" />
+    <Delete ModifierId="TRAIT_FARM_HOLY_SITE_ADJECENCY_FAITH" />
+    <Delete ModifierId="PRASAT_TOURISM_10_POPULATION" />
+    <Delete ModifierId="PRASAT_TOURISM_20_POPULATION" />
+    <Delete ModifierId="TRAIT_EJERCITO_PATRIOTA_EXTRA_MOVEMENT" />
+    <Delete TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA" ModifierId="TRAIT_PROMOTE_NO_FINISH_MOVES" />
+    <Delete ModifierId="TRAIT_SCIENCE_DECREASE" />
+    <Row>
+      <TraitType>TRAIT_CIVILIZATION_KHMER_BARAYS</TraitType>
+      <ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+    </Row>
+    <Row>
+      <TraitType>TRAIT_CIVILIZATION_BABYLON</TraitType>
+      <ModifierId>TRAIT_SCIENCE_PER_POP_DECREASE</ModifierId>
+    </Row>
+  </TraitModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+      <SubjectRequirementSetId>DISTRICT_IS_AQUEDUCT_FAITH</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+      <Permanent>true</Permanent>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_POP_DECREASE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_MARTYR</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_POP_DECREASE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-0.2</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_SCIENCE_PER_POP_DECREASE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+  </ModifierArguments>
+  <GreatPersonIndividualBirthModifiers>
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MACGREGOR" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_NARINO" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+    <Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_RIBAS" ModifierId="GREATPERSON_COMANDANTE_MOVEMENT_AOE_LAND" />
+  </GreatPersonIndividualBirthModifiers>
+</GameData>

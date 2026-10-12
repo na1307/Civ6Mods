@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_DISTRICT_IKANDA_DESCRIPTION" Language="ko_KR">
+      <Text>주둔지를 대체하는 줄루 특유의 특수지구입니다. 이 도시에 턴당 충성심 +2를 제공합니다. [ICON_Housing] 주거공간 +1을 제공합니다. 사회 제도나 기술 전제 조건이 충족되면 군단 및 군대를 즉각 구성할 수 있습니다. 이칸다의 건물은 [ICON_GOLD] 금 +2, [ICON_SCIENCE] 과학 +1을 획득합니다. 군단 및 군대를 더 빨리 생성합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="ko_KR">
+      <Text>주둔지를 대체하는 베트남 특유의 특수지구입니다. 이 도시에 턴당 충성심 +2를 제공합니다. 인접한 특수지구마다 [ICON_CULTURE] 문화 +2를 얻습니다. 비행을 연구하면 [ICON_CULTURE] 문화 생산량에 해당하는 [ICON_TOURISM] 관광을 얻습니다. 이 특수지구는 인구 조건이 없고, 건설 비용이 저렴하며, 도심부 인근에 건설할 수 없고, [ICON_GreatPerson] 위인 점수를 제공하지 않으며, 전문 특수지구가 아닙니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_BASILIKOI_PAIDES_EXPANSION2_DESCRIPTION" Language="ko_KR">
+      <Text>마케도니아 특유의 건물입니다. 이 도시에서 훈련된 모든 근접 및 원거리 지상 유닛과 헤타이로이는 전투 경험치 +25%를 획득합니다. 이 도시에서 비민간 유닛이 생성되면 해당 유닛 비용의 25%에 준하는 [ICON_SCIENCE] 과학을 얻습니다. 이 도시에 턴당 충성심 +2를 제공합니다.[NEWLINE][NEWLINE]전략 자원 비축력이 +10 증가합니다(일반 속도 기준).[NEWLINE][NEWLINE]마구간이 있는 주둔지 특수지구에는 지을 수 없습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION" Language="ko_KR">
+      <Text>몽골 특유의 건물입니다. 이 도시에서 훈련된 경기병과 중기병에게 [ICON_MOVEMENT] 이동력 +1을 제공하는 능력을 부여합니다. 이 도시에서 훈련된 모든 부류의 기병 및 공성 유닛이 얻는 전투 경험치가 +25% 증가합니다. 이 도시에 턴당 충성심 +2를 제공합니다.[NEWLINE]전략 자원 비축력이 +10 증가합니다(일반 속도 기준).[NEWLINE][NEWLINE]병영이 있는 주둔지 특수지구에는 지을 수 없습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="ko_KR">
+      <Text>우호적 영토에 있는 유닛은 [ICON_Strength] 전투력 +5와 이동력 +1을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="ko_KR">
+      <Text>우호적 영토에 있는 유닛은 [ICON_Strength] 전투력 +5와 이동력 +1을 얻습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="ko_KR">
+      <Text>바빌론 특유의 고대 시대 대기병 유닛입니다. 필요 생산력이 더 적고 유지 비용과 요구 기술이 없습니다. 이 유닛의 [ICON_Movement] 이동력과 시야는 3입니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="ko_KR">
+      <Text>종교 활동이 진행되는 러시아 특유의 특수지구입니다. 성지 특수지구를 대체하며 건설 비용이 더 낮습니다.[NEWLINE][NEWLINE]이 도시에서 위인이 사용되어 사라질 때마다 도시 경계가 1타일 씩 증가합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION" Language="ko_KR">
+      <Text>성지를 강에 배치하면 [ICON_FOOD] 식량 +2 및 [ICON_HOUSING] 주거공간 +2를 제공합니다. 성지는 문화 폭탄을 유발합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_FAITH] 신앙 +6을 제공합니다. 사원을 대체하는 크메르 특유의 건물입니다. [ICON_Faith] 신앙으로 사도와 이단심문관을 구매하는 데 필요합니다. 이 도시의 [ICON_CITIZEN] 인구마다 [ICON_Culture] 문화 +0.5를 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="ko_KR">
+      <Text>성지가 인접 보너스에 해당하는 [ICON_CULTURE] 문화를 제공합니다. 농장이 인접한 히포드롬과 성지에 약간의 [ICON_FAITH] 신앙을 제공합니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_Capital] 수도에서 사령관을 훈련할 수 있습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="ko_KR">
+      <Text>유닛을 진급시켜도 해당 유닛의 턴이 끝나지 않습니다.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="ko_KR">
+      <Text>[ICON_TechBoosted] 유레카는 기술에 필요한 모든 [ICON_SCIENCE] 과학을 제공합니다. 인구 당 [ICON_SCIENCE] 과학이 -40% 감소합니다.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

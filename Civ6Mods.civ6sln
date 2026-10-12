@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Better Korean Fonts", "Better Korean Fonts\Better Korean Fonts.civ6proj", "{405BB68A-3ED5-4C4C-B58B-CF655569ABE9}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "KoreaReworkMod", "KoreaReworkMod\KoreaReworkMod.civ6proj", "{7F96E284-B331-4311-9774-16639BB5078E}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "BluehillBalance", "BluehillBalance\BluehillBalance.civ6proj", "{969B4ABE-3466-4B6A-B6CF-4C63A0BF4CF9}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "BluehillPantheon", "BluehillPantheon\BluehillPantheon.civ6proj", "{7354665A-B684-48FD-886D-C854EA9501A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{405BB68A-3ED5-4C4C-B58B-CF655569ABE9}.Default|Civ6.ActiveCfg = Default|Civ6
+		{405BB68A-3ED5-4C4C-B58B-CF655569ABE9}.Default|Civ6.Build.0 = Default|Civ6
+		{7F96E284-B331-4311-9774-16639BB5078E}.Default|Civ6.ActiveCfg = Default|Civ6
+		{7F96E284-B331-4311-9774-16639BB5078E}.Default|Civ6.Build.0 = Default|Civ6
+		{969B4ABE-3466-4B6A-B6CF-4C63A0BF4CF9}.Default|Civ6.ActiveCfg = Default|Civ6
+		{969B4ABE-3466-4B6A-B6CF-4C63A0BF4CF9}.Default|Civ6.Build.0 = Default|Civ6
+		{7354665A-B684-48FD-886D-C854EA9501A6}.Default|Civ6.ActiveCfg = Default|Civ6
+		{7354665A-B684-48FD-886D-C854EA9501A6}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

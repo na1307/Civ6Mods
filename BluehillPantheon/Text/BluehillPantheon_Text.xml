@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- BluehillPantheon_Text -->
-<!-- Author: Bluehill -->
-<!-- DateCreated: 2023-10-22 오후 1:47:45 -->
 <GameData>
   <LocalizedText>
     <!-- Remove Text -->
@@ -9,18 +6,6 @@
     <Delete Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION"/>
 
     <!-- English -->
-    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="en_US">
-      <Text>Lady of Coast</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="en_US">
-      <Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Coast and Lake tiles.</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="en_US">
-      <Text>Mystic of Wetlands</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="en_US">
-      <Text>Holy Site districts get +1 [ICON_Faith] Faith from adjacent Marsh and Floodplains tiles.</Text>
-    </Replace>
     <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="en_US">
       <Text>God of Agriculture</Text>
     </Replace>
@@ -45,35 +30,8 @@
     <Replace Tag="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_DESCRIPTION" Language="en_US">
       <Text>Increases Healing by +30 in your Holy Site district, or any adjacent tiles, or in friendly territory.</Text>
     </Replace>
-    <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast and Lake {1_Num : plural 1?tile; other?tiles;}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Marsh {1_Num : plural 1?tile; other?tiles;}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Plains Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Grassland Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Desert Floodplains {1_Num : plural 1?tile; other?tiles;}.</Text>
-    </Replace>
 
     <!-- 한국어 -->
-    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_NAME" Language="ko_KR">
-      <Text>해안의 여인</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_LADY_OF_COAST_DESCRIPTION" Language="ko_KR">
-      <Text>성지 특수지구는 인접한 해안 및 호수 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_NAME" Language="ko_KR">
-      <Text>습지의 신비</Text>
-    </Replace>
-    <Replace Tag="LOC_BELIEF_MYSTIC_OF_WETLANDS_DESCRIPTION" Language="ko_KR">
-      <Text>성지 특수지구는 인접한 습지 및 범람원 타일에서 [ICON_Faith] 신앙 +1을 획득합니다.</Text>
-    </Replace>
     <Replace Tag="LOC_BELIEF_GOD_OF_AGRICULTURE_NAME" Language="ko_KR">
       <Text>농경의 신</Text>
     </Replace>
@@ -97,21 +55,6 @@
     </Replace>
     <Replace Tag="LOC_ABILITY_HEAL_FRIENDLY_OR_HOLY_SITE_DESCRIPTION" Language="ko_KR">
       <Text>성지 특수지구와 인접 타일 또는 우호적인 영토 안에서는 치료 효과가 +30 증가합니다.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="ko_KR">
-      <Text>인접한 해안 및 호수 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_MARSH_FAITH" Language="ko_KR">
-      <Text>인접한 습지 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_FAITH" Language="ko_KR">
-      <Text>인접한 평원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_FAITH" Language="ko_KR">
-      <Text>인접한 초원 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
-    </Replace>
-    <Replace Tag="LOC_DISTRICT_FLOODPLAINS_FAITH" Language="ko_KR">
-      <Text>인접한 사막 범람원 {1_Num : plural 1?타일; other?타일;}에서 [ICON_Faith] 신앙 +{1_num}.</Text>
     </Replace>
   </LocalizedText>
 </GameData>

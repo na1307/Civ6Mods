@@ -3,27 +3,27 @@ INSERT INTO Tags (Tag, Vocabulary) VALUES ('CLASS_HWARANG', 'ABILITY_CLASS');
 
 INSERT INTO TypeTags (Type, Tag)
 SELECT 'UNIT_KOREAN_HWARANG', Tag
-FROM TypeTags WHERE Type = 'UNIT_SWORDSMAN';
+FROM TypeTags WHERE Type = 'UNIT_HORSEMAN';
 
 INSERT INTO TypeTags (Type, Tag) VALUES ('UNIT_KOREAN_HWARANG', 'CLASS_HWARANG'), ('ABILITY_POST_COMBAT_CULTURE', 'CLASS_HWARANG'), ('ABILITY_POST_COMBAT_FAITH', 'CLASS_HWARANG');
 INSERT INTO Traits (TraitType, Name, Description) VALUES ('TRAIT_LEADER_UNIT_KOREAN_HWARANG', 'LOC_UNIT_KOREAN_HWARANG_NAME',  'LOC_UNIT_KOREAN_HWARANG_DESCRIPTION');
 INSERT INTO LeaderTraits (LeaderType, TraitType) VALUES ('LEADER_SEONDEOK', 'TRAIT_LEADER_UNIT_KOREAN_HWARANG');
 
-INSERT INTO Units (UnitType, Name, Description, TraitType, Combat, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, PurchaseYield, PromotionClass, Maintenance, MandatoryObsoleteTech, StrategicResource, PrereqTech)
-SELECT 'UNIT_KOREAN_HWARANG', 'LOC_UNIT_KOREAN_HWARANG_NAME', 'LOC_UNIT_KOREAN_HWARANG_DESCRIPTION', 'TRAIT_LEADER_UNIT_KOREAN_HWARANG', Combat, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, PurchaseYield, PromotionClass, Maintenance, MandatoryObsoleteTech, StrategicResource, PrereqTech
-FROM Units WHERE UnitType = 'UNIT_SWORDSMAN';
+INSERT INTO Units (UnitType, Name, Description, TraitType, RangedCombat, Range, Combat, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, PurchaseYield, PromotionClass, Maintenance, MandatoryObsoleteTech, StrategicResource, PrereqTech)
+SELECT 'UNIT_KOREAN_HWARANG', 'LOC_UNIT_KOREAN_HWARANG_NAME', 'LOC_UNIT_KOREAN_HWARANG_DESCRIPTION', 'TRAIT_LEADER_UNIT_KOREAN_HWARANG', 30, 2, Combat, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, PurchaseYield, PromotionClass, Maintenance, MandatoryObsoleteTech, StrategicResource, PrereqTech
+FROM Units WHERE UnitType = 'UNIT_HORSEMAN';
 
 INSERT INTO Units_XP2 (UnitType, ResourceCost) VALUES ('UNIT_KOREAN_HWARANG', '10');
 
 INSERT INTO UnitUpgrades (Unit, UpgradeUnit)
 SELECT 'UNIT_KOREAN_HWARANG', UpgradeUnit
-FROM UnitUpgrades WHERE Unit = 'UNIT_SWORDSMAN';
+FROM UnitUpgrades WHERE Unit = 'UNIT_HORSEMAN';
 
 INSERT INTO UnitAiInfos (UnitType, AiType)
 SELECT 'UNIT_KOREAN_HWARANG', AiType
-FROM UnitAiInfos WHERE UnitType = 'UNIT_SWORDSMAN';
+FROM UnitAiInfos WHERE UnitType = 'UNIT_HORSEMAN';
 
-INSERT INTO UnitReplaces (CivUniqueUnitType, ReplacesUnitType) VALUES ('UNIT_KOREAN_HWARANG', 'UNIT_SWORDSMAN');
+INSERT INTO UnitReplaces (CivUniqueUnitType, ReplacesUnitType) VALUES ('UNIT_KOREAN_HWARANG', 'UNIT_HORSEMAN');
 INSERT INTO UnitAbilities (UnitAbilityType, Name, Description) VALUES ('ABILITY_POST_COMBAT_CULTURE', 'LOC_ABILITY_POST_COMBAT_CULTURE_NAME', 'LOC_ABILITY_POST_COMBAT_CULTURE_DESCRIPTION'), ('ABILITY_POST_COMBAT_FAITH', 'LOC_ABILITY_POST_COMBAT_FAITH_NAME', 'LOC_ABILITY_POST_COMBAT_FAITH_DESCRIPTION');
 INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES ('ABILITY_POST_COMBAT_CULTURE', 'DEFEATED_CULTURE'), ('ABILITY_POST_COMBAT_FAITH', 'DEFEATED_FAITH');
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('DEFEATED_CULTURE', 'MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD'), ('DEFEATED_FAITH', 'MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD');

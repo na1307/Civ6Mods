@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <TypeTags>
+    <Update>
+      <Where Type="UNIT_BABYLONIAN_SABUM_KIBITTUM" Tag="CLASS_MELEE" />
+      <Set>
+        <Tag>CLASS_ANTI_CAVALRY</Tag>
+      </Set>
+    </Update>
+    <Delete Type="ABILITY_SABUM_KIBITTUM_ANTI_CAVALRY" Tag="CLASS_SABUM_KIBITTUM_ANTI_CAVALRY"/>
+  </TypeTags>
+  <Units>
+    <Update>
+      <Where UnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" />
+      <Set>
+        <Cost>50</Cost>
+        <Combat>25</Combat>
+        <PromotionClass>PROMOTION_CLASS_ANTI_CAVALRY</PromotionClass>
+        <MandatoryObsoleteTech>TECH_METAL_CASTING</MandatoryObsoleteTech>
+      </Set>
+    </Update>
+    <Update>
+      <Where UnitType="UNIT_COMANDANTE_GENERAL" />
+      <Set>
+        <Cost>100</Cost>
+        <CanTrain>true</CanTrain>
+        <CostProgressionModel>COST_PROGRESSION_PREVIOUS_COPIES</CostProgressionModel>
+        <CostProgressionParam1>50</CostProgressionParam1>
+      </Set>
+    </Update>
+  </Units>
+  <Unit_BuildingPrereqs>
+    <Row Unit="UNIT_COMANDANTE_GENERAL" PrereqBuilding="BUILDING_PALACE" />
+  </Unit_BuildingPrereqs>
+  <UnitUpgrades>
+    <Update>
+      <Where Unit="UNIT_BABYLONIAN_SABUM_KIBITTUM" />
+      <Set>
+        <UpgradeUnit>UNIT_PIKEMAN</UpgradeUnit>
+      </Set>
+    </Update>
+  </UnitUpgrades>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" ReplacesUnitType="UNIT_SPEARMAN" />
+  </UnitReplaces>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" AiType="UNITTYPE_ANTI_CAVALRY" />
+  </UnitAiInfos>
+</GameData>

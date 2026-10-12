@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Update>
+      <Where TraitType="TRAIT_LEADER_MONASTERIES_KING" />
+      <Set Description="LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION" />
+    </Update>
+  </Traits>
+  <TraitModifiers>
+    <Delete TraitType="MINOR_CIV_PRESLAV_TRAIT" />
+    <Delete TraitType="TRAIT_LEADER_CAMPANA_ADMIRABLE" />
+    <Delete ModifierId="TRAIT_MONASTERIES_KING_HOLY_SITE_RIVER_ADJACENCY" />
+    <Delete ModifierId="TRAIT_MONASTERIES_KING_ADJACENCY_FOOD" />
+    <Delete ModifierId="TRAIT_HOLY_SITE_RIVER_2HOUSING" />
+    <Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="BARBARIAN_COMBAT_SCALING" />
+    <Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="AI_BARBARIAN_COMBAT_SCALING" />
+    <Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET_SCALING" />
+    <Row>
+      <TraitType>TRAIT_LEADER_MONASTERIES_KING</TraitType>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+    </Row>
+    <Row>
+      <TraitType>TRAIT_LEADER_MONASTERIES_KING</TraitType>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+    </Row>
+    <Row TraitType="TRAIT_LEADER_CAMPANA_ADMIRABLE" ModifierId="TRAIT_PROMOTE_NO_FINISH_MOVES" />
+    <Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS" />
+  </TraitModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>BARBARIAN_COMBAT_SCALING</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>AI_BARBARIAN_COMBAT_SCALING</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+      <OwnerRequirementSetId>PLAYER_IS_AI</OwnerRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET_SCALING</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+      <SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_MINOR_CIV</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS</ModifierId>
+      <ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+      <SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>MINOR_CIV_PRESLAV_ABILITY_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+      <SubjectRequirementSetId>PLOT_IS_HOLY_SITE_RIVER_FOOD_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+      <SubjectRequirementSetId>PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>BARBARIAN_COMBAT_SCALING</ModifierId>
+      <Name>Amount</Name>
+      <Type>LinearScaleFromDefaultHandicap</Type>
+      <Value>4</Value>
+      <Extra>-1</Extra>
+      <SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+    </Row>
+    <Row>
+      <ModifierId>AI_BARBARIAN_COMBAT_SCALING</ModifierId>
+      <Name>Amount</Name>
+      <Type>LinearScaleFromDefaultHandicap</Type>
+      <Value>0.5</Value>
+      <Extra>0.5</Extra>
+      <SecondExtra>DIFFICULTY_KING</SecondExtra>
+    </Row>
+    <Row>
+      <ModifierId>HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET_SCALING</ModifierId>
+      <Name>Amount</Name>
+      <Type>LinearScaleFromDefaultHandicap</Type>
+      <Value>1</Value>
+      <Extra>-1</Extra>
+    </Row>
+    <Row>
+      <ModifierId>MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS</ModifierId>
+      <Name>ModifierId</Name>
+      <Value>MINOR_CIV_PRESLAV_ABILITY_BONUS</Value>
+    </Row>
+    <Row>
+      <ModifierId>MINOR_CIV_PRESLAV_ABILITY_BONUS</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_PRESLAV</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>THEODORA_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+      <Name>TilesRequired</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>THEODORA_HIPPODROME_ADJACENCY_FARM</ModifierId>
+      <Name>TilesRequired</Name>
+      <Value>2</Value>
+    </Row>
+  </ModifierArguments>
+  <ModifierStrings>
+    <Row ModifierId="HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET_SCALING" Context="Preview" Text="LOC_HIGH_DIFFICULTY_AI_VS_MINOR_CIV_OFFSET" />
+  </ModifierStrings>
+</GameData>

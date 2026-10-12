@@ -26,13 +26,13 @@
       <Text>Butterflies and Bees</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="en_US">
-      <Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture and [ICON_Science] Science, [ICON_Faith] Faith for each Promotion they have earned, including their first. Gain the Hwarang unique unit when the Iron Working technology is researched.</Text>
+      <Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture and [ICON_Science] Science, [ICON_Faith] Faith for each Promotion they have earned, including their first. Gain the Hwarang unique unit when the Horseback Riding technology is researched.</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWARANG_NAME" Language="en_US">
       <Text>Hwarang</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWARANG_DESCRIPTION" Language="en_US">
-      <Text>Korean unique Classical era melee unit when Seondeok is their leader. Earns [ICON_Culture] Culture and [ICON_Faith] Faith from kills.</Text>
+      <Text>Korean unique Classical era light cavalry unit when Seondeok is their leader. Can ranged attack, [ICON_Range] Range 2. Earns [ICON_Culture] Culture and [ICON_Faith] Faith from kills.</Text>
     </Replace>
     <Replace Tag="LOC_GAMEMODE_SEOWONREWORK_NAME" Language="en_US">
       <Text>More Historical Seowon Mode</Text>
@@ -61,13 +61,13 @@
       <Text>나비와 벌</Text>
     </Replace>
     <Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="ko_KR">
-      <Text>[ICON_Governor] 총독이 초기 진급을 포함하여 진급 횟수당 +3%의 [ICON_Culture] 문화 및 [ICON_Science] 과학, [ICON_Faith] 신앙을 정착한 도시에 지속해서 제공합니다. 철제 기술을 완료하면 화랑 특유 유닛을 얻습니다.</Text>
+      <Text>[ICON_Governor] 총독이 초기 진급을 포함하여 진급 횟수당 +3%의 [ICON_Culture] 문화 및 [ICON_Science] 과학, [ICON_Faith] 신앙을 정착한 도시에 지속해서 제공합니다. 기마술 기술을 연구하면 화랑 특유 유닛을 얻습니다.</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWARANG_NAME" Language="ko_KR">
       <Text>화랑</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_KOREAN_HWARANG_DESCRIPTION" Language="ko_KR">
-      <Text>선덕이 지도자일 때 한국의 고전 시대 고유 근접 유닛입니다. 적을 처치할 시 [ICON_Culture] 문화와 [ICON_Faith] 신앙을 획득합니다.</Text>
+      <Text>선덕이 지도자일 때 한국의 고전 시대 고유 경기병 유닛입니다. [ICON_Range] 사거리 2의 원거리 공격이 가능합니다. 적을 처치할 시 [ICON_Culture] 문화와 [ICON_Faith] 신앙을 획득합니다.</Text>
     </Replace>
     <Replace Tag="LOC_GAMEMODE_SEOWONREWORK_NAME" Language="ko_KR">
       <Text>서원 개편 모드</Text>

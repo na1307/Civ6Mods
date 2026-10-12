@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_DISTRICT_IKANDA_DESCRIPTION" Language="en_US">
+      <Text>A district unique to Zulu which replaces the Encampment. Provides +2 Loyalty per turn in this city. Provides +1 [ICON_Housing] Housing. Once the Civic or Technology prerequisite is met, Corps and Armies can be built outright. Buildings in the Ikanda receive +2 [ICON_GOLD] Gold and +1 [ICON_SCIENCE] Science. Faster Corps and Army creation.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="en_US">
+      <Text>A district unique to Vietnam which replaces the Encampment. Provides +2 Loyalty per turn in this city. +2 [ICON_CULTURE] Culture for each adjacent district. After Flight is researched receive [ICON_TOURISM] Tourism equal to the [ICON_CULTURE] Culture output. This district does not require population, is cheaper to build, cannot be built adjacent to the city center, does not provide [ICON_GreatPerson] Great People points, and is not a specialty district.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_BASILIKOI_PAIDES_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Macedon.+25% combat experience for all melee, ranged land units, and Hetairoi trained in this city. Gain [ICON_SCIENCE] Science equal to 25% of the unit's cost when a non civilian unit is created in this city. Provides +2 Loyalty per turn in this city.[NEWLINE][NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Mongolia. Grants an ability that gives +1 [ICON_MOVEMENT] Movement to Heavy and Light Cavalry trained in this city. +25% combat experience for all cavalry and siege class units trained in this city. Provides +2 Loyalty per turn in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
+      <Text>+5 [ICON_Strength] Combat Strength and +1 Movement for units in friendly territory.</Text>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="en_US">
+      <Text>+5 [ICON_Strength] Combat Strength and +1 Movement for units in friendly territory.</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="en_US">
+      <Text>Babylonian unique Ancient era anti-cavalry unit. Requires less production and has no maintenance costs or technology requirements. This unit has 3 [ICON_Movement] Movement and sight.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="en_US">
+      <Text>A district unique to Russia for religious activity. Replaces the Holy Site district and cheaper to build.[NEWLINE][NEWLINE]Your city border grows by one tile each time a Great Person is expended in this city.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION" Language="en_US">
+      <Text>Holy Sites provide +2 [ICON_FOOD] Food and +2 [ICON_HOUSING] Housing if placed on a river. Holy Sites trigger a Culture Bomb.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+6 [ICON_FAITH] Faith. A building unique to Khmer. Replaces the Temple. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. +0.5 [ICON_Culture] Culture for every [ICON_CITIZEN] population in this city.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="en_US">
+      <Text>Holy Sites provide [ICON_CULTURE] Culture equal to their adjacency bonus. Farms provide a little [ICON_FAITH] Faith adjacency to Hippodromes and Holy Sites.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="en_US">
+      <Text>Can train Comandante Generals in your [ICON_Capital] Capital.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="en_US">
+      <Text>Promoting a unit does not end that unit’s turn.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="en_US">
+      <Text>[ICON_TechBoosted] Eurekas provide all of the [ICON_SCIENCE] Science for technologies. -40% [ICON_SCIENCE] Science per population.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

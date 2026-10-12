@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <GlobalParameters>
+    <Update>
+      <Where Name="CITY_AMENITIES_FOR_FREE" />
+      <Set>
+        <Value>1</Value>
+      </Set>
+    </Update>
+  </GlobalParameters>
+</GameData>

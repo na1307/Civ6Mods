@@ -16,7 +16,6 @@
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="NaturalWonder_Science"/>
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Holy_Site_Science"/>
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Lavra_Science"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Government_Science"/>
 		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="District_Science"/>
 	</District_Adjacencies>
 	<Adjacency_YieldChanges>

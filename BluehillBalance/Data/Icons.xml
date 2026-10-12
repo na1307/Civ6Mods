@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <IconAliases>
+    <Row Name="ICON_POLICY_AIRCRAFT_WAREHOUSE" OtherName="ICON_POLICY_MILITARY" />
+    <Row Name="ICON_POLICY_STEEL_INDUSTRY" OtherName="ICON_POLICY_ECONOMIC" />
+    <Update>
+			<Where Name="ICON_POLICY_CRAFTSMEN"/>
+			<Set>
+				<OtherName>ICON_POLICY_ECONOMIC</OtherName>
+			</Set>
+		</Update>
+  </IconAliases>
+</GameData>
